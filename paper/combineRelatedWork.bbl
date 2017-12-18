@@ -1,0 +1,225 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Oda et~al.(2015)Oda, Fudaba, Neubig, Hata, Sakti, Toda, and
+  Nakamura]{p2}
+Yusuke Oda, Hiroyuki Fudaba, Graham Neubig, Hideaki Hata, Sakriani Sakti,
+  Tomoki Toda, and Satoshi Nakamura.
+\newblock Learning to generate pseudo-code from source code using statistical
+  machine translation (t).
+\newblock In \emph{Proceedings of the 2015 30th IEEE/ACM International
+  Conference on Automated Software Engineering (ASE)}, ASE '15, pages 574--584,
+  Washington, DC, USA, 2015. IEEE Computer Society.
+\newblock ISBN 978-1-5090-0025-8.
+\newblock \doi{10.1109/ASE.2015.36}.
+\newblock URL \url{https://doi.org/10.1109/ASE.2015.36}.
+
+\bibitem[Sridhara et~al.(2010)Sridhara, Hill, Muppaneni, Pollock, and
+  Vijay-Shanker]{p24}
+Giriprasad Sridhara, Emily Hill, Divya Muppaneni, Lori Pollock, and
+  K.~Vijay-Shanker.
+\newblock Towards automatically generating summary comments for java methods.
+\newblock In \emph{Proceedings of the IEEE/ACM International Conference on
+  Automated Software Engineering}, ASE '10, pages 43--52, New York, NY, USA,
+  2010. ACM.
+\newblock ISBN 978-1-4503-0116-9.
+\newblock \doi{10.1145/1858996.1859006}.
+\newblock URL \url{http://doi.acm.org/10.1145/1858996.1859006}.
+
+\bibitem[Miller(1977)]{p1}
+Lance Miller.
+\newblock Natural language programming.
+\newblock \emph{SIGART Bull.}, \penalty0 (61):\penalty0 32--32, February 1977.
+\newblock ISSN 0163-5719.
+\newblock \doi{10.1145/1045283.1045299}.
+\newblock URL \url{http://doi.acm.org/10.1145/1045283.1045299}.
+
+\bibitem[Gopstein et~al.(2017)Gopstein, Iannacone, Yan, DeLong, Zhuang, Yeh,
+  and Cappos]{p5}
+Dan Gopstein, Jake Iannacone, Yu~Yan, Lois DeLong, Yanyan Zhuang, Martin K.-C.
+  Yeh, and Justin Cappos.
+\newblock Understanding misunderstandings in source code.
+\newblock In \emph{Proceedings of the 2017 11th Joint Meeting on Foundations of
+  Software Engineering}, ESEC/FSE 2017, pages 129--139, New York, NY, USA,
+  2017. ACM.
+\newblock ISBN 978-1-4503-5105-8.
+\newblock \doi{10.1145/3106237.3106264}.
+\newblock URL \url{http://doi.acm.org/10.1145/3106237.3106264}.
+
+\bibitem[Osvaldo Luiz~Oliveira()]{p12}
+Norton Trevisan~Roman Osvaldo Luiz~Oliveira, Ana Maria~Monteiro.
+\newblock Can natural language be utilized in the learning of programming
+  fundamentals?
+\newblock In \emph{Frontiers in Education Conference, 2013 IEEE}. IEEE.
+
+\bibitem[Kn\"{o}ll et~al.(2011)Kn\"{o}ll, Gasiunas, and Mezini]{p25}
+Roman Kn\"{o}ll, Vaidas Gasiunas, and Mira Mezini.
+\newblock Naturalistic types.
+\newblock In \emph{Proceedings of the 10th SIGPLAN Symposium on New Ideas, New
+  Paradigms, and Reflections on Programming and Software}, Onward! 2011, pages
+  33--48, New York, NY, USA, 2011. ACM.
+\newblock ISBN 978-1-4503-0941-7.
+\newblock \doi{10.1145/2048237.2048243}.
+\newblock URL \url{http://doi.acm.org/10.1145/2048237.2048243}.
+
+\bibitem[Howland()]{p16}
+Judith Good ;~Kate Howland.
+\newblock Natural language and programming: Designing effective environments
+  for novices.
+\newblock In \emph{Visual Languages and Human-Centric Computing (VL/HCC), 2015
+  IEEE Symposium}. IEEE.
+
+\bibitem[p4()]{p4}
+Wolframalpha computational knowledge engine.
+\newblock \url{http://www.wolframalpha.com}.
+
+\bibitem[Maj~Stenmark()]{p11}
+Pierre~Nugues Maj~Stenmark.
+\newblock Natural language programming of industrial robots.
+\newblock In \emph{Robotics (ISR), 2013 44th International Symposium}. IEEE.
+
+\bibitem[Yin()]{p13}
+Pu~Yin.
+\newblock Natural language programming based on knowledge.
+\newblock In \emph{Artificial Intelligence and Computational Intelligence
+  (AICI), 2010 International Conference}. IEEE.
+
+\bibitem[Sharvari~Nadkarni and Kurhade()]{p15}
+Tejas~Karwa Sharvari~Nadkarni, Parth~Panchmatia and Swapnali Kurhade.
+\newblock Semi natural language algorithm to programming language interpreter.
+\newblock In \emph{Advances in Human Machine Interaction (HMI), 2016
+  International Conference}. IEEE.
+
+\bibitem[Landhauber and Hug(2015)]{p17}
+Mathias Landhauber and Ronny Hug.
+\newblock Text understanding for programming in natural language: Control
+  structures.
+\newblock In \emph{Proceedings of the Fourth International Workshop on
+  Realizing Artificial Intelligence Synergies in Software Engineering}, RAISE
+  '15, pages 7--12, Piscataway, NJ, USA, 2015. IEEE Press.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2820668.2820671}.
+
+\bibitem[Razik()]{p18}
+Nazlia Omar ; Nomariani~A. Razik.
+\newblock Determining the basic elements of object oriented programming using
+  natural language processing.
+\newblock In \emph{Information Technology, 2008. ITSim 2008. International
+  Symposium}. IEEE.
+
+\bibitem[Raghothaman et~al.(2016)Raghothaman, Wei, and Hamadi]{p19}
+Mukund Raghothaman, Yi~Wei, and Youssef Hamadi.
+\newblock Swim: Synthesizing what i mean: Code search and idiomatic snippet
+  synthesis.
+\newblock In \emph{Proceedings of the 38th International Conference on Software
+  Engineering}, ICSE '16, pages 357--367, New York, NY, USA, 2016. ACM.
+\newblock ISBN 978-1-4503-3900-1.
+\newblock \doi{10.1145/2884781.2884808}.
+\newblock URL \url{http://doi.acm.org/10.1145/2884781.2884808}.
+
+\bibitem[Liu and Lieberman(2005)]{p23}
+Hugo Liu and Henry Lieberman.
+\newblock Metafor: Visualizing stories as code.
+\newblock In \emph{Proceedings of the 10th International Conference on
+  Intelligent User Interfaces}, IUI '05, pages 305--307, New York, NY, USA,
+  2005. ACM.
+\newblock ISBN 1-58113-894-6.
+\newblock \doi{10.1145/1040830.1040908}.
+\newblock URL \url{http://doi.acm.org/10.1145/1040830.1040908}.
+
+\bibitem[Kn\"{o}ll and Mezini(2006)]{p26}
+Roman Kn\"{o}ll and Mira Mezini.
+\newblock Pegasus: First steps toward a naturalistic programming language.
+\newblock In \emph{Companion to the 21st ACM SIGPLAN Symposium on
+  Object-oriented Programming Systems, Languages, and Applications}, OOPSLA
+  '06, pages 542--559, New York, NY, USA, 2006. ACM.
+\newblock ISBN 1-59593-491-X.
+\newblock \doi{10.1145/1176617.1176628}.
+\newblock URL \url{http://doi.acm.org/10.1145/1176617.1176628}.
+
+\bibitem[Yaghmazadeh et~al.(2017)Yaghmazadeh, Wang, Dillig, and Dillig]{p3}
+Navid Yaghmazadeh, Yuepeng Wang, Isil Dillig, and Thomas Dillig.
+\newblock Sqlizer: Query synthesis from natural language.
+\newblock \emph{Proc. ACM Program. Lang.}, 1\penalty0 (OOPSLA):\penalty0
+  63:1--63:26, October 2017.
+\newblock ISSN 2475-1421.
+\newblock \doi{10.1145/3133887}.
+\newblock URL \url{http://doi.acm.org/10.1145/3133887}.
+
+\bibitem[Roy()]{p14}
+Aditya Desai ; Sumit Gulwani ; Vineet Hingorani ; Nidhi Jain ; Amey Karkare ;
+  Mark Marron ; Sailesh R ;~Subhajit Roy.
+\newblock Program synthesis using natural language.
+\newblock In \emph{Software Engineering (ICSE), 2016 IEEE/ACM 38th
+  International Conference}. IEEE.
+
+\bibitem[Knuth(1984)]{p27}
+Donald~E. Knuth.
+\newblock Literate programming.
+\newblock \emph{Comput. J.}, 27\penalty0 (2):\penalty0 97--111, May 1984.
+\newblock ISSN 0010-4620.
+\newblock \doi{10.1093/comjnl/27.2.97}.
+\newblock URL \url{http://dx.doi.org/10.1093/comjnl/27.2.97}.
+
+\bibitem[D.G.~Lymperopoulos()]{p6}
+P.~Atlamazoglou D.G.~Lymperopoulos, D.~Logothetis.
+\newblock Using object-oriented and literate-programming techniques for the
+  development of a computational electromagnetics library.
+\newblock In \emph{IEEE Antennas and Propagation Magazine}. IEEE.
+
+\bibitem[Churcher()]{p7}
+A.~Kacofegitis ;~N. Churcher.
+\newblock Theme-based literate programming.
+\newblock In \emph{Software Engineering Conference, 2002. Ninth Asia-Pacific}.
+  IEEE.
+
+\bibitem[Anderson()]{p8}
+H.~Anderson.
+\newblock Formalization and 'literate' programming.
+\newblock In \emph{Software Engineering Conference, 2001. APSEC 2001. Eighth
+  Asia-Pacific}. IEEE.
+
+\bibitem[M.~Brown()]{p9}
+D.~Cordes M.~Brown.
+\newblock A literate programming design language.
+\newblock In \emph{1990 IEEE International Conference on Computer Systems and
+  Software Engineering}. IEEE.
+
+\bibitem[E.W.~van Ammers()]{p10}
+M.R.~Kramer E.W.~van Ammers.
+\newblock Vamp: A tool for literate programming independent of programming
+  language and formatter.
+\newblock In \emph{CompEuro '92 . 'Computer Systems and Software
+  Engineering',Proceedings.} IEEE.
+
+\bibitem[Roy(2006)]{p20}
+Geoffrey~G Roy.
+\newblock Designing and explaining programs with a literate pseudocode.
+\newblock \emph{J. Educ. Resour. Comput.}, 6\penalty0 (1), March 2006.
+\newblock ISSN 1531-4278.
+\newblock \doi{10.1145/1217862.1217863}.
+\newblock URL \url{http://doi.acm.org/10.1145/1217862.1217863}.
+
+\bibitem[Turner(2010)]{p21}
+Roy~M. Turner.
+\newblock Lp/lisp: Literate programming for lisp.
+\newblock In \emph{Proceedings of the 2010 International Conference on Lisp},
+  ILC '10, pages 21--28, New York, NY, USA, 2010. ACM.
+\newblock ISBN 978-1-4503-0470-2.
+\newblock \doi{10.1145/1869643.1869647}.
+\newblock URL \url{http://doi.acm.org/10.1145/1869643.1869647}.
+
+\bibitem[Palmer and Hillenbrand(2009)]{p22}
+James~Dean Palmer and Eddie Hillenbrand.
+\newblock Reimagining literate programming.
+\newblock In \emph{Proceedings of the 24th ACM SIGPLAN Conference Companion on
+  Object Oriented Programming Systems Languages and Applications}, OOPSLA '09,
+  pages 1007--1014, New York, NY, USA, 2009. ACM.
+\newblock ISBN 978-1-60558-768-4.
+\newblock \doi{10.1145/1639950.1640072}.
+\newblock URL \url{http://doi.acm.org/10.1145/1639950.1640072}.
+
+\end{thebibliography}

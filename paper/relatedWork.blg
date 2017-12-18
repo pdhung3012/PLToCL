@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/MacPorts 2017_2)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: relatedWork.aux
+The style file: unsrtnat.bst
+Database file #1: combineRelatedWork.bib
+Warning--there's a number but no volume in p1
+Warning--empty year in p12
+Warning--empty year in p12
+Warning--empty year in p16
+Warning--empty year in p16
+Warning--empty year in p4
+Warning--empty year in p11
+Warning--empty year in p11
+Warning--empty year in p13
+Warning--empty year in p13
+Warning--empty year in p15
+Warning--empty year in p15
+Warning--empty year in p18
+Warning--empty year in p18
+Warning--empty year in p14
+Warning--empty year in p14
+Warning--empty year in p6
+Warning--empty year in p6
+Warning--empty year in p7
+Warning--empty year in p7
+Warning--empty year in p8
+Warning--empty year in p8
+Warning--empty year in p9
+Warning--empty year in p9
+Warning--empty year in p10
+Warning--empty year in p10
+You've used 27 entries,
+            2481 wiz_defined-function locations,
+            744 strings with 10466 characters,
+and the built_in function-call counts, 11348 in all, are:
+= -- 1114
+> -- 372
+< -- 30
++ -- 162
+- -- 108
+* -- 769
+:= -- 1691
+add.period$ -- 142
+call.type$ -- 27
+change.case$ -- 54
+chr.to.int$ -- 27
+cite$ -- 54
+duplicate$ -- 655
+empty$ -- 1111
+format.name$ -- 144
+if$ -- 2570
+int.to.chr$ -- 1
+int.to.str$ -- 28
+missing$ -- 26
+newline$ -- 182
+num.names$ -- 78
+pop$ -- 273
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 364
+stack$ -- 0
+substring$ -- 421
+swap$ -- 152
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 189
+warning$ -- 26
+while$ -- 88
+width$ -- 0
+write$ -- 452
+(There were 26 warnings)
