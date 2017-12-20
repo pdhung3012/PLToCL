@@ -1,6 +1,6 @@
-package com.main.check;
+package edu.iastate.cs;
 
-public class CheckGrammar {
+public class NLVisitor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
