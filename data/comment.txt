@@ -1,0 +1,2352 @@
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// This program tests a bunch of various code fragements from
+// Chapter 3, mainly for syntactic correctness.
+// c3p1.book
+/// c3p2.book
+/// c3p3.book
+// c3p4.book
+// First for loop
+//   is a double loop
+// Second for loop
+// c3p5.book
+// First double loop
+//   do n times
+// Second double loop
+//   do i times
+/// c3p6.x
+// Do log n times
+// Do n times
+// Do log n times
+// Do k times
+// c3p16.book
+// Initialize count
+// Look at all of the pixels
+// Increment a pixel value count
+// Sort pixel value counts
+/// c3p7.x
+/// End c3p7.x
+/// c3p8.x
+/// End c3p8.x
+/// c3p9.x
+/// End c3p9.x
+/// c3p10.x
+/// End c3p10.book
+/// c3p11.book
+/// c3p12.book
+// Initialize count
+// Look at all of the pixels
+// Increment a pixel value count
+// Sort pixel value counts
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Node array
+// Create node array
+// Find root of node a
+// Find root of node b
+// Compare roots
+// Find root of node a
+// Find root of node b
+// Merge
+// At root
+// Source code example for "A Practical Introduction
+// to Data Structures and Algorithm Analysis"
+// by Clifford A. Shaffer, Prentice Hall, 1998.
+// Copyright 1998 by Clifford A. Shaffer
+// External sort using mergesort.
+// First, generate a series of initial runs using Quicksort.
+// Then, do a series of two-way merging passes.
+// The records are simply an int value interger values.
+// Number of records in a block
+// Size of working memory (in blocks)
+// Indices for I/O files.
+// Use two input files and two output files.
+////// Code for Quicksort ////////////////////////////////////
+// Move the bounds inward until they meet
+// Move left bound right
+// Move right bound
+// Swap out-of-place values
+// Stop when they cross
+// Reverse last, wasted swap
+// Return first position in right partition
+// Quicksort
+// Stick pivot at end
+// k will be the first position in the right subarray
+// Put pivot in place
+// Sort left partition
+// Sort right partition
+////// End code for Quicksort ////////////////////////////////
+// Use quicksort to generate initial runs, placing half of the runs
+// into each output file.
+// Working memory
+// Do a single 2-way merge pass
+// In this case, numruns is the number of runs in each file,
+// while runlen is the number of records in a run.
+// Flush second run
+// Flush first run
+// Do an external sort
+// For first pass, need the original input file.  Won't use again
+// Divide the original input into two
+// Now, do a series of 2-way merge passes
+// Finally, merge the last two runs into the output file
+// Main routine for external sort
+// Now test that this worked correctly
+// Priming read
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize v to any unvisited vertex;
+// Now find smallest value
+// Initialize
+// Process the vertices
+// Unreachable
+// V[i] stores closest vertex to i
+// Pointer to front queue node
+// Pointer to rear queuenode
+// Number of elements in queue
+// Ignore size
+// Store dequeued value
+// Advance front
+// Last Object
+// Return Object
+// Extra stuff not printed in the book.
+// An access handle for the
+//  memory manager
+// Position of data in memory
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Equivalence array
+// Minheap array
+// Count of edges
+// Put edges in the array
+// Initially n classes
+// Combine equiv classes
+// Next cheapest
+// If in different classes
+// Combine equiv classes
+// Add this edge to MST
+// One less MST
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Linked list implementation -- Freelist
+// Pointer to list header
+// Pointer to last element in list
+// Pointer one ahead of current element
+// Size of list
+//Constructors
+// Constructor -- Ignore size
+// Create header
+// Remove all elements
+// Drop access to links
+// Create header
+// Set curr at list start
+// Set curr at list end
+// Get link
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remember link
+// Remove from list
+// Release link
+// Decrement count
+// Return removed
+// Move curr one step left; no change if at front
+// No previous element
+// March down list until we find the previous element
+// Move curr one step right; no change if at end
+// Return the position of the current element
+// Move down list to "pos" position
+// Return current element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Override Object.toString
+// Found k
+// k not found
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// The heap constructor invokes the buildheap method
+// Now sort
+// Removemax places max at end of heap
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// Base case
+// Recursive call: n-1 rings
+// Move bottom disk to goal
+// Recursive call: n-1 rings
+// Graph class ADT
+// Constructor
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Insert i'th record
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// Graph class ADT
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Left child
+// Right child
+// Operator value
+// Graph class ADT
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize Mark array
+// Process all vertices
+// Recursive helper function
+// PostVisit for Vertex v
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// For each increment
+// Sort each sublist
+// Could call regular inssort here
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Quicksort
+// Pick a pivot
+// Stick pivot at end
+// k will be the first position in the right subarray
+// Put pivot in place
+// Sort left partition
+// Sort right partition
+// Move bounds inward until they meet
+// Swap out-of-place values
+// Stop when they cross
+// Reverse last, wasted swap
+// Return first position in right partition
+// Select i'th record
+// Remember its index
+// Find the least value
+// Put it in place
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// l and r are beyond array bounds
+// Stop when l and r meet
+// Check middle of remaining subarray
+// In left half
+// Found it
+// In right half
+// Search value not in A
+// Source code example for "A Practical Introduction
+// to Data Structures and Algorithm Analysis, 3rd Edition (Java)"
+// by Clifford A. Shaffer, Prentice Hall, 2008.
+// Copyright 2008 by Clifford A. Shaffer
+// This program tests a bunch of various code fragements from
+// Chapter 4, mainly for syntactic correctness.
+// Now b contains original value of a
+// Now a contains original value of b
+// Graph class ADT
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Somebody better change
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// n=1
+// n=2
+// n>2
+// Hold the Random class object
+// Default array size
+// Maximum size of list
+// Actual number of elements in list
+// Position of current element
+// Array holding list elements
+// Constructor: use default size
+// Constructor: user-specified size
+// Allow the generic array allocation
+// Do actual initialization work
+// Create listArray
+// Reinitialize the list
+// Simply reinitialize values
+// Shift elements up
+//   to make room
+// Increment list size
+// Remove and return the current element
+// Return null if there is no such element to remove.
+// Copy the element
+// Shift them down
+// Decrement size
+// Reset current
+// Reset current
+// Back up
+// Next
+// Return list size
+// Reset list position to "pos"
+// Return current position
+// Return current element
+// Return current element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Bubble up i'th record
+// All subclasses must implement
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Topological sort: Queue
+// Initialize
+// Process every edge
+// Add to v2's prereq count
+// Initialize Queue
+// V has no prerequisites
+// Process the vertices
+// PreVisit for Vertex V
+// One less prerequisite
+// This vertex is now free
+// Maximum size of queue
+// Index of front element
+// Index of rear element
+// Array holding queue elements
+// For generic array
+// One extra space is allocated
+// Create listArray
+// Circular increment
+// Circular increment
+// Extra stuff not printed in the book.
+// Maximum size of queue
+// Index of front element
+// Index of rear element
+// Array holding queue elements
+// For generic array
+// One extra space is allocated
+// Create listArray
+// Circular increment
+// Circular increment
+// Extra stuff not printed in the book.
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize v to any unvisited vertex;
+// Now find smallest value
+// Initialize
+// Process the vertices
+// Unreachable
+// V[i] stores closest vertex to i
+/// binsimp1.x
+/// End binsimp1.x
+/// binsimp2.x
+// Swap element A[i] with A[A[i]]
+/// End binsimp2.x
+// Factor out overhead
+// Swap element A[i] with A[A[i]]
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Graph class ADT
+// For each increment
+// Sort each sublist
+// Could call regular inssort here
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Graph class ADT
+// Make a stack just big enough
+// Get next task
+// Do a move
+// Imitate TOH recursive
+// solution (in reverse)
+// A move to do
+// Leaf node
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Swap maximum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a big value, push it up
+// If it is little, push down
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// The current vertex
+// Heap for edges
+// Initial vertex
+// Initialize distance
+// For each vertex
+// Get position
+// Unreachable
+// Update D
+// Allow the generic array allocation
+// Allow the generic array allocation
+// Test the remove function.
+// Allow the generic array allocation
+// The heap constructor invokes the buildheap method
+// Now sort
+// Removemax places max at end of heap
+// IDdict organizes Payroll records by ID
+// namedict organizes Payroll records by name
+// IDdict organizes Payroll records by ID
+// namedict organizes Payroll records by name
+// This program tests various code fragements from
+// Chapter 14, mainly for syntactic correctness.
+// Graph class ADT
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Topological sort: Queue
+// Initialize
+// Process every edge
+// Add to v2's prereq count
+// Initialize Queue
+// V has no prerequisites
+// Process the vertices
+// PreVisit for Vertex V
+// One less prerequisite
+// This vertex is now free
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// Root of the tree
+// Weight of tree is weight of root
+// Node array
+// Create node array
+// Find root of node a
+// Find root of node b
+// Compare roots
+// Find root of node a
+// Find root of node b
+// Merge
+// At root
+// Override Object.toString
+// Graph class ADT
+// Constructor
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Insert i'th record
+// Stack for array bounds
+// Initialize stack
+// While there are unprocessed subarrays
+// Pop Stack
+// Findpivot
+// Stick pivot at end
+// Partition
+// Undo final swap
+// Put pivot value in place
+// Put new subarrays onto Stack if they are small
+// Left partition
+// Right partition
+// Final Insertion Sort
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// Constructor
+// Operand value
+// To fit n! in a long variable, require n < 21
+// Make a stack just big enough
+// We really need to figure out a way to do this that doesn't
+// include a control variable
+// do nothing
+// We really need to figure out a way to do this that doesn't
+// include a control variable
+// do nothing
+// Generic array allocation
+// Insert i'th record
+// Select the midpoint
+// List has one element
+// Do the merge operation.  First, copy 2 halves to temp.
+// Merge sublists back to array
+// Graph class ADT
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Select i'th record
+// Remember its index
+// Find the least value
+// Put it in place
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// For n vertices in graph
+// Vertex i in no component
+// Current component
+// Start a new component
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Graph class ADT
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Doubly linked list implementation
+// Pointer to list header
+// Pointer to last element in list
+// Pointer ahead of current element
+// Size of list
+//Constructors
+// Ignore size
+// Create header node
+// Remove all elements from list
+// Drop access to rest of links
+// Create header node
+// Set curr at list start
+// Set curr at list end
+// Nothing to remove
+// Remember value
+// Remove from list
+// Decrement the count
+// Return value removed
+// Can't back up from list head
+// Move curr one step right; no change if at end
+// Return the position of the current element
+// Move down list to "pos" position
+// Return current element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Default array size
+// Maximum size of list
+// Actual number of elements in list
+// Position of current element
+// Array holding list elements
+// Constructor: use default size
+// Constructor: user-specified size
+// Allow the generic array allocation
+// Do actual initialization work
+// Create listArray
+// Reinitialize the list
+// Simply reinitialize values
+// Shift elements up
+//   to make room
+// Increment list size
+// Remove and return the current element
+// Return null if there is no such element to remove.
+// Copy the element
+// Shift them down
+// Decrement size
+// Reset current
+// Reset current
+// Back up
+// Next
+// Return list size
+// Reset list position to "pos"
+// Return current position
+// Return current element
+// Return current element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// The left record
+// The node's left key
+// The right record
+// The node's right key
+// Pointer to left child
+// Pointer to middle child
+// Pointer to right child
+// Left key
+// Left value
+// Right key
+// Right value
+// Only one key, add here
+// Add left
+// Add center
+// Add right
+// Maximum size of queue
+// Index of front element
+// Index of rear element
+// Array holding queue elements
+// For generic array
+// One extra space is allocated
+// Create listArray
+// Circular increment
+// Circular increment
+// Extra stuff not printed in the book.
+// Maximum size of stack
+// Index for top Object
+// Array holding stack
+// Generic array allocation
+// Create listArray
+// Extra stuff not printed in the book.
+// Generic array allocation
+// Select midpoint
+// List has one element
+// Mergesort first half
+// Mergesort second half
+// Copy subarray to temp
+// Do the merge operation back to A
+// Left sublist exhausted
+// Right sublist exhausted
+// Get smaller
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Default size
+// To store dictionary
+// "k" does not appear in dictionary
+// Internal node
+// Left child
+// Right child
+// Operator value
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Constructor
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Maximum size of stack
+// Index for top Object
+// Array holding stack
+// Generic array allocation
+// Create listArray
+// Extra stuff not printed in the book.
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Bubble up i'th record
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Write out random numbers
+// Write out numbers ascending
+// Write out numbers descending
+// Suck it in
+//    for (int i=0; i<NumRec; i++)
+//      System.out.print(intbuf[i] + " ");
+//    System.out.println();
+// Now, write it out
+// Constructor
+// 2D key for this node
+// Element for this node
+// Pointer to left child
+// Pointer to right child
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Default size
+// Consturctors
+// Reinitialize
+// This really should get replaced with binary search
+// Find "k" using sequential search -- Should use binary search
+// "k" does not appear in dictionary
+// Return list size
+// Graph class ADT
+// Graph class ADT
+// Stick this in to test the preorder routine
+// The first version of preorder
+// is the preferred structure for preorder traversal.
+// It tests the pointer to the current node before visiting it,
+// but does not test that children are NULL before calling a
+// visit on them. This version does not rely on the caller
+// to test the root for safety.
+// The second version of preorder does "look ahead" to test if
+// a child should be visited before doing the visit.
+// This requires an external test of the root to make it safe
+// from calls on an empty tree.
+// Empty subtree - do nothing
+// Process root node
+// Process all nodes in left
+// Process all nodes in right
+// Nothing to count
+// Empty subtree
+// Out of range
+// Left side failed
+// The following tests for checkBST are a little dicey. The book
+// code uses a simple BinNode abstract class. Syntactically, this
+// works fine since the function uses only base class
+// functionality. But logically, this works only so long as the key
+// and element of the BSTNode are the same (since BinNode.element()
+// returns the element, not the key).
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Quicksort
+// Pick a pivot
+// Stick pivot at end
+// k will be the first position in the right subarray
+// Put pivot in place
+// Sort left partition
+// Sort right partition
+// Move bounds inward until they meet
+// Swap out-of-place values
+// Stop when they cross
+// Reverse last, wasted swap
+// Return first position in right partition
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// We don't actually care if Key is Comparable, we only do it for consistency
+// Tombstone flyweight
+// Allow the generic array allocation
+// Bugged for now -- this skips tombstones
+// Home position for r
+// Initial position
+// Next probe slot
+// Insert R
+// Home position for k
+// Initial position
+// Next probe position
+// K not in hash table
+// Found it
+// Home position for k
+// Initial position
+// Next probe position
+// K not in hash table
+// Found it
+// Example in book
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Constructor
+// Graph class ADT
+// Start tag offset
+// Size field offset
+// User size offset
+// Left freelist pointer
+// Right freelist pointer
+// Start of data
+// Tag value
+// Tag value
+// Size field offset
+// Tag field offset
+// Tag field offset
+// Extra space needed
+// Number free fields
+// Number of res fields
+// Smallest data request
+// The data space
+// Free memory access
+// Constructor
+// Allocate space
+// Start of freelist
+// Circ doubly-linked list
+// Return data for h
+// Sample sequential fit implementation: First fit
+// No free block
+// No block available
+// Minimum necessary for
+//   a sustainable block
+// No block is big enough
+// Fix up the remaining free space
+// Now, fix up the new block
+// Give over the whole block, remove from freelist
+// First, adjust the freelist
+// This is the last block
+// Now, fill in the block
+// Implementation is left as an exercise
+// class MemManager
+// Do nothing
+// New node's level
+// If new node is deeper
+//   adjust the header
+// Track end of level
+// Start at header node
+// Find insert position
+// Track end at level i
+// Splice into list
+// Who x points to
+// Who y points to
+// Increment dictionary size
+// Dummy header node
+// For each level...
+// go forward
+// Go one last step
+// Move to actual record, if it exists
+// Got it
+// Its not there
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Process each vertex on Q
+// Take appropriate action
+// Put neighbors on Q
+// Take appropriate action
+// fibr(91) is the largest value that fits in a long
+// curr holds current Fib value
+// Compute next value
+// past holds fibi(i-2)
+// prev holds fibi(i-1)
+// curr now holds fibi(i)
+// fibr(91) is the largest value that fits in a long
+// Base case
+// Recursive call
+// We really need to figure out a way to do this that doesn't
+// include a control variable
+// do nothing
+// We really need to figure out a way to do this that doesn't
+// include a control variable
+// do nothing
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Tell the size of a buffer
+// Graph class ADT
+// Root of 2-3 tree
+// # of records now in 2-3 tree
+// Empty tree: create a leaf node for root
+// At leaf node: insert here
+// Add to internal node
+// Insert left
+// Insert right
+// val not found
+// Search left
+// Search center
+// Search center
+// Search right
+// Found k
+// k not found
+// Constructor
+// Generic array allocation
+// Home position for r
+// Initial position
+// Next pobe slot
+// Insert R
+// Home position for k
+// Initial position
+// Next probe position
+// Key not in hash table
+// Found it
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// The current vertex
+// Heap for edges
+// Initial vertex
+// Initialize
+//   distances
+// Now, get distances
+// Get position
+// Add edge to MST
+// Unreachable
+// Update D
+// Where it came from
+// V[i] stores closest vertex to i
+// Insert i'th record
+// Stack for array bounds
+// Initialize stack
+// While there are unprocessed subarrays
+// Pop Stack
+// Findpivot
+// Stick pivot at end
+// Partition
+// Undo final swap
+// Put pivot value in place
+// Put new subarrays onto Stack if they are small
+// Left partition
+// Right partition
+// Final Insertion Sort
+// Graph class ADT
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Default size
+// Maximum size of list
+// Current # of list items
+// Position of current element
+// Array holding list elements
+// Generic array allocation
+// Create listArray
+// Reinitialize the list
+// Simply reinitialize values
+// Shift elements up
+//   to make room
+// Increment list size
+// No current element
+// Copy the element
+// Shift them down
+// Decrement size
+// Set to front
+// Set at end
+// Back up
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Number of records in a block
+// Number of blocks in the buffer (run)
+// Move the bounds inward until they meet
+// Move left bound right
+// Move right bound
+// Swap out-of-place values
+// Stop when they cross
+// Reverse last, wasted swap
+// Return first position in right partition
+// Quicksort
+// Stick pivot at end
+// k will be the first position in the right subarray
+// Put pivot in place
+// Sort left partition
+// Sort right partition
+// Use quicksort to generate initial runs, placing the runs
+// one after another into the temporary file.
+// Suck in the original data
+// Now, do the multiway merge
+// Now, read in a new block if necessary
+// For first pass, need the original input file.  Won't use again
+// Now, do a single multi-way merge pass
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Take appropriate action
+// Take appropriate action
+// Default size
+// To store dictionary
+// "k" does not appear in dictionary
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize D with weights
+// Compute all k paths
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Value for this node
+// Point to next node in list
+// Freelist for the class
+// Get from "new"
+// Get from freelist
+// Drop reference to the element
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize v to any unvisited vertex;
+// Now find smallest value
+// Compute shortest path distances from s, store them in D
+// Initialize
+// Process the vertices
+// Find next-closest vertex
+// Unreachable
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Generic array allocation
+// Count[i] stores number of records in bin[i]
+// For k digits
+// Initialize count
+// Count the number of records for each bin on this pass
+// count[j] will be index in B for last slot of bin j.
+// Put records into bins, working from bottom of bin
+// Since bins fill from bottom, j counts downwards
+// Copy B back
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Root of B+ tree
+// # of records now in 2-3 tree
+// Collapse root
+// At leaf node: insert here
+// Add to internal node
+// Process internal node
+// Child will merge if necessary
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Value for this node
+// Pointer to next node in list
+// Pointer to previous node
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// This is the pseudo hash table, twice the # of records
+// Data collecting variables
+// Maximum length of any chain, ever
+// Average for the maximum (per iteration) chain length
+// Minimum slots used by any interation
+// Average number of slots used per iteration
+// Intialize the table for this iteration
+// "insert" records into the hash table
+// Imagine that we are inserting here, bump the count
+// Update the statistics
+// longest chain ever
+// longest chain this iteration
+// Something hit this slot
+// Calculate the final statistics
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Found k
+// k not found
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// The current vertex
+// Heap for edges
+// Initial vertex
+// Initialize distance
+// For each vertex
+// Get position
+// Unreachable
+// Update D
+// Pointer to first element
+// Number of elements
+// Extra stuff not printed in the book.
+// Test showing pitfalls of generic array allocation
+// This gives a compiler warning. But it will work correctly.
+// This also gives a compiler warning and will work correctly.
+// Return true if "k" matches the key for an element in list "L",
+// false otherwise
+// K not found
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Process each vertex on Q
+// Take appropriate action
+// Put neighbors on Q
+// Take appropriate action
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Generic array allocation
+// Select midpoint
+// List has one element
+// Mergesort first half
+// Mergesort second half
+// Copy subarray to temp
+// Do the merge operation back to A
+// Left sublist exhausted
+// Right sublist exhausted
+// Get smaller
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// do nothing
+// Graph class ADT
+// Only supporting 2D points
+// Number of nodes in the KD tree
+// First find it
+// Now remove it
+// Now, temp1 has the smaller value
+// Found it
+// Just drop element
+// Switch subtree to right
+// Tell the size of a buffer
+// Nothing to visit
+// Process leaf node
+// Process internal node
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Key for this node
+// Element for this node
+// Pointer to left child
+// Pointer to right child
+// Constructor
+// Graph class ADT
+// Graph class ADT
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// This is not the book's code.  That is repeated below.
+// The book's code does not have a print statement.
+/// collatz.x
+// Graph class ADT
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Graph class ADT
+// Allow the generic array allocation
+// Allow the generic array allocation
+// Remove test
+// Allow the generic array allocation
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Default size
+// Maximum size of list
+// Current # of list items
+// Position of current element
+// Array holding list elements
+// Generic array allocation
+// Create listArray
+// Reinitialize the list
+// Simply reinitialize values
+// Shift elements up
+//   to make room
+// Increment list size
+// No current element
+// Copy the element
+// Shift them down
+// Decrement size
+// Set to front
+// Set at end
+// Back up
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// The code lookup table
+// Total weight of codes
+// Allow the generic array allocation
+// process the entry, creating a new HuffTree
+// While two items left
+// Return new tree to heap
+// Return the tree
+// Find the index in CodeTable for the given codeword
+// Not found
+// Print out the codes; insert these codes into CodeTable
+// This is a full binary tree so must not be null subtree
+// Process Encode and Decode commands
+// Traverse the tree
+// reset at root
+// Assume codes are characters.  Should generalize this.
+// while
+// Read from standard input
+// Data file entered as parameter
+// Key for this node
+// Element for this node
+// Pointer to left child
+// Pointer to right child
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// The current vertex
+// Heap for edges
+// Initial vertex
+// Initialize
+//   distances
+// Now, get distances
+// Get position
+// Add edge to MST
+// Unreachable
+// Update D
+// Where it came from
+// V[i] stores closest vertex to i
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Sorting main function for testing correctness of sort algorithm.
+// To use: <sortname> [+/-] <size_of_array> <threshold>
+//  + means increasing values, - means decreasing value and no
+//    parameter means random values;
+// where <size_of_array> controls the number of objects to be sorted;
+// and <threshold> controls the threshold parameter for certain sorts, e.g.,
+//   cutoff point for quicksort sublists.
+// Generic array allocation
+// Insert i'th record
+// Select the midpoint
+// List has one element
+// Do the merge operation.  First, copy 2 halves to temp.
+// Merge sublists back to array
+// Reverse sorted
+// Random
+// Sorted
+//  System.in.read();
+// Operand value
+// Root of the BST
+// Number of nodes in the BST
+// First find it
+// Now remove it
+// Found it
+// Two children
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Maximum size of queue
+// Index of front element
+// Index of rear element
+// Array holding queue elements
+// For generic array
+// One extra space is allocated
+// Create listArray
+// Circular increment
+// Circular increment
+// Extra stuff not printed in the book.
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize Mark array
+// Process all vertices
+// Recursive helper function
+// PostVisit for Vertex v
+// Value for this node
+// Pointer to next node in list
+// Constructors
+// Return next field
+// Set next field
+// Return element field
+// Set element field
+// Insert i'th record
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize v to any unvisited vertex;
+// Now find smallest value
+// Compute shortest path distances from s, store them in D
+// Initialize
+// Process the vertices
+// Find next-closest vertex
+// Unreachable
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// One code stored in a code table
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Generic array allocation
+// Count[i] stores number of records in bin[i]
+// For k digits
+// Initialize count
+// Count the number of records for each bin on this pass
+// count[j] will be index in B for last slot of bin j.
+// Put records into bins, working from bottom of bin
+// Since bins fill from bottom, j counts downwards
+// Copy B back
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// fact(20) is the largest value that fits in a long
+// Base case: return base solution
+// Recursive call for n > 1
+// We really need to figure out a way to do this that doesn't
+// include a control variable
+// do nothing
+// We really need to figure out a way to do this that doesn't
+// include a control variable
+// do nothing
+// Node array
+// Create node array
+// Find root of node a
+// Find root of node b
+// Compare roots
+// Find root of node a
+// Find root of node b
+// Merge
+// At root
+// Found k
+// k not found
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Graph class ADT
+// Constructor
+// Weight (sum of children)
+// Pointer to left child
+// Pointer to right child
+// Default size
+// Maximum size of list
+// Current # of list items
+// Position of current element
+// Array holding list elements
+// Generic array allocation
+// Create listArray
+// Reinitialize the list
+// Simply reinitialize values
+// Shift elements up
+//   to make room
+// Increment list size
+// No current element
+// Copy the element
+// Shift them down
+// Decrement size
+// Set to front
+// Set at end
+// Back up
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Default size
+// To store dictionary
+// "k" does not appear in dictionary
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Swap maximum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a big value, push it up
+// If it is little, push down
+// The vertex list
+// Number of edges
+// The mark array
+// Constructor
+// # of vertices
+// # of edges
+// No neighbor
+// No neighbor
+// Edge already exists in graph
+// Keep neighbors sorted by vertex index
+// Check if j is the current neighbor in the list
+// Check whole list
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Constructor
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Node array
+// Create node array
+// Find root of node a
+// Find root of node b
+// Compare roots
+// Find root of node a
+// Find root of node b
+// Merge
+// At root
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Maximum size of queue
+// Index of front element
+// Index of rear element
+// Array holding queue elements
+// For generic array
+// One extra space is allocated
+// Create listArray
+// Circular increment
+// Circular increment
+// Extra stuff not printed in the book.
+// Element for this node
+// Weight for this node
+// Graph class ADT
+// Maximum size of stack
+// Index for top Object
+// Array holding stack
+// Generic array allocation
+// Create listArray
+// Extra stuff not printed in the book.
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize
+// Take appropriate action
+// Take appropriate action
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Holds largest element position
+// For each element
+// if A[i] is larger
+//   remember its position
+// Return largest position
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Default size
+// Maximum size of list
+// Current # of list items
+// Position of current element
+// Array holding list elements
+// Generic array allocation
+// Create listArray
+// Reinitialize the list
+// Simply reinitialize values
+// Shift elements up
+//   to make room
+// Increment list size
+// No current element
+// Copy the element
+// Shift them down
+// Decrement size
+// Set to front
+// Set at end
+// Back up
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// The edge matrix
+// Number of edges
+// The mark array
+// Constructors
+// # of vertices
+// # of edges
+// No edge for this vertex
+// No next edge;
+// Delete edge (i, j)
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// Graph class ADT
+// A count of the number of times that we do a read
+// A count of the number of times that we do a write
+// Divide the records in the input file between the two
+// output files, leaving numrecs records in each.
+// Flush second run
+// Flush first run
+// For first pass, need the original input file.  Won't use again
+// Divide the original input into two
+// Now, do a series of 2-way merge passes
+// Finally, merge the last two runs into the output file
+// Now test that this worked correctly
+// Priming read
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Pointer to the heap array
+// Maximum size of the heap
+// Number of things in heap
+// Start at end of heap
+// Now sift up until curr's parent's key > curr's key
+// j is now index of child with greater value
+// Move down
+// Remove minimum value
+// Swap minimum with last value
+// Not on last element
+// Put new heap root val in correct place
+// Last element, no work to be done
+// Swap with last value
+// If we just swapped in a small value, push it up
+// If it is big, push down
+// Pointer to list header
+// Pointer to last element
+// Access to current element
+// Size of list
+// Constructor -- Ignore size
+// Create header
+// Drop access to links
+// Create header
+// New tail
+// Nothing to remove
+// Remember value
+// Removed last
+// Remove from list
+// Decrement count
+// Return value
+// No previous element
+// March down list until we find the previous element
+// Extra stuff not printed in the book.
+// Save the current position of the list
+// Reset the fence to its original position
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Equivalence array
+// Minheap array
+// Count of edges
+// Put edges in the array
+// Initially n classes
+// Combine equiv classes
+// Next cheapest
+// If in different classes
+// Combine equiv classes
+// Add this edge to MST
+// One less MST
+// main
+// class MemMain
+// int version
+// Randomly permute the values of array "A"
+// for each i
+//   swap A[i-1] with
+//   a random element
+// for each i
+//   swap A[i-1] with
+//   a random element
+// Hold the Random class object
+// Graph operation main function.
+// To use: java -ea GraphTest <graphfile>
+// Create a graph from file
+// Read in edges
+// No weight given -- set at 1
+// Put in edge in other direction
+// Initialize D with weights
+// Compute all k paths
+// Constructor
+// Leaf node
+// The hash table
+// # of records now in table
+// Maximum size of dictionary
+// Clear the tree
+// Return the root
+// Make the tree have a new root, give first child and sib
+// Add left child

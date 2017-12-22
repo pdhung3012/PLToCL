@@ -1,0 +1,5 @@
+ObservationFromData
+
+false otherwise
+// Move to actual record, if it exists
+Put new subarrays onto Stack if they are small
