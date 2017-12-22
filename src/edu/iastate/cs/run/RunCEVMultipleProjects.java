@@ -11,8 +11,8 @@ public class RunCEVMultipleProjects {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String pathInput="";
-		String pathOutput="";
+		String pathInput="C:\\gitProjects\\";
+		String pathOutput="C:\\gitCommentOutput\\";
 		File folderProject=new File(pathInput);
 		File[] arrProjects=folderProject.listFiles();
 		

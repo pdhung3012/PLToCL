@@ -135,7 +135,7 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 		CompilationUnit ast = cus.get(currentFilePath);
 		int lineNumber = ast.getLineNumber(start) - 1;
 		String comment = source.substring(start, end);
-		System.out.println(comment + "\t" + lineNumber);
+		//System.out.println(comment + "\t" + lineNumber);
 		
 		//add line to file
 		sbCommentContent.append(comment+"\n");
@@ -154,7 +154,7 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 		CompilationUnit ast = cus.get(currentFilePath);
 		int lineNumber = ast.getLineNumber(start) - 1;
 		String comment = source.substring(start, end);
-		System.out.println(comment + "\t" + lineNumber);
+		//System.out.println(comment + "\t" + lineNumber);
 		
 		return true;
 	}
