@@ -170,7 +170,7 @@ public class RunStanfordNLP {
 		// for (GrammarRule item : lstResult) {
 		// System.out.println(item.print());
 		// }
-
+//
 		String parserModel = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";
 		if (args.length > 0) {
 			parserModel = args[0];
