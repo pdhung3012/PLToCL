@@ -1,5 +1,6 @@
 package edu.iastate.cs.run;
 
+import java.io.File;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -50,10 +51,11 @@ public class RunGrammarHeuristic {
 
 	public static void main(String[] args) {
 		GrammarHeuristic gh=new GrammarHeuristic();
-		String fpInput=PathConstanct.PATH_OUTPUTFOLDER+"removeSlash_comment.txt";
+		String folderOut=PathConstanct.PATH_OUTPUTFOLDER+"apacheComments"+File.separator;
+		String fpInput=folderOut+"comment.txt";
 		double threshold=0.5;
 		LinkedHashMap<String, ArrayList<GrammarRule>> lstMapRules=gh.getGrammarsFromSentences(fpInput);
-		gh.saveRuleToFiles(lstMapRules,threshold, PathConstanct.PATH_OUTPUTFOLDER+"setRules.txt", PathConstanct.PATH_OUTPUTFOLDER+"folderRules/", PathConstanct.PATH_OUTPUTFOLDER+"nonTerminals.txt");
+		gh.saveRuleToFiles(lstMapRules,threshold, folderOut+"setRules.txt", folderOut+"folderRules"+File.separator,folderOut+ "nonTerminals.txt");
 
 
 
