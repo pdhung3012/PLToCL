@@ -21,8 +21,8 @@ public class FileIO {
 			writer.close();
 		}
 		catch (Exception e) {
-			/*e.printStackTrace();
-			System.exit(0);*/
+			e.printStackTrace();
+		//	System.exit(0);
 			System.err.println(e.getMessage());
 		}
 	}

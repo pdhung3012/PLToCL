@@ -81,25 +81,33 @@ public class GrammarHeuristic {
 		HashMap<String, Integer> mapRules = new HashMap<>();
 
 		
-
+		StringBuilder sbTemp=new StringBuilder();
 		for (int i = 0; i < arrSentences.length; i++) {
-			if((i+1)%1000==0) {
-				System.out.println("Parse sentence "+i);
-				//break;
-			}
-			
-			Tree tree = getTreeFromSentence(arrSentences[i], lp,tokenizerFactory);
-			ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
-			getAllRules(tree, lstRules);
-			for (int j = 0; j < lstRules.size(); j++) {
-				String strRuleContent = lstRules.get(j).print();
-				if (!mapRules.containsKey(strRuleContent)) {
-					mapRules.put(strRuleContent, 1);
-				} else {
-					mapRules.put(strRuleContent,
-							mapRules.get(strRuleContent) + 1);
+			sbTemp.append(arrSentences[i]+"\n");
+
+			if((i+1)%10==0||i==arrSentences.length-1) {
+				if((i+1)%1000==0) {
+					System.out.println("Parse sentence "+(i+1));
+					
+				}
+				
+				String strContent=sbTemp.toString().trim();
+				sbTemp=new StringBuilder();
+				Tree tree = getTreeFromSentence(strContent, lp,tokenizerFactory);
+				ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
+				getAllRules(tree, lstRules);
+				for (int j = 0; j < lstRules.size(); j++) {
+					String strRuleContent = lstRules.get(j).print();
+					if (!mapRules.containsKey(strRuleContent)) {
+						mapRules.put(strRuleContent, 1);
+					} else {
+						mapRules.put(strRuleContent,
+								mapRules.get(strRuleContent) + 1);
+					}
 				}
 			}
+			
+			
 
 		}
 		System.out.println(mapRules.size());
@@ -155,11 +163,12 @@ public class GrammarHeuristic {
 				for(String strRHS:lstPerNonTerminalRules.get(i).getLstRhs()){
 					setNonTerminal.add(strRHS);
 				}
-				String strItem=lstPerNonTerminalRules.get(i).print() + "\n";
+				String strItem=lstPerNonTerminalRules.get(i).print()+" : "+lstPerNonTerminalRules.get(i).getCount() + "\n";
 				sbMain.append(strItem);
 				sbRule.append(strItem);
 			}
-			FileIO.writeStringToFile(sbRule.toString(), folderOut+File.separator+lhs+".txt");
+
+			FileIO.writeStringToFile(sbRule.toString(), folder.getAbsolutePath()+File.separator+lhs+"_.txt");
 		}
 		
 		StringBuilder sbNonTerminal=new StringBuilder();
