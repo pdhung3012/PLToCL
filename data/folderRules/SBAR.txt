@@ -1,3 +1,0 @@
-SBAR : IN S
-SBAR : S
-SBAR : WHADVP S
