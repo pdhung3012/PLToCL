@@ -59,9 +59,7 @@ public class GrammarHeuristic {
 	public GrammarHeuristic() {
 	}
 
-	public Tree getTreeFromSentence(String strInput, LexicalizedParser lp) {
-		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(
-				new CoreLabelTokenFactory(), "");
+	public Tree getTreeFromSentence(String strInput, LexicalizedParser lp,TokenizerFactory<CoreLabel> tokenizerFactory) {
 		Tokenizer<CoreLabel> tok = tokenizerFactory
 				.getTokenizer(new StringReader(strInput));
 		List<CoreLabel> rawWords2 = tok.tokenize();
@@ -71,6 +69,9 @@ public class GrammarHeuristic {
 
 	public LinkedHashMap<String, ArrayList<GrammarRule>> getGrammarsFromSentences(
 			String fpInput) {
+
+		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(
+				new CoreLabelTokenFactory(), "");
 
 		LexicalizedParser lp = LexicalizedParser
 				.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
@@ -82,7 +83,12 @@ public class GrammarHeuristic {
 		
 
 		for (int i = 0; i < arrSentences.length; i++) {
-			Tree tree = getTreeFromSentence(arrSentences[i], lp);
+			if((i+1)%1000==0) {
+				System.out.println("Parse sentence "+i);
+				//break;
+			}
+			
+			Tree tree = getTreeFromSentence(arrSentences[i], lp,tokenizerFactory);
 			ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
 			getAllRules(tree, lstRules);
 			for (int j = 0; j < lstRules.size(); j++) {
@@ -96,7 +102,7 @@ public class GrammarHeuristic {
 			}
 
 		}
-		// System.out.println(mapRules.size());
+		System.out.println(mapRules.size());
 		LinkedHashMap<String, Integer> sortedMapRules = SortUtil
 				.sortHashMapByValues(mapRules, false);
 
