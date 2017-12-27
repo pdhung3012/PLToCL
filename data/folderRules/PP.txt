@@ -1,0 +1,8 @@
+PP : IN NP
+PP : TO NP
+PP : IN
+PP : IN NP
+PP : ADVP IN NP
+PP : RB IN VP
+PP : TO `` NP ''
+PP : TO

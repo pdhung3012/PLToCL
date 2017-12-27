@@ -1,0 +1,3 @@
+X : SYM
+X : NP
+X : IN

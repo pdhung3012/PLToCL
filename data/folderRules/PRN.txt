@@ -1,0 +1,3 @@
+PRN : -LRB- NP -RRB-
+PRN : -LRB- PP -RRB-
+PRN : -LRB- ADJP -RRB-
