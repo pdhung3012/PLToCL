@@ -23,7 +23,7 @@ import edu.stanford.nlp.trees.Tree;
 public class GrammarHeuristic {
 
 	private LinkedHashSet<String> setNonTerminal;
-	
+
 	public void getAllRules(Tree node, ArrayList<GrammarRule> lstRules) {
 		if (node != null) {
 			// get the tag element of the node
@@ -59,60 +59,49 @@ public class GrammarHeuristic {
 	public GrammarHeuristic() {
 	}
 
-	public Tree getTreeFromSentence(String strInput, LexicalizedParser lp,TokenizerFactory<CoreLabel> tokenizerFactory) {
-		Tokenizer<CoreLabel> tok = tokenizerFactory
-				.getTokenizer(new StringReader(strInput));
+	public Tree getTreeFromSentence(String strInput, LexicalizedParser lp,
+			TokenizerFactory<CoreLabel> tokenizerFactory) {
+		Tokenizer<CoreLabel> tok = tokenizerFactory.getTokenizer(new StringReader(strInput));
 		List<CoreLabel> rawWords2 = tok.tokenize();
 		Tree tree = lp.apply(rawWords2);
 		return tree;
 	}
 
-	public LinkedHashMap<String, ArrayList<GrammarRule>> getGrammarsFromSentences(
-			String fpInput) {
+	public LinkedHashMap<String, ArrayList<GrammarRule>> getGrammarsFromSentences(String fpInput) {
 
-		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(
-				new CoreLabelTokenFactory(), "");
+		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
 
-		LexicalizedParser lp = LexicalizedParser
-				.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
-		String[] arrSentences = FileIO.readStringFromFile(fpInput).trim()
-				.split("\n");
+		LexicalizedParser lp = LexicalizedParser.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
+		String[] arrSentences = FileIO.readStringFromFile(fpInput).trim().split("\n");
 
 		HashMap<String, Integer> mapRules = new HashMap<>();
 
-		
-		StringBuilder sbTemp=new StringBuilder();
+		// StringBuilder sbTemp=new StringBuilder();
 		for (int i = 0; i < arrSentences.length; i++) {
-			sbTemp.append(arrSentences[i]+"\n");
+			// sbTemp.append(arrSentences[i]+"\n");
 
-			if((i+1)%10==0||i==arrSentences.length-1) {
-				if((i+1)%1000==0) {
-					System.out.println("Parse sentence "+(i+1));
-					
-				}
-				
-				String strContent=sbTemp.toString().trim();
-				sbTemp=new StringBuilder();
-				Tree tree = getTreeFromSentence(strContent, lp,tokenizerFactory);
-				ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
-				getAllRules(tree, lstRules);
-				for (int j = 0; j < lstRules.size(); j++) {
-					String strRuleContent = lstRules.get(j).print();
-					if (!mapRules.containsKey(strRuleContent)) {
-						mapRules.put(strRuleContent, 1);
-					} else {
-						mapRules.put(strRuleContent,
-								mapRules.get(strRuleContent) + 1);
-					}
+			if ((i + 1) % 1000 == 0 || i == arrSentences.length - 1) {
+				System.out.println("Parse sentence " + (i + 1));
+				if(i+1>40000) {
+					break;
 				}
 			}
-			
-			
+			String strContent = arrSentences[i].trim();
+			Tree tree = getTreeFromSentence(strContent, lp, tokenizerFactory);
+			ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
+			getAllRules(tree, lstRules);
+			for (int j = 0; j < lstRules.size(); j++) {
+				String strRuleContent = lstRules.get(j).print();
+				if (!mapRules.containsKey(strRuleContent)) {
+					mapRules.put(strRuleContent, 1);
+				} else {
+					mapRules.put(strRuleContent, mapRules.get(strRuleContent) + 1);
+				}
+			}
 
 		}
 		System.out.println(mapRules.size());
-		LinkedHashMap<String, Integer> sortedMapRules = SortUtil
-				.sortHashMapByValues(mapRules, false);
+		LinkedHashMap<String, Integer> sortedMapRules = SortUtil.sortHashMapByValues(mapRules, false);
 
 		// split the map to each pre terminal
 		LinkedHashMap<String, ArrayList<GrammarRule>> mapSortedGrammar = new LinkedHashMap<String, ArrayList<GrammarRule>>();
@@ -141,39 +130,38 @@ public class GrammarHeuristic {
 
 	}
 
-	public void saveRuleToFiles(
-			LinkedHashMap<String, ArrayList<GrammarRule>> lstRules,
-			double threshold, String fileOut, String folderOut,String fileNonTerminal) {
+	public void saveRuleToFiles(LinkedHashMap<String, ArrayList<GrammarRule>> lstRules, double threshold,
+			String fileOut, String folderOut, String fileNonTerminal) {
 		if (threshold > 1) {
 			throw new IllegalArgumentException("Invallid threshold");
 		}
 		StringBuilder sbMain = new StringBuilder();
-		File folder=new File(folderOut);
-		if(!folder.exists()||!folder.isDirectory()){
+		File folder = new File(folderOut);
+		if (!folder.exists() || !folder.isDirectory()) {
 			folder.mkdir();
 		}
-		setNonTerminal=new LinkedHashSet<>();
+		setNonTerminal = new LinkedHashSet<>();
 		for (String lhs : lstRules.keySet()) {
 			ArrayList<GrammarRule> lstPerNonTerminalRules = lstRules.get(lhs);
-			int numberOfRulesNeed = (int) Math.round(lstPerNonTerminalRules
-					.size() * threshold);
+			int numberOfRulesNeed = (int) Math.round(lstPerNonTerminalRules.size() * threshold);
 			setNonTerminal.add(lhs);
 			StringBuilder sbRule = new StringBuilder();
-			for(int i=0;i<numberOfRulesNeed;i++){
-				for(String strRHS:lstPerNonTerminalRules.get(i).getLstRhs()){
+			for (int i = 0; i < numberOfRulesNeed; i++) {
+				for (String strRHS : lstPerNonTerminalRules.get(i).getLstRhs()) {
 					setNonTerminal.add(strRHS);
 				}
-				String strItem=lstPerNonTerminalRules.get(i).print()+" : "+lstPerNonTerminalRules.get(i).getCount() + "\n";
+				String strItem = lstPerNonTerminalRules.get(i).print() + " : "
+						+ lstPerNonTerminalRules.get(i).getCount() + "\n";
 				sbMain.append(strItem);
 				sbRule.append(strItem);
 			}
 
-			FileIO.writeStringToFile(sbRule.toString(), folder.getAbsolutePath()+File.separator+lhs+"_.txt");
+			FileIO.writeStringToFile(sbRule.toString(), folder.getAbsolutePath() + File.separator + lhs + "_.txt");
 		}
-		
-		StringBuilder sbNonTerminal=new StringBuilder();
-		for(String strItem:setNonTerminal){
-			sbNonTerminal.append(strItem+"\n");
+
+		StringBuilder sbNonTerminal = new StringBuilder();
+		for (String strItem : setNonTerminal) {
+			sbNonTerminal.append(strItem + "\n");
 		}
 		FileIO.writeStringToFile(sbNonTerminal.toString(), fileNonTerminal);
 		FileIO.writeStringToFile(sbMain.toString(), fileOut);
