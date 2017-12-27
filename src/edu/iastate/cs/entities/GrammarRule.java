@@ -6,9 +6,26 @@ public class GrammarRule {
 
 	private String lhs;
 	private ArrayList<String> lstRhs;
+	private int count;
 	
 	
+	public GrammarRule(){
+		count=0;
+	}
 	
+	
+	public int getCount() {
+		return count;
+	}
+
+
+
+	public void setCount(int count) {
+		this.count = count;
+	}
+
+
+
 	public String getLhs() {
 		return lhs;
 	}

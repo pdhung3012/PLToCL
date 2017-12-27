@@ -1,9 +1,11 @@
 package edu.iastate.cs.parser;
 
+import java.io.File;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 import util.FileIO;
@@ -20,7 +22,8 @@ import edu.stanford.nlp.trees.Tree;
 
 public class GrammarHeuristic {
 
-
+	private LinkedHashSet<String> setNonTerminal;
+	
 	public void getAllRules(Tree node, ArrayList<GrammarRule> lstRules) {
 		if (node != null) {
 			// get the tag element of the node
@@ -52,11 +55,11 @@ public class GrammarHeuristic {
 
 		}
 	}
-	
+
 	public GrammarHeuristic() {
 	}
 
-	public  Tree getTreeFromSentence(String strInput,LexicalizedParser lp) {
+	public Tree getTreeFromSentence(String strInput, LexicalizedParser lp) {
 		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(
 				new CoreLabelTokenFactory(), "");
 		Tokenizer<CoreLabel> tok = tokenizerFactory
@@ -65,61 +68,99 @@ public class GrammarHeuristic {
 		Tree tree = lp.apply(rawWords2);
 		return tree;
 	}
-	
-	public ArrayList<GrammarRule> getGrammarsFromSentences(String fpInput, double threshold) {
+
+	public LinkedHashMap<String, ArrayList<GrammarRule>> getGrammarsFromSentences(
+			String fpInput) {
+
+		LexicalizedParser lp = LexicalizedParser
+				.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
+		String[] arrSentences = FileIO.readStringFromFile(fpInput).trim()
+				.split("\n");
+
+		HashMap<String, Integer> mapRules = new HashMap<>();
+
 		
-		LexicalizedParser lp = LexicalizedParser.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
-		String[] arrSentences=FileIO.readStringFromFile(fpInput).trim().split("\n");
-		HashMap<String,Integer> mapRules=new HashMap<>();
-		for(int i=0;i<arrSentences.length;i++){
-			Tree tree=getTreeFromSentence(arrSentences[i], lp);
-			ArrayList<GrammarRule> lstRules=new ArrayList<GrammarRule>();
+
+		for (int i = 0; i < arrSentences.length; i++) {
+			Tree tree = getTreeFromSentence(arrSentences[i], lp);
+			ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
 			getAllRules(tree, lstRules);
-			for(int j=0;j<lstRules.size();j++){
-				String strRuleContent=lstRules.get(j).print();
-				if(!mapRules.containsKey(strRuleContent)){
-					mapRules.put(strRuleContent,1);
-				}else{
-					mapRules.put(strRuleContent, mapRules.get(strRuleContent)+1);
+			for (int j = 0; j < lstRules.size(); j++) {
+				String strRuleContent = lstRules.get(j).print();
+				if (!mapRules.containsKey(strRuleContent)) {
+					mapRules.put(strRuleContent, 1);
+				} else {
+					mapRules.put(strRuleContent,
+							mapRules.get(strRuleContent) + 1);
 				}
 			}
-			
-			
+
 		}
-		System.out.println(mapRules.size());
-		LinkedHashMap<String,Integer> sortedMapRules= SortUtil.sortHashMapByValues(mapRules,false);
-		if(threshold>1){
-			throw new IllegalArgumentException("Invallid threshold");
-		}
-		int numberOfRuleCount=(int)Math.round(threshold*mapRules.size());
-		ArrayList<GrammarRule> lstResult=new ArrayList<GrammarRule>();
-		int index=0;
-		for(String strKey :sortedMapRules.keySet()){
-			GrammarRule gr=new GrammarRule();
+		// System.out.println(mapRules.size());
+		LinkedHashMap<String, Integer> sortedMapRules = SortUtil
+				.sortHashMapByValues(mapRules, false);
+
+		// split the map to each pre terminal
+		LinkedHashMap<String, ArrayList<GrammarRule>> mapSortedGrammar = new LinkedHashMap<String, ArrayList<GrammarRule>>();
+
+		for (String strKey : sortedMapRules.keySet()) {
+			String lhs = strKey.split(":")[0].trim();
+			GrammarRule gr = new GrammarRule();
 			gr.setCount(sortedMapRules.get(strKey));
 			gr.setLhs(strKey.split(":")[0].trim());
-			String[] arrRHS=strKey.split(":")[1].trim().split("\\s+");
-			ArrayList<String> lstRHS=new ArrayList<String>();
-			for(String item:arrRHS){
+			String[] arrRHS = strKey.split(":")[1].trim().split("\\s+");
+			ArrayList<String> lstRHS = new ArrayList<String>();
+			for (String item : arrRHS) {
 				lstRHS.add(item.trim());
 			}
 			gr.setLstRhs(lstRHS);
-			lstResult.add(gr);
-			index++;
-			if(index>=numberOfRuleCount){
-				break;
+			if (!mapSortedGrammar.containsKey(lhs)) {
+				ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
+				lstRules.add(gr);
+				mapSortedGrammar.put(lhs, lstRules);
+			} else {
+				mapSortedGrammar.get(lhs).add(gr);
 			}
 		}
-		
-		return lstResult;
-		 
+
+		return mapSortedGrammar;
+
 	}
-	
-	public void saveRuleToFiles(ArrayList<GrammarRule> lstRules,String fileOut){
-		StringBuilder sbMain=new StringBuilder();
-		for(GrammarRule gr:lstRules){
-			sbMain.append(gr.print()+"\n");
+
+	public void saveRuleToFiles(
+			LinkedHashMap<String, ArrayList<GrammarRule>> lstRules,
+			double threshold, String fileOut, String folderOut,String fileNonTerminal) {
+		if (threshold > 1) {
+			throw new IllegalArgumentException("Invallid threshold");
 		}
+		StringBuilder sbMain = new StringBuilder();
+		File folder=new File(folderOut);
+		if(!folder.exists()||!folder.isDirectory()){
+			folder.mkdir();
+		}
+		setNonTerminal=new LinkedHashSet<>();
+		for (String lhs : lstRules.keySet()) {
+			ArrayList<GrammarRule> lstPerNonTerminalRules = lstRules.get(lhs);
+			int numberOfRulesNeed = (int) Math.round(lstPerNonTerminalRules
+					.size() * threshold);
+			setNonTerminal.add(lhs);
+			StringBuilder sbRule = new StringBuilder();
+			for(int i=0;i<numberOfRulesNeed;i++){
+				for(String strRHS:lstPerNonTerminalRules.get(i).getLstRhs()){
+					setNonTerminal.add(strRHS);
+				}
+				String strItem=lstPerNonTerminalRules.get(i).print() + "\n";
+				sbMain.append(strItem);
+				sbRule.append(strItem);
+			}
+			FileIO.writeStringToFile(sbRule.toString(), folderOut+File.separator+lhs+".txt");
+		}
+		
+		StringBuilder sbNonTerminal=new StringBuilder();
+		for(String strItem:setNonTerminal){
+			sbNonTerminal.append(strItem+"\n");
+		}
+		FileIO.writeStringToFile(sbNonTerminal.toString(), fileNonTerminal);
 		FileIO.writeStringToFile(sbMain.toString(), fileOut);
 	}
 

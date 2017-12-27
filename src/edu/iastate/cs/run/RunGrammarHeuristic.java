@@ -3,6 +3,7 @@ package edu.iastate.cs.run;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Properties;
 
@@ -47,59 +48,13 @@ import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
 
 public class RunGrammarHeuristic {
 
-	public void getAllRules(Tree node, ArrayList<GrammarRule> lstRules) {
-		if (node != null) {
-			// get the tag element of the node
-			boolean isCorrectRule = true;
-			GrammarRule gr = new GrammarRule();
-			gr.setLhs(node.label().toString());
-
-			if (node.isLeaf()) {
-				isCorrectRule = false;
-			}
-			List<Tree> children = node.getChildrenAsList();
-			ArrayList<String> lstChildren = new ArrayList<String>();
-			for (Tree child : children) {
-				if (child.isLeaf()) {
-					isCorrectRule = false;
-					// break;
-				}
-				lstChildren.add(child.label().toString());
-				// getAllRules(child, lstRules);
-			}
-			gr.setLstRhs(lstChildren);
-
-			if (isCorrectRule) {
-				lstRules.add(gr);
-			}
-			for (Tree child : children) {
-				getAllRules(child, lstRules);
-			}
-
-		}
-	}
-
-	
-
-
-	
-	public  Tree getTreeFromSentence(String strInput,LexicalizedParser lp) {
-		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(
-				new CoreLabelTokenFactory(), "");
-		Tokenizer<CoreLabel> tok = tokenizerFactory
-				.getTokenizer(new StringReader(strInput));
-		List<CoreLabel> rawWords2 = tok.tokenize();
-		Tree tree = lp.apply(rawWords2);
-		return tree;
-	}
-	
-	
-
 	public static void main(String[] args) {
 		GrammarHeuristic gh=new GrammarHeuristic();
 		String fpInput=PathConstanct.PATH_OUTPUTFOLDER+"removeSlash_comment.txt";
 		double threshold=0.5;
-		ArrayList<GrammarRule> lstRules=gh.getGrammarsFromSentences(fpInput, threshold);
+		LinkedHashMap<String, ArrayList<GrammarRule>> lstMapRules=gh.getGrammarsFromSentences(fpInput);
+		gh.saveRuleToFiles(lstMapRules,threshold, PathConstanct.PATH_OUTPUTFOLDER+"setRules.txt", PathConstanct.PATH_OUTPUTFOLDER+"folderRules/", PathConstanct.PATH_OUTPUTFOLDER+"nonTerminals.txt");
+
 
 
 	}
