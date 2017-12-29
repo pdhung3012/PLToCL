@@ -82,7 +82,7 @@ public class GrammarHeuristic {
 
 			if ((i + 1) % 1000 == 0 || i == arrSentences.length - 1) {
 				System.out.println("Parse sentence " + (i + 1));
-				if(i+1>40000) {
+				if(i+1>400000) {
 					break;
 				}
 			}

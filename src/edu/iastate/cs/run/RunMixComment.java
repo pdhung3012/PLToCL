@@ -12,10 +12,13 @@ public class RunMixComment {
 		comment = comment.trim();
 		if (comment.equals("// TODO Auto-generated method stub") || comment.contains("$NON-NLS-1$")
 				|| comment.startsWith("// *") || comment.startsWith("// ---------------") || comment.startsWith("// @")
-				|| comment.startsWith("// http://") || comment.contains("{") || comment.contains("}")
-				|| comment.endsWith(";")) {
-			
-			
+				|| comment.startsWith("// http://") || comment.startsWith("//$ANTLR") || comment.contains("{")
+				|| comment.contains("}") || comment.endsWith(";")) {
+
+			result = false;
+		}
+		comment = comment.replaceFirst("// ", "").trim();
+		if (comment.contains(".g:")||comment.contains("$ANTLR")) {
 			result = false;
 		}
 		if (comment.replaceFirst("// ", "").trim().split("\\s+").length <= 2) {
