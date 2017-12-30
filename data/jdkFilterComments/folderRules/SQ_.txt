@@ -1,0 +1,30 @@
+SQ : VBP NP VP . : 154
+SQ : MD NP VP : 68
+SQ : VP . : 67
+SQ : MD VP : 51
+SQ : MD NP VP . : 51
+SQ : VBZ NP NP . : 46
+SQ : VBZ NP : 42
+SQ : NP VP : 41
+SQ : VP : 39
+SQ : VBZ NP VP . : 33
+SQ : VBP NP VP : 33
+SQ : VBP RB NP VP : 30
+SQ : VBZ NP VP : 24
+SQ : VBD NP VP . : 19
+SQ : NNP NP VP . : 14
+SQ : MD NP ADVP VP . : 12
+SQ : VBZ NP ADJP . : 11
+SQ : VBD NP VP : 9
+SQ : ADVP VP : 9
+SQ : VBZ NP ADJP : 8
+SQ : VBP NP ADJP . : 8
+SQ : VBP NP ADVP VP . : 6
+SQ : VBZ VP : 5
+SQ : VBZ NP ADJP SBAR : 5
+SQ : VBZ NP ADJP S . : 5
+SQ : VBP NP PP . : 5
+SQ : VBD NP : 5
+SQ : MD NP ADVP VP : 5
+SQ : VBZ NP ADVP NP . : 4
+SQ : VBZ ADJP : 4

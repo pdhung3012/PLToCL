@@ -1,0 +1,10 @@
+INTJ : UH : 122
+INTJ : UH . : 53
+INTJ : NN , NN : 7
+INTJ : `` UH '' : 6
+INTJ : VB : 6
+INTJ : UH UH : 5
+INTJ : UH PP . : 5
+INTJ : INTJ CC INTJ : 5
+INTJ : INTJ , INTJ : 4
+INTJ : DT VBZ : 4

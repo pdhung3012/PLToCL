@@ -1,0 +1,71 @@
+PRN : -LRB- NP -RRB- : 2181
+PRN :  : 353
+PRN : -LRB- S -RRB- : 338
+PRN : -LRB- PP -RRB- : 204
+PRN :  : 193
+PRN : -LRB- VP -RRB- : 164
+PRN : -LRB- FRAG -RRB- : 155
+PRN : S -RRB- : 147
+PRN :  : 144
+PRN : -LRB- ADJP -RRB- : 131
+PRN : -LRB- SBAR -RRB- : 119
+PRN : -LRB- NP , NP -RRB- : 105
+PRN :  : 92
+PRN : PP , : 78
+PRN : -LRB- NP , NP , NP -RRB- : 69
+PRN : -LRB- ADVP -RRB- : 49
+PRN : NP -RRB- : 44
+PRN : S , : 43
+PRN : , S , : 40
+PRN : -LRB- PRP -RRB- : 37
+PRN : CC S : 34
+PRN : ADVP , SBAR : 29
+PRN :  : 28
+PRN : -LRB- CC ADJP -RRB- : 28
+PRN : -LRB- ADVP ADJP -RRB- : 28
+PRN : -LRB- UCP : 27
+PRN :  : 25
+PRN : , PP : 25
+PRN : -LRB- `` NP '' -RRB- : 20
+PRN : -LRB- CC VP -RRB- : 20
+PRN : , SBAR , : 20
+PRN : -LRB- CC FRAG -RRB- : 18
+PRN : -LRB- NP , NP : 17
+PRN : , ADVP NP -RRB- : 17
+PRN : CC NP : 16
+PRN : -LRB- X -RRB- : 16
+PRN : -LRB- CC VP : 16
+PRN : CC SBAR : 14
+PRN : CC PP : 14
+PRN : ADVP ADVP : 14
+PRN : , PP , : 14
+PRN : -LRB- INTJ -RRB- : 13
+PRN : -LRB- CC NP -RRB- : 13
+PRN : NP VP : 12
+PRN : CC ADJP : 12
+PRN : , CC ADVP : 12
+PRN : -LRB- RB NP -RRB- : 11
+PRN :  : 10
+PRN : -LRB- VB -RRB- : 10
+PRN : -LRB- ADVP NP -RRB- : 10
+PRN : -LRB- ADVP NP , : 10
+PRN : , S : 10
+PRN : -LRB- FW , ADJP -RRB- : 9
+PRN : , INTJ , : 8
+PRN :  : 7
+PRN : -LRB- NP '' -RRB- : 7
+PRN : S : 6
+PRN : ADVP NP , : 6
+PRN :  : 6
+PRN : -LRB- CC S -RRB- : 6
+PRN : -LRB- ADVP ADJP , : 6
+PRN : -LRB- S . -RRB- : 5
+PRN : -LRB- NP . -RRB- : 5
+PRN : , NP , : 5
+PRN : , IN DT , : 5
+PRN : , CC VP , : 5
+PRN : ADVP PP : 4
+PRN :  : 4
+PRN :  : 4
+PRN : -LRB- NP PP , : 4
+PRN : -LRB- NP NP -RRB- : 4

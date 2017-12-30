@@ -1,0 +1,2 @@
+WHADJP : WRB JJ : 36
+WHADJP : RB WP : 2

@@ -1,0 +1,5 @@
+RRC : ADVP NP : 25
+RRC : ADJP : 11
+RRC : ADJP SBAR : 9
+RRC : ADVP PP : 8
+RRC : ADJP PP : 7

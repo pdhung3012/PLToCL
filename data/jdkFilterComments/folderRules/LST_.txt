@@ -1,0 +1,4 @@
+LST : LS . : 93
+LST : LS -RRB- : 56
+LST : LS : 33
+LST : -LRB- NN -RRB- : 24

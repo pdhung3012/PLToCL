@@ -1,0 +1,322 @@
+S : VP : 29039
+S : NP VP : 25729
+S : NP VP . : 4019
+S : VP . : 3516
+S : ADVP VP : 702
+S : NP VP , : 571
+S : SBAR , NP VP : 508
+S : NP ADJP : 485
+S : NP ADVP VP : 449
+S : SBAR , VP : 377
+S : NP : 364
+S : NP VP : 333
+S : VP : 317
+S : PP , NP VP : 296
+S : PP NP VP : 229
+S : S , CC S : 215
+S : S : 212
+S : -LRB- NP VP : 205
+S : RB VP : 203
+S : PP , VP : 201
+S : NP ADVP VP . : 200
+S : ADVP , NP VP : 200
+S : ADVP NP VP . : 195
+S : S , NP VP : 190
+S : NP NP : 188
+S : ADVP NP VP : 184
+S : S CC S : 169
+S : ADJP : 168
+S : S VP . : 158
+S : ADVP VP . : 127
+S : S VP : 124
+S : ADVP , NP VP . : 121
+S : SBAR , NP VP . : 117
+S : PP NP VP . : 115
+S : SBAR , VP . : 111
+S : PP , NP VP . : 109
+S : CC NP VP . : 108
+S : SBAR VP . : 106
+S : S , NP VP . : 102
+S : CC NP VP : 97
+S : `` NP '' VP : 84
+S : S . NP VP . : 81
+S : NP VP -RRB- . : 81
+S : RB VP . : 80
+S : S : 76
+S : CC VP . : 69
+S : S NP VP . : 68
+S : SBAR NP VP : 62
+S : S , RB S : 62
+S : NP , VP . : 62
+S : NP , VP : 60
+S : IN NP VP . : 58
+S : ADJP NP : 55
+S : S , CC S . : 54
+S : S . ADVP , NP VP : 51
+S : S , IN S . : 43
+S : SBAR NP VP . : 42
+S : S CC S . : 42
+S : -LRB- NP -RRB- VP : 41
+S : NP -RRB- VP : 40
+S : -LRB- NP ADVP VP : 38
+S : NP PP : 37
+S : S , CC SQ : 35
+S : INTJ VP . : 35
+S : PP VP : 31
+S : VP , : 30
+S : PP , VP . : 30
+S : NP VP . -RRB- : 30
+S : NP RB VP : 30
+S : NP ADJP SBAR : 30
+S : NP : 30
+S : INTJ VP : 30
+S : NP `` VP : 29
+S : LST NP VP : 29
+S : NP SBAR . : 28
+S : NP , ADVP VP . : 28
+S : FRAG NP VP : 28
+S : ADVP , VP . : 27
+S : NP , NP VP : 26
+S : S , IN S : 25
+S : LST VP . : 25
+S : SBAR , ADVP VP . : 23
+S : S , VP . : 23
+S : NP ADVP : 23
+S : ADJP : 23
+S : UCP : 22
+S : NP VP . '' : 22
+S : NP ADJP S : 21
+S : SBAR VP : 20
+S : NP ADJP PP : 20
+S : NP NP VP . : 19
+S : -LRB- NP VP -RRB- . : 19
+S : NP `` ADJP '' : 18
+S : NP : 18
+S : NP '' VP : 18
+S : ADJP S : 18
+S : `` NP VP '' : 17
+S : S , VP : 17
+S : NP , NP VP . : 17
+S : NP , ADVP NP VP . : 17
+S : CC NP VP : 17
+S : VP PP : 16
+S : SBAR NP VP : 16
+S : SBAR , NP ADVP VP : 16
+S : S , S : 16
+S : RB NP VP : 15
+S : PP : 15
+S : NP ADVP VP , : 14
+S : NP , NP ADVP VP : 14
+S : LST NP VP . : 14
+S : NP RB NP VP . : 13
+S : CC ADVP NP VP : 13
+S : VP . '' : 12
+S : SBAR , VP : 12
+S : S S : 12
+S : S NP VP : 12
+S : PP , NP ADVP VP : 12
+S : NP NP VP : 12
+S : NP ADVP VP : 12
+S :  : 12
+S : `` S , NP VP : 11
+S : S , NP ADVP VP : 11
+S : NP SBAR : 11
+S : NP NP SBAR : 11
+S : -LRB- NP -RRB- NP : 11
+S : `` NP '' VP . : 10
+S : `` NP '' : 10
+S : SQ . ADVP , NP VP : 10
+S : SBAR , ADVP NP VP . : 10
+S : S ADJP : 10
+S : S , NP VP : 10
+S : RB NP VP . : 10
+S : NP VP . . : 10
+S : NP ADVP VP -RRB- . : 10
+S : INTJ NP VP : 10
+S : INTJ . NP VP . : 10
+S : CC SBAR , NP VP : 10
+S : ADVP , VP : 10
+S : S IN S : 9
+S : S . ADVP , NP VP . : 9
+S : PP ADVP , NP VP : 9
+S : PP , ADVP VP . : 9
+S : NP VP SBAR : 9
+S : INTJ , ADVP VP : 9
+S : S PRN : 8
+S : NP `` VP '' : 8
+S : NP VP '' '' : 8
+S : NP ADJP ADVP : 8
+S : CC S VP . : 8
+S : ADJP SBAR : 8
+S : , PP , NP VP : 8
+S : SBAR , ADVP NP VP : 7
+S : PP , SBAR VP . : 7
+S : NP VP PP : 7
+S : NP VP . . '' : 7
+S : NP UCP : 7
+S : LST SBAR , NP VP . : 7
+S : CC NP VP -RRB- . : 7
+S : ADVP NP -RRB- VP : 7
+S : ADVP : 7
+S : ADVP , NP VP : 7
+S : -LRB- S PRN NP ADVP VP : 7
+S : -LRB- NP VP . -RRB- : 7
+S : VP NP : 6
+S : VP , CC VP : 6
+S : SQ . NP VP . : 6
+S : SBAR , NP VP : 6
+S : SBAR , NP ADVP VP . : 6
+S : SBAR : 6
+S : S PRN VP . : 6
+S : S CC ADVP S : 6
+S : S . ADVP , VP . : 6
+S : PRN NP VP : 6
+S : PP SBAR , VP : 6
+S : PP , PP VP . : 6
+S : NP S : 6
+S : NP PP VP : 6
+S : NP , X NP VP : 6
+S : NP , RB VP . : 6
+S : LST SBAR , NP VP : 6
+S : LST SBAR , NP VP : 6
+S : IN NP VP : 6
+S : FRAG , ADVP VP : 6
+S : CC PP , NP VP : 6
+S : ADVP , SBAR , NP VP : 6
+S :  : 6
+S : , VP : 6
+S : `` NP VP . : 5
+S : X NP VP . : 5
+S : SBAR NP ADVP VP , : 5
+S : SBAR , ADVP , NP VP : 5
+S : S IN S . : 5
+S : S : 5
+S : PRN VP : 5
+S : PP NP ADVP VP . : 5
+S : PP , SBAR , NP VP : 5
+S : NP `` NP '' : 5
+S : NP `` ADJP : 5
+S : NP ADJP . : 5
+S : NP , S VP . : 5
+S : LST SBAR , ADVP NP VP . : 5
+S : LST PP , NP VP : 5
+S : INTJ , VP : 5
+S : FRAG , NP VP : 5
+S : CC SBAR , NP VP . : 5
+S : CC NP ADVP VP : 5
+S : ADVP NP VP -RRB- . : 5
+S : -LRB- VP . -RRB- : 5
+S : -LRB- SBAR , NP VP : 5
+S : -LRB- NP VP , : 5
+S : -LRB- NP ADVP VP , : 5
+S : -LRB- NP '' VP : 5
+S : , ADVP NP VP : 5
+S : `` NP : 4
+S : SBARQ . ADVP , NP VP : 4
+S : S ADVP VP : 4
+S : S , CC FRAG . : 4
+S : RB ADJP : 4
+S : PRN : 4
+S : PP NP VP -RRB- . : 4
+S : PP : 4
+S : PP : 4
+S : PP , VP : 4
+S : NP SBAR VP . : 4
+S : NP PRN VP . : 4
+S : NP PRN VP : 4
+S : NP PP VP . : 4
+S : NP DT VP . : 4
+S : NP ADVP NP : 4
+S : NP ADJP '' SBAR : 4
+S : NP , CC NP VP : 4
+S : NP , ADVP VP , : 4
+S : NP , ADVP , NP VP : 4
+S : NP , ADJP : 4
+S : LST -RRB- VP . : 4
+S : INTJ NP -RRB- VP : 4
+S : FRAG , NP VP . : 4
+S : CC NP VP . -RRB- : 4
+S : CC NP ADVP VP . : 4
+S : ADVP ADJP : 4
+S : ADVP , NP ADVP VP . : 4
+S : ADVP : 4
+S :  : 4
+S :  : 4
+S : `` VP : 3
+S : `` S '' VP : 3
+S : SQ . ADVP , NP VP . : 3
+S : SINV , CC S . : 3
+S : SBAR NP ADVP VP . : 3
+S : SBAR , X NP VP : 3
+S : SBAR , ADVP VP : 3
+S : S PRN . : 3
+S : S : 3
+S : S : 3
+S : S : 3
+S : S : 3
+S : S . '' NP ADVP VP : 3
+S : S . : 3
+S : S , X NP VP : 3
+S : S , S CC S : 3
+S : S , NP ADVP VP . : 3
+S : S , FW , S : 3
+S : S , ADVP VP : 3
+S : PP , PP , NP VP : 3
+S : PP , NP VP : 3
+S : PP , ADVP NP VP . : 3
+S : NP VP : 3
+S : NP VP '' . : 3
+S : NP ADVP NP VP : 3
+S : NP , NP : 3
+S : NP , ADVP VP : 3
+S : NP , ADVP , VP : 3
+S : INTJ , VP . : 3
+S : INTJ , ADVP NP VP : 3
+S : IN SBAR , NP VP : 3
+S : CC VP : 3
+S : CC S , IN S . : 3
+S : CC PP NP VP . : 3
+S : ADVP PP NP VP . : 3
+S : ADVP NP VP '' : 3
+S : ADVP ADVP VP : 3
+S : ADVP , VP : 3
+S : ADVP , SBAR , VP : 3
+S : ADVP , PP , NP VP : 3
+S : ADVP , NP ADVP VP , : 3
+S : ADVP , ADVP VP . : 3
+S : ADVP , ADVP NP VP : 3
+S : ADJP PP : 3
+S : ADJP . : 3
+S :  : 3
+S :  : 3
+S : -LRB- VP : 3
+S : -LRB- PP , NP VP . : 3
+S : -LRB- PP , NP VP : 3
+S : -LRB- NP VP SBAR . : 3
+S : -LRB- NP VP , PP : 3
+S : -LRB- ADVP VP . : 3
+S : `` VP . : 2
+S : `` SBAR , NP VP : 2
+S : `` S : 2
+S : `` NP VP . '' : 2
+S : `` NP '' NP VP . : 2
+S : X X NP VP : 2
+S : TO VP : 2
+S : SQ . ADVP , VP . : 2
+S : SQ '' NP VP '' : 2
+S : SBAR VP . '' : 2
+S : SBAR ADVP NP VP : 2
+S : SBAR : 2
+S : SBAR , NP `` VP : 2
+S : S NP PP VP . : 2
+S : S CC RB S . : 2
+S : S ADVP VP . : 2
+S : S : 2
+S : S . ADVP , '' NP VP . : 2
+S : S , S : 2
+S : S , CC S : 2
+S : S , CC ADVP S . : 2
+S : S , ADVP VP . : 2
+S : S , ADVP VP : 2
+S : S , ADVP S : 2
+S : RB PRN VP . : 2

@@ -1,0 +1,32 @@
+QP : CD CD : 339
+QP : JJR IN CD : 68
+QP : IN JJS CD : 63
+QP : RB CD : 45
+QP : CC RB : 26
+QP : $ CD CD : 26
+QP : CD NN : 25
+QP : CC CD : 25
+QP : CC JJR : 20
+QP : CD CC JJR : 19
+QP : CD CC CD : 19
+QP : CD TO CD : 16
+QP : # CD : 16
+QP : DT CD : 15
+QP : IN CD : 14
+QP : # CD CD : 12
+QP : $ CD : 10
+QP : ADVP CD : 8
+QP : RB DT : 7
+QP : RB CD CD : 6
+QP : NP CC NP : 6
+QP : IN TO CD : 6
+QP : CD IN CD : 5
+QP : RBR IN JJ : 4
+QP : JJR IN DT : 4
+QP : DT CD CD : 4
+QP : CD CC RB : 4
+QP : CC IN : 4
+QP : RB IN CD : 3
+QP : JJR IN RB : 3
+QP : IN CD CC CD : 3
+QP : DT JJ : 3

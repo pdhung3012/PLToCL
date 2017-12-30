@@ -1,0 +1,78 @@
+PP : IN NP : 32223
+PP : TO NP : 4966
+PP : IN : 2000
+PP : IN S : 1147
+PP : TO : 506
+PP : RB IN NP : 256
+PP : IN FRAG : 249
+PP : IN NP . : 203
+PP : ADVP IN NP : 183
+PP : IN PP : 175
+PP : IN ADJP : 170
+PP : VBG PP : 149
+PP : TO ADJP : 128
+PP : CC NP : 124
+PP : IN SBAR : 123
+PP : IN `` NP '' : 119
+PP : VBG NP : 115
+PP : IN ADVP : 111
+PP : VBN PP : 108
+PP : IN NP : 97
+PP : IN X : 55
+PP : IN '' NP : 55
+PP : JJ IN NP : 51
+PP : RB IN S : 48
+PP : TO S : 38
+PP : IN NP ADVP : 36
+PP : IN NP , : 36
+PP : VBN NP : 32
+PP : RB NP : 31
+PP : NP IN NP : 31
+PP : IN S . : 31
+PP : IN IN NP : 31
+PP : PP CC PP : 30
+PP : RB FRAG : 26
+PP : IN `` X '' : 24
+PP : IN `` ADJP '' : 24
+PP : TO ADVP : 23
+PP : PP PRN : 23
+PP : TO `` NP '' : 22
+PP : PP , CC RB PP : 19
+PP : IN CC IN NP : 19
+PP : IN RB : 18
+PP : PP , CC PP : 17
+PP : TO SBAR : 16
+PP : RB IN ADJP : 16
+PP : PP PP : 16
+PP : NNP NP : 16
+PP : IN WHNP : 16
+PP : IN UCP : 16
+PP : PP SBAR : 15
+PP : IN NP , ADVP : 15
+PP : IN PRN : 14
+PP : RB ADJP : 13
+PP : NP PP : 13
+PP : JJ PP : 13
+PP : IN `` NP : 13
+PP : RB PP : 12
+PP : RB IN VP : 12
+PP : PP ADVP : 12
+PP : VBZ NP : 11
+PP : DT IN NP : 11
+PP : TO VP : 9
+PP : RB IN IN NP : 9
+PP : JJ TO NP : 9
+PP : IN `` FRAG '' : 9
+PP : ADVP RB NP : 9
+PP : ADVP IN NP , : 9
+PP : IN NP PP : 8
+PP : FW NP : 8
+PP : PP CONJP PP : 7
+PP : PP , RB PP : 7
+PP : IN NP . '' : 7
+PP : ADVP IN : 7
+PP : X IN NP : 6
+PP : NP NP : 6
+PP : NN : 6
+PP : IN IN NP , : 6
+PP : ADVP IN IN NP : 6

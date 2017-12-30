@@ -1,0 +1,4 @@
+NAC : NP ADVP : 6
+NAC : NNP PP : 5
+NAC : NNP . : 5
+NAC : NAC PRN : 4

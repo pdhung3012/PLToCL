@@ -1,0 +1,1282 @@
+NP : DT NN : 21085
+NP : NN : 19462
+NP : NP PP : 14964
+NP : PRP : 11909
+NP : NNP : 10872
+NP : DT JJ NN : 7245
+NP : NNS : 7061
+NP : DT : 6060
+NP : JJ NN : 5442
+NP : CD : 3893
+NP : DT NN NN : 3762
+NP : NP SBAR : 3660
+NP : JJ NNS : 3170
+NP : NN NN : 3120
+NP : NP PRN : 2746
+NP : DT NNS : 2653
+NP : NP NP : 2278
+NP : NNP NNP : 2253
+NP : DT NNP : 2053
+NP : NP VP : 1999
+NP : NP : 1989
+NP : NN NNS : 1738
+NP : NP CC NP : 1287
+NP : NP , NP : 1287
+NP : NNP . : 1042
+NP : EX : 1016
+NP : DT JJ NN NN : 946
+NP : DT NNP NN : 931
+NP : NNP NNP NNP : 906
+NP : JJ : 862
+NP : JJ NN NN : 813
+NP : DT JJ NNS : 787
+NP : RB : 752
+NP : DT JJ : 752
+NP : JJ NN NNS : 703
+NP : CD NN : 571
+NP : NP PP . : 567
+NP : NNP NN : 560
+NP : CD NNS : 559
+NP : DT NN S : 544
+NP : NP ADJP : 514
+NP : S : 508
+NP : PRP$ NN : 497
+NP : JJ JJ NN : 489
+NP : NNP NNS : 454
+NP : NP : 418
+NP : NNP CD : 418
+NP : NP , SBAR : 409
+NP : QP : 405
+NP : DT VBN NN : 378
+NP : SYM : 376
+NP : NP ADVP : 368
+NP : DT JJ JJ NN : 361
+NP : NN CD : 358
+NP : DT NN NNS : 333
+NP : NNP NNP NNP NNP : 327
+NP : DT NN NN NN : 313
+NP : NN CC NN : 308
+NP : NP NN : 307
+NP : NNP POS : 291
+NP : NN NN NN : 269
+NP : DT NNP NNP : 253
+NP : `` NN '' : 235
+NP : DT NN POS : 219
+NP : DT ADJP NN : 218
+NP : JJ JJ NNS : 216
+NP : NP , VP : 213
+NP : VB : 209
+NP : PRP$ JJ NN : 203
+NP : NP : 203
+NP : DT NNPS : 203
+NP : JJ NN . : 196
+NP : DT VBG NN : 196
+NP : PRP$ NNS : 192
+NP : VBN NN : 189
+NP : NNS CC NNS : 183
+NP : NP NP . : 181
+NP : NP : 179
+NP : NNP CC NNP : 179
+NP : NP , CC NP : 162
+NP : CD . : 162
+NP : CD CD : 159
+NP : NNP , NNP : 156
+NP : NP : 155
+NP : JJR NN : 149
+NP : NN . NNP : 146
+NP : DT CD NNS : 146
+NP : ADJP NN : 145
+NP : VBG : 141
+NP : VBN NNS : 139
+NP : NP SBAR . : 139
+NP : DT NNP . : 137
+NP : VBG NNS : 136
+NP : NP : 135
+NP : NN POS : 132
+NP : PDT DT NNS : 131
+NP : NN NN NNS : 131
+NP : PDT DT NN : 128
+NP : NP , NP , : 127
+NP : DT NN SBAR : 127
+NP : DT NN CC NN : 126
+NP : VBG NN : 124
+NP : DT JJ NNP NN : 123
+NP : NP PP SBAR : 122
+NP : NP NP NP : 121
+NP : NNP NNP NNP NNP NNP : 121
+NP : NN RB : 121
+NP : RB NN : 120
+NP : NNP . NNP NNP : 120
+NP : QP NN : 119
+NP : # CD : 118
+NP : QP NNS : 117
+NP : WDT : 116
+NP : JJR NNS : 116
+NP : PRP$ : 113
+NP : IN : 113
+NP : NP . S : 111
+NP : RB DT NN : 110
+NP : RB DT : 106
+NP : NP PP -RRB- : 106
+NP : NP PRN NP : 104
+NP : NNP -LRB- NNP : 104
+NP : DT NNP NN NN : 103
+NP : NP , ADVP : 102
+NP : DT JJ JJ NNS : 101
+NP : NN '' : 100
+NP : NP VP X : 99
+NP : ADJP NNS : 98
+NP : DT VBG NNS : 97
+NP : NP FRAG : 95
+NP : LST NP PP : 95
+NP : JJR : 91
+NP : NP , PP : 90
+NP : CD JJ NNS : 90
+NP : RB JJ : 88
+NP : DT JJR NN : 86
+NP : JJ NNP : 85
+NP : DT NNP NNS : 85
+NP : DT JJ NN S : 85
+NP : POS : 83
+NP : DT JJ NN NNS : 82
+NP : DT NNS NN : 80
+NP : VBN : 79
+NP : FW : 79
+NP : NP , ADJP : 78
+NP : NP JJ NN : 76
+NP : RB DT NNS : 75
+NP : PRP$ NN NN : 75
+NP : NP VP . : 75
+NP : CD NN NN : 75
+NP : NP : 74
+NP : DT NN . : 74
+NP : NN CC NN NNS : 72
+NP : NNP NNP . : 71
+NP : DT VBG CD NNS : 71
+NP : NP X : 70
+NP : NP PP PP . : 70
+NP : DT VBN NNS : 70
+NP : NP NN NN : 68
+NP : CD RB . NNP : 67
+NP : JJ NN NN NN : 66
+NP : DT NNP POS : 66
+NP : NN S : 65
+NP : NP , NP . : 64
+NP : NNP NNPS : 64
+NP : NNP NN NN : 63
+NP : NNP . NNP : 61
+NP : JJS : 60
+NP : CD JJ NN : 60
+NP : $ CD : 60
+NP : `` JJ '' NN : 59
+NP : DT JJ NN . : 59
+NP : NNP CD , CD : 58
+NP : DT VBN NN NN : 58
+NP : DT JJ CD NNS : 58
+NP : NP NX : 56
+NP : RB PRP : 55
+NP : NP NNS : 55
+NP : DT `` NN '' : 55
+NP : DT NNP NNP NNP : 55
+NP : DT JJS NN : 55
+NP : `` NP '' PP : 54
+NP : NP PP : 54
+NP : DT `` JJ '' NN : 54
+NP : RB DT JJ NN : 53
+NP : NN NN NN NN : 52
+NP : NP RRC : 51
+NP : JJ NN NN NNS : 50
+NP : DT JJ NN NN NN : 50
+NP : NP PP PP : 49
+NP : NP . NP : 48
+NP : NP , RB NP : 48
+NP : NN JJ NN : 48
+NP : CD NNP NNP NN : 48
+NP : NP CONJP NP : 47
+NP : NP . : 47
+NP : RB CD : 46
+NP : NP PRN . : 46
+NP : NNP NNP . NNP : 46
+NP : NN CC NN NN : 46
+NP : RB JJ NN : 45
+NP : NP . NP , : 45
+NP : NNP NN NNS : 45
+NP : DT RB : 45
+NP : JJ JJ NN NNS : 44
+NP : DT NN CC NN NN : 44
+NP : DT JJ NNP : 44
+NP : NP PP '' : 43
+NP : NP , NP , CC NP : 43
+NP : NN `` NN '' : 43
+NP : DT NX : 43
+NP : `` NNS '' : 42
+NP : NP , NP , NP : 42
+NP : DT VBG : 42
+NP : DT CD NN : 42
+NP : DT CD : 41
+NP : NN JJ : 40
+NP : NN CD CD CD NNP NNP NNP : 40
+NP : JJ NN S : 40
+NP : NP : 39
+NP : NN DT : 39
+NP : DT NNP CC NNP : 39
+NP : PRN : 38
+NP : NP , : 38
+NP : JJ NNP NNS : 38
+NP : NP : 37
+NP : NP '' SBAR : 37
+NP : NP VP : 36
+NP : NP : 36
+NP : JJ CD : 36
+NP : DT `` JJ NN '' : 36
+NP : DT NNP NNP NN : 36
+NP : DT NNP . NNP : 36
+NP : NNS S : 35
+NP : NNP -LRB- NN -RRB- : 35
+NP : DT JJR NNS : 35
+NP : PRP POS : 34
+NP : NP : 34
+NP : NNS NN : 34
+NP : NNP NNP POS : 34
+NP : NNP NNP NN NN : 34
+NP : ADJP JJ NN : 34
+NP : PDT DT : 33
+NP : NP PP , PP : 33
+NP : NN CC NNS : 33
+NP : CD CD NN : 33
+NP : RB RB : 32
+NP : NP UCP : 32
+NP : NP . : 32
+NP : NNP NNP NNPS : 32
+NP : NNP NNP NN : 32
+NP : NNP NNP NN : 32
+NP : DT VBN : 32
+NP : DT JJS : 32
+NP : DT JJ JJ : 32
+NP : `` JJ '' NNS : 31
+NP : RB JJ NNS : 31
+NP : PRN NNS : 31
+NP : NP PP ADVP : 31
+NP : NP : 31
+NP : NP -LRB- NP : 31
+NP : DT JJ NN NNP NNP : 31
+NP : DT JJ JJ NN NN : 31
+NP : RB CD NN : 30
+NP : NP S : 30
+NP : NP ADVP SBAR : 30
+NP : NP '' VP : 30
+NP : NN NN NN NNS : 30
+NP : JJ NN CC NN : 30
+NP : NP PP S : 29
+NP : DT NNP . NNP NN : 29
+NP : JJS NNS : 28
+NP : JJ NN POS : 28
+NP : JJ JJ NN NN : 28
+NP : FW . : 28
+NP : DT `` NN '' NN : 28
+NP : DT ADJP NN NN : 28
+NP : NP : 27
+NP : NP '' : 27
+NP : NNS CC NN : 27
+NP : NNP NNP CD : 27
+NP : NNP JJ NN : 27
+NP : PDT DT JJ NNS : 26
+NP : NP SBAR SBAR : 26
+NP : NP NNP : 26
+NP : NP ADJP . : 26
+NP : NP : 26
+NP : NP , VP , : 26
+NP : NP , NP CC NP : 26
+NP : NNS NNS : 26
+NP : NNP NNP NNS : 26
+NP : DT `` NN NN '' : 26
+NP : DT JJR : 26
+NP : DT ADJP : 26
+NP : CD JJR NN : 26
+NP : CD CC CD : 26
+NP : CC NP CC NP : 26
+NP : CC NN : 26
+NP : `` NP '' VP : 25
+NP : `` NP '' SBAR : 25
+NP : PRP$ NN NNS : 25
+NP : PRP$ JJ NNS : 25
+NP : NP `` NP '' : 25
+NP : NP PRN SBAR : 25
+NP : JJ DT NN : 25
+NP : DT JJ NN POS : 25
+NP : -LRB- NN -RRB- : 25
+NP : WP : 24
+NP : SQ VP : 24
+NP : NP -LRB- NP , : 24
+NP : NNP CD , CD : 24
+NP : -LRB- NNP -RRB- : 24
+NP : NP PP PRN : 23
+NP : NP : 23
+NP : NN NN `` NNP '' : 23
+NP : DT NP : 23
+NP : DT NN NN POS : 23
+NP : DT NN NN NNS : 23
+NP : `` NP '' CC `` NP : 22
+NP : RB NNS : 22
+NP : PRP$ JJ : 22
+NP : NP : 22
+NP : NP -LRB- PP : 22
+NP : NN NNP NNP : 22
+NP : JJ JJ JJ NNS : 22
+NP : IN DT NN : 22
+NP : DT X : 22
+NP : DT NN CC NN NNS : 22
+NP : DT JJ NNP NN NN : 22
+NP : CD NN NNS : 22
+NP : NP , CONJP NP : 21
+NP : JJ CC JJ NNS : 21
+NP : DT VBN JJ NN : 21
+NP : ADJP NN NNS : 21
+NP : `` NN NN '' : 20
+NP : NP CC NP , : 20
+NP : NP : 20
+NP : NP , ADVP NP : 20
+NP : NNP NNP NNP NNPS : 20
+NP : NN NN CD : 20
+NP : JJR NN NNS : 20
+NP : JJ NNP NN : 20
+NP : JJ JJ JJ NN : 20
+NP : DT NNP . NN : 20
+NP : DT JJ NN -RRB- : 20
+NP : DT CD NN NN : 20
+NP : ADJP NN NN : 20
+NP : -LRB- NP PP : 20
+NP : $ QP : 20
+NP : `` NN '' CC `` NN '' : 19
+NP : NP PP , : 19
+NP : NP CC NP . : 19
+NP : NP , SBAR , : 19
+NP : NNS POS : 19
+NP : NNP , NNP NNPS : 19
+NP : NNP , : 19
+NP : NNP '' : 19
+NP : JJ `` NNS '' : 19
+NP : JJ PRN NN : 19
+NP : DT JJ NN CC NN : 19
+NP : CD NNP NN : 19
+NP : CC : 19
+NP : ADVP DT JJ NN NN : 19
+NP : NP PP S . : 18
+NP : NN NN CC NN : 18
+NP : IN DT : 18
+NP : DT `` NP '' NN : 18
+NP : DT VBG NN NN : 18
+NP : DT JJ ADJP NN : 18
+NP : CD RB : 18
+NP : WRB : 17
+NP : QP JJ NNS : 17
+NP : NP X : 17
+NP : NP CC SBAR : 17
+NP : NP -LRB- NP -RRB- : 17
+NP : NP , NP , NP , CC NP : 17
+NP : NNP NNP NNP . : 17
+NP : NN NNP CD : 17
+NP : NN , NN , NN : 17
+NP : JJ CD NNS : 17
+NP : DT `` S '' NN : 17
+NP : CD NNP CD : 17
+NP : CD CC : 17
+NP : ADJP : 17
+NP : `` NN '' NNS : 16
+NP : VBN NN NNS : 16
+NP : QP NN NN : 16
+NP : PDT NP CC NP : 16
+NP : NP PP VP : 16
+NP : NP -LRB- NP ADVP : 16
+NP : NP , RRC : 16
+NP : NNP , NNP CC NNP : 16
+NP : NN NNS CC NNS : 16
+NP : JJ NNP NNP NNP : 16
+NP : JJ NN -RRB- NN : 16
+NP : DT NNS CC NNS : 16
+NP : DT JJ NNS NN : 16
+NP : DT JJ , JJ NN : 16
+NP : CD NNP NNS : 16
+NP : `` NN : 15
+NP : `` JJ NN '' : 15
+NP : TO : 15
+NP : PRN JJ NN : 15
+NP : NP PRN -RRB- : 15
+NP : NP PP . '' : 15
+NP : NP NN S : 15
+NP : NP NN NNS : 15
+NP : NP '' PP : 15
+NP : NNP NN NNP : 15
+NP : NNP DT NNP : 15
+NP : NN , NN CC NN : 15
+NP : NN , NN , CC NN : 15
+NP : JJ NN -RRB- NNS : 15
+NP : JJ DT : 15
+NP : JJ CC JJ NN : 15
+NP : DT NN SBAR . : 15
+NP : DT JJ VBG NN : 15
+NP : DT JJ CC JJ NNS : 15
+NP : DT ADJP NNS : 15
+NP : CD JJ CD : 15
+NP : CC NNP CC NNP : 15
+NP : `` NP '' PRN : 14
+NP : VBN NN NN : 14
+NP : RB NN NNS : 14
+NP : PRP$ NP : 14
+NP : PRP$ JJ NN NN : 14
+NP : PRN JJ NNS : 14
+NP : NP VBN NNS : 14
+NP : NP PP , SBAR : 14
+NP : NP NNP . NNP : 14
+NP : NP JJ NNS : 14
+NP : NNPS CC NNPS : 14
+NP : NNP NNP NNP NNP NNP NNP : 14
+NP : JJ NNS CC NNS : 14
+NP : JJ NN PRN : 14
+NP : JJ , JJ NN : 14
+NP : DT NN NNS NN : 14
+NP : DT NN JJ : 14
+NP : DT JJ `` NN '' : 14
+NP : CD NNS QP : 14
+NP : CD JJ NNS : 14
+NP : -LRB- QP -RRB- : 14
+NP : -LRB- NP -RRB- FW NP : 14
+NP : RB CD NNS : 13
+NP : NP : 13
+NP : NP , NP , NP , NP : 13
+NP : NNP PRN NNP : 13
+NP : NNP , NNP , NNP CC NNP : 13
+NP : JJ PRN NNS : 13
+NP : FRAG : 13
+NP : DT NNP NNP . NNP : 13
+NP : DT NN NN CC NN : 13
+NP : DT NN '' : 13
+NP : DT JJ NX : 13
+NP : DT JJ NNS -RRB- : 13
+NP : DT JJ NNP NNP : 13
+NP : DT JJ NNP . NN : 13
+NP : DT JJ CD : 13
+NP : CD NN NN NN : 13
+NP : `` NNP : 12
+NP : VBN JJ NN : 12
+NP : VBG NN NNS : 12
+NP : RB DT NN NN : 12
+NP : PRP$ NN S : 12
+NP : PRP$ JJ NN POS : 12
+NP : NP `` NP : 12
+NP : NP WHPP : 12
+NP : NP VBG NN : 12
+NP : NP PP , VP : 12
+NP : NP ADJP SBAR : 12
+NP : NP : 12
+NP : NP . NP . : 12
+NP : NP -LRB- NP : 12
+NP : NP , PP , : 12
+NP : NP , ADVP SBAR : 12
+NP : NNP QP : 12
+NP : NNP , NNP NNP : 12
+NP : JJS NN : 12
+NP : JJ NNS S : 12
+NP : JJ NNS NN : 12
+NP : JJ NNP NNP : 12
+NP : JJ NN NNS -RRB- : 12
+NP : DT NNP NNS NN : 12
+NP : DT NN `` NN '' : 12
+NP : DT JJ PRN NN : 12
+NP : DT JJ NN -RRB- NN : 12
+NP : ADJP PRN NNS : 12
+NP : ADJP NNP : 12
+NP :  : 12
+NP : -LRB- NNP . NNP NNP -RRB- : 12
+NP : `` NP : 11
+NP : `` NNP '' NNP : 11
+NP : VB NN : 11
+NP : RB VBN NNS : 11
+NP : RB NNP : 11
+NP : RB DT JJ : 11
+NP : NNS CC NN NNS : 11
+NP : NNP NN NN NNS : 11
+NP : NNP JJ NNS : 11
+NP : NNP . NNS : 11
+NP : NNP '' NNP : 11
+NP : NN QP : 11
+NP : NN NN NNP NNP : 11
+NP : NN . : 11
+NP : JJS NNP NN : 11
+NP : JJR PRN : 11
+NP : JJR NN NN : 11
+NP : JJ NNS '' : 11
+NP : JJ NNP NNP NN : 11
+NP : JJ NN CC NN NNS : 11
+NP : DT NNP NNPS : 11
+NP : DT NNP NNP NNP NNP : 11
+NP : DT NNP NNP NNP NN : 11
+NP : DT NNP NNP -RRB- NN : 11
+NP : DT NNP NN NNS : 11
+NP : DT NNP JJ NN : 11
+NP : DT NNP CD NN : 11
+NP : DT JJS JJ NN : 11
+NP : DT JJ NNP NNS : 11
+NP : CD POS : 11
+NP : CD NNP NNP NNS : 11
+NP : ADJP NP : 11
+NP : ADJP NNPS : 11
+NP : -LRB- NP : 11
+NP : -LRB- NNP . NNP : 11
+NP : SBAR : 10
+NP : NP PRN : 10
+NP : NP NN NN NN : 10
+NP : NP JJ NN NN : 10
+NP : NP : 10
+NP : NP . NP -RRB- : 10
+NP : NP , FRAG : 10
+NP : NNP NNP FW NNP : 10
+NP : NNP NNP CC NNP : 10
+NP : NNP NNP , NNP : 10
+NP : NNP FW NNP : 10
+NP : NNP . NN : 10
+NP : NN JJ NNS : 10
+NP : JJ `` JJ '' NNS : 10
+NP : JJ NX : 10
+NP : JJ NN NNS '' : 10
+NP : JJ ADJP NNS : 10
+NP : JJ -LRB- NN -RRB- : 10
+NP : DT NNPS NNP . : 10
+NP : DT NNP NNP . : 10
+NP : DT NNP NN NN NN : 10
+NP : DT NN JJ NN : 10
+NP : DT JJ VBN NN : 10
+NP : DT JJ NNP -RRB- NN : 10
+NP : DT JJ DT : 10
+NP : DT ADJP JJ NN : 10
+NP : CD TO CD : 10
+NP : CD JJ NN NN : 10
+NP : ADJP JJ NNS : 10
+NP :  : 10
+NP : VBG NN NN : 9
+NP : VB NNS : 9
+NP : RB NN CC NN : 9
+NP : RB DT JJ NNS : 9
+NP : PRP$ VBN NN : 9
+NP : PRP$ NNP NN : 9
+NP : PDT DT JJ NN : 9
+NP : NP PRN , : 9
+NP : NP -LRB- VP : 9
+NP : NP , NP , S : 9
+NP : NNP NNP NNP NNP NNP NNP NNP : 9
+NP : NNP NNP NNP -RRB- : 9
+NP : NNP NNP -RRB- NN : 9
+NP : JJR NN : 9
+NP : JJ NN NNP . NNP : 9
+NP : JJ NN CC JJ NNS : 9
+NP : INTJ NP : 9
+NP : DT NNP NN -RRB- : 9
+NP : DT NN NN NN NN : 9
+NP : DT NN : 9
+NP : DT JJ NNP NNP NN : 9
+NP : DT DT JJ NN : 9
+NP : DT CD JJ NNS : 9
+NP : ADJP JJ : 9
+NP : ADJP DT NN : 9
+NP : VBG JJ NNS : 8
+NP : QP JJ : 8
+NP : PDT DT NN NNS : 8
+NP : NP VP PRN : 8
+NP : NP PRN VP : 8
+NP : NP PP X : 8
+NP : NP PP NP , : 8
+NP : NP PP ADVP . : 8
+NP : NP NP , ADVP : 8
+NP : NP CC S : 8
+NP : NP : 8
+NP : NP -LRB- VP , : 8
+NP : NP , NP : 8
+NP : NP , NP , NP , NP , NP : 8
+NP : NNS CD : 8
+NP : NNP `` NNP '' NNP : 8
+NP : NNP PRP : 8
+NP : NNP NNP NNP NNP : 8
+NP : NNP NNP NNP NNP . : 8
+NP : NNP NNP NNP NNP -RRB- : 8
+NP : NNP NNP CD NNP NNP CD : 8
+NP : NNP NN NN NN : 8
+NP : NN NNP -RRB- NNP : 8
+NP : JJ PRN JJ PRN NNS : 8
+NP : JJ NN VBG : 8
+NP : JJ DT JJ NN : 8
+NP : DT NN NN NN POS : 8
+NP : DT NN CC NN NN NN : 8
+NP : DT JJS NN NN : 8
+NP : DT DT NN : 8
+NP : CD JJ NNP NNP NN : 8
+NP : CD JJ JJ NN : 8
+NP :  : 8
+NP : `` RB NNS '' : 7
+NP : `` JJ NNS '' : 7
+NP : `` JJ NNS : 7
+NP : WDT NN : 7
+NP : VBP NN : 7
+NP : UCP NN : 7
+NP : RB DT ADJP NN : 7
+NP : QP NNP CD : 7
+NP : QP JJ NN : 7
+NP : NP SBAR PP : 7
+NP : NP ADJP NN : 7
+NP : NP : 7
+NP : NP -LRB- PP PRN NP , : 7
+NP : NP -LRB- NP PRN -RRB- : 7
+NP : NP , S : 7
+NP : NP , NP , ADVP : 7
+NP : NNP `` NN '' : 7
+NP : NNP NNP PRN NNP : 7
+NP : NNP NNP NNPS NNP : 7
+NP : NNP CD CC CD : 7
+NP : NNP CC NNP NNS : 7
+NP : NNP , NNP , NNP , NNP NNP NNP : 7
+NP : NNP , NNP , NNP : 7
+NP : NN NN NNS : 7
+NP : NN CD NN NN : 7
+NP : NN '' NN : 7
+NP : LST VBN NN : 7
+NP : JJR NN S : 7
+NP : JJ VBG NN : 7
+NP : JJ NNP NN NNS : 7
+NP : JJ CC JJ : 7
+NP : JJ , JJ NNS : 7
+NP : JJ , JJ NN NN : 7
+NP : IN NN : 7
+NP : DT RB JJ NN : 7
+NP : DT PRN NN : 7
+NP : DT NP NN : 7
+NP : DT NP CC NP : 7
+NP : DT NN QP : 7
+NP : DT JJ NNP NN NNS : 7
+NP : DT JJ NN NN NN NN : 7
+NP : DT JJ CC JJ NN : 7
+NP : DT DT : 7
+NP : CD NNP NN NN : 7
+NP : CD : 7
+NP : CC NP : 7
+NP : -LRB- NNP FW NNP NNP : 7
+NP : `` NP '' NNS : 6
+NP : VB IN : 6
+NP : UCP NNS : 6
+NP : RB NN NN : 6
+NP : RB DT JJ NN NN : 6
+NP : RB DT JJ JJ NN : 6
+NP : RB CC DT JJ NN : 6
+NP : PRP DT : 6
+NP : PRN NN : 6
+NP : PDT PRP$ NNS : 6
+NP : NP VP : 6
+NP : NP TO NP : 6
+NP : NP SBAR PRN : 6
+NP : NP RRC , : 6
+NP : NP PRN PP : 6
+NP : NP PP PP -RRB- : 6
+NP : NP NNP NNP : 6
+NP : NP NNP NN : 6
+NP : NP JJ '' NN : 6
+NP : NP JJ : 6
+NP : NP CC RB NP : 6
+NP : NP : 6
+NP : NP -RRB- SBAR , : 6
+NP : NP , `` NP '' : 6
+NP : NNPS NNP CC NNP : 6
+NP : NNPS : 6
+NP : NNP NNP NNP . NN : 6
+NP : NNP NNP CC NNP NNP : 6
+NP : NNP NN NNP NNP : 6
+NP : NNP CC NP : 6
+NP : NNP , JJ NNP : 6
+NP : NN VBG NN : 6
+NP : NN VBG : 6
+NP : NN NNS NN : 6
+NP : NN NNP . NNP : 6
+NP : NN NN NNS -RRB- : 6
+NP : NN NN CC NN NN : 6
+NP : NN CD NN : 6
+NP : NN CC JJ NN : 6
+NP : JJR JJ NN : 6
+NP : JJ `` NN '' NNS : 6
+NP : JJ VBG NNS : 6
+NP : JJ RB : 6
+NP : JJ NNS NNS : 6
+NP : JJ NN NN S : 6
+NP : JJ NN NN NN NN : 6
+NP : JJ NN CC JJ NN : 6
+NP : JJ JJ NN -RRB- : 6
+NP : JJ CD NN : 6
+NP : JJ CD CD : 6
+NP : INTJ : 6
+NP : IN NP : 6
+NP : FW FW : 6
+NP : DT `` JJ '' NNS : 6
+NP : DT VBN NNP NN : 6
+NP : DT VBG NN NNS : 6
+NP : DT NNS S : 6
+NP : DT NNS NN NN : 6
+NP : DT NNP NNP NNP NNP NNP : 6
+NP : DT NNP NNP NNP . : 6
+NP : DT NNP JJ NNS : 6
+NP : DT NNP CC NNP NNS : 6
+NP : DT NN VBG NN : 6
+NP : DT NN NNS -RRB- : 6
+NP : DT NN NN . '' : 6
+NP : DT NN NN -RRB- NN : 6
+NP : DT NN CD : 6
+NP : DT JJ NNS POS : 6
+NP : DT JJ NNS CC NN : 6
+NP : DT JJ NN RB : 6
+NP : DT JJ JJ NN NNS : 6
+NP : DT JJ JJ NN NN NN : 6
+NP : DT JJ JJ JJ NN : 6
+NP : DT JJ -LRB- NN -RRB- : 6
+NP : DT JJ '' NN : 6
+NP : CD RB NNP : 6
+NP : CD JJ JJ NNS : 6
+NP : CD , CD , CC CD : 6
+NP : ADVP DT : 6
+NP : -LRB- NN NN NNS -RRB- : 6
+NP : -LRB- JJ CD NN : 6
+NP : `` NP PP '' : 5
+NP : `` DT : 5
+NP : WP NN : 5
+NP : VP PP : 5
+NP : VBN NN S : 5
+NP : VBG JJ NN : 5
+NP : VB POS : 5
+NP : RB NP ADVP : 5
+NP : RB NN RB : 5
+NP : RB NN NN NN : 5
+NP : RB DT NN . : 5
+NP : RB DT JJ NN . : 5
+NP : QP NNP : 5
+NP : QP DT NN : 5
+NP : PRP$ NNP NNS : 5
+NP : PRP$ JJ JJ NN : 5
+NP : PRP NN : 5
+NP : PP PP : 5
+NP : NP `` NNP '' : 5
+NP : NP SBAR : 5
+NP : NP QP . : 5
+NP : NP PRN PP . : 5
+NP : NP PRN CC NP : 5
+NP : NP NP : 5
+NP : NP NNS NN : 5
+NP : NP NN SBAR : 5
+NP : NP CC NP -RRB- : 5
+NP : NP ADVP PP : 5
+NP : NP : 5
+NP : NP : 5
+NP : NP : 5
+NP : NP : 5
+NP : NP -LRB- PP PP : 5
+NP : NP -LRB- PP , : 5
+NP : NP , RB NP . : 5
+NP : NP , NP , FW : 5
+NP : NP , CC NP , : 5
+NP : NP '' NN NN : 5
+NP : NP '' CC NP : 5
+NP : NNS SBAR : 5
+NP : NNS NN NN : 5
+NP : NNP NX : 5
+NP : NNP NNP NNP NNP NNP NNP NNP NNP : 5
+NP : NNP NNP NNP NNP NNP NNP NNP : 5
+NP : NNP NNP NN NNS : 5
+NP : NNP NNP '' NNP : 5
+NP : NNP NN CD : 5
+NP : NNP NN CC NN : 5
+NP : NNP CD NNS : 5
+NP : NNP CD NNP NNP : 5
+NP : NNP , NNP , NNP , NNP : 5
+NP : NNP , NNP , CC NNP : 5
+NP : NN SBAR : 5
+NP : NN NNP NNP NNP : 5
+NP : NN NNP NNP -RRB- : 5
+NP : NN NN POS : 5
+NP : NN NN '' : 5
+NP : NN , RB NN : 5
+NP : NN , NN NN : 5
+NP : JJ VBN NNS : 5
+NP : JJ VBN NN NN : 5
+NP : JJ VBN NN : 5
+NP : JJ VBG : 5
+NP : JJ NN NNS : 5
+NP : JJ NN CC NN NN : 5
+NP : JJ NN : 5
+NP : JJ JJ NNP NNS : 5
+NP : FW FW NN : 5
+NP : DT `` NN '' NN NN : 5
+NP : DT `` ADJP '' NN : 5
+NP : DT VBN NN NN NN : 5
+NP : DT RBS JJ NN : 5
+NP : DT RB VBN NN : 5
+NP : DT PRP : 5
+NP : DT NNS RB : 5
+NP : DT NNP NNP NNP NNS : 5
+NP : DT NNP NNP , : 5
+NP : DT NNP NN S : 5
+NP : DT NNP . NNP NNP : 5
+NP : DT NN VBG : 5
+NP : DT NN RB : 5
+NP : DT NN NNS CC NNS : 5
+NP : DT NN : 5
+NP : DT NN : 5
+NP : DT JJ `` NN '' NN : 5
+NP : DT JJ NP : 5
+NP : DT JJ NN NN S : 5
+NP : DT JJ NN NN NNS : 5
+NP : DT JJ NN CC NN NN : 5
+NP : DT ADJP NN NN NN : 5
+NP : DT ADJP JJ NN NN : 5
+NP : CD JJ NN NNS : 5
+NP : CD CD NNS : 5
+NP : ADVP NP : 5
+NP : ADJP VBN NNS : 5
+NP :  : 5
+NP : -LRB- NNP NNP CD : 5
+NP : -LRB- NNP , NNP : 5
+NP : -LRB- NN NNP NNP -RRB- : 5
+NP : -LRB- JJ -RRB- NN : 5
+NP : `` NP . NP '' : 4
+NP : `` NNS , '' : 4
+NP : `` NN NNS -RRB- : 4
+NP : `` JJ '' NN NN : 4
+NP : WHNP S : 4
+NP : VBN NNS NN : 4
+NP : VBG NN S : 4
+NP : VBG NN NN VBG : 4
+NP : UCP NN NN : 4
+NP : RB RB DT JJ NN : 4
+NP : RB NNS CC NNS : 4
+NP : RB JJ NNS '' : 4
+NP : QP NP : 4
+NP : QP NN NNS : 4
+NP : PRP$ VBN : 4
+NP : PRP$ PRN NNS : 4
+NP : PRP$ NX : 4
+NP : PRP$ NNP . NN : 4
+NP : PRP$ NN NN POS : 4
+NP : PRP$ JJS : 4
+NP : NP PRN PRN : 4
+NP : NP PRN : 4
+NP : NP PRN : 4
+NP : NP PRN , NP : 4
+NP : NP PRN , CC NP : 4
+NP : NP PP SBAR : 4
+NP : NP PP PP : 4
+NP : NP PP . NP -RRB- : 4
+NP : NP PP , FW : 4
+NP : NP PP , ADJP : 4
+NP : NP POS : 4
+NP : NP NN CC NN : 4
+NP : NP JJ NAC NN : 4
+NP : NP CC RB : 4
+NP : NP CC NP . '' : 4
+NP : NP CC ADVP NP : 4
+NP : NP : 4
+NP : NP . NP , SBAR : 4
+NP : NP . NP , ADVP : 4
+NP : NP -RRB- SBAR : 4
+NP : NP -LRB- SBAR , : 4
+NP : NP -LRB- PP ADVP : 4
+NP : NP , PRN : 4
+NP : NP , ADVP , : 4
+NP : NP , ADJP -RRB- : 4
+NP : NP , ADJP , : 4
+NP : NNP SYM NNP NNPS NNP : 4
+NP : NNP NNP NNP NNP NNP . : 4
+NP : NNP NNP NNP NNP NNP -RRB- : 4
+NP : NNP NNP NNP NNP . NNP : 4
+NP : NNP NNP NNP : 4
+NP : NNP NNP NN NNP NNP : 4
+NP : NNP NNP ADJP JJ JJ NN NNS : 4
+NP : NNP JJ CD CD NNP CD NN : 4
+NP : NNP JJ : 4
+NP : NNP CC NNP NN : 4
+NP : NNP CC NNP . : 4
+NP : NNP . NNPS NNP : 4
+NP : NNP . NNP NNP -RRB- : 4
+NP : NNP , NNP , : 4
+NP : NN TO NN : 4
+NP : NN PRN S : 4
+NP : NN NNP JJ NN : 4
+NP : NN NN NN NN NN : 4
+NP : NN JJR : 4
+NP : NN CD NNP : 4
+NP : NN , NN CC NN NN : 4
+NP : JJS JJ NN : 4
+NP : JJR NNS S : 4
+NP : JJ POS : 4
+NP : JJ NP : 4
+NP : JJ NNP NNP NNP NNP NNP : 4
+NP : JJ NNP NNP NNP NNP : 4
+NP : JJ NNP NNP NNP NN : 4
+NP : JJ NNP JJ NN : 4
+NP : JJ NN CC NNS : 4
+NP : JJ JJ `` JJ '' NNS : 4
+NP : JJ JJ JJ NN NNS : 4
+NP : JJ JJ -RRB- NNS : 4
+NP : JJ JJ '' NN : 4
+NP : JJ JJ : 4
+NP : JJ -LRB- JJ NNS JJ : 4
+NP : JJ -LRB- JJ -LRB- NNS -RRB- : 4
+NP : JJ , NN , NN , NN : 4
+NP : FW FW NNS : 4
+NP : FW FW FW : 4
+NP : DT `` JJ '' NN NN : 4
+NP : DT VBG NNP NNS : 4
+NP : DT UCP NN : 4
+NP : DT S : 4
+NP : DT QP : 4
+NP : DT NNS POS : 4
+NP : DT NNP PRN NN : 4
+NP : DT NNP NNP POS : 4
+NP : DT NNP NN POS : 4
+NP : DT NNP . NN NN : 4
+NP : DT NN NNP NN : 4
+NP : DT NN NN NNS -RRB- : 4
+NP : DT NN NN CC NN NN : 4
+NP : DT NN NN '' : 4
+NP : DT NN IN : 4
+NP : DT JJ `` JJ '' NN : 4
+NP : DT JJ VBG NNS : 4
+NP : DT JJ NN NN POS : 4
+NP : DT JJ NN NN CC NN NN : 4
+NP : DT ADJP NNP : 4
+NP : DT ADJP NN S : 4
+NP : DT ADJP NN NNS : 4
+NP : CD NNS , : 4
+NP : CD JJ NN CD : 4
+NP : CD JJ JJ JJ NN CD : 4
+NP : CD DT : 4
+NP : CD CC DT : 4
+NP : CD -LRB- NN -RRB- : 4
+NP : ADVP DT NN : 4
+NP : ADJP NNP NNS : 4
+NP : -LRB- NNS -RRB- : 4
+NP : -LRB- NNP NNP . : 4
+NP : -LRB- NNP -RRB- NNP : 4
+NP : -LRB- NN '' NNS : 4
+NP : $ CD CD : 4
+NP : `` NP CC NP '' : 3
+NP : `` NP : 3
+NP : `` NAC '' NN : 3
+NP : `` JJ NN : 3
+NP : VP : 3
+NP : VBZ NP : 3
+NP : VBP : 3
+NP : VBN JJ NNS : 3
+NP : VB DT : 3
+NP : S PRN : 3
+NP : RB RB JJ : 3
+NP : RB DT NNP NN : 3
+NP : RB DT NNP : 3
+NP : RB DT JJ NN NN NN : 3
+NP : RB CC CD : 3
+NP : QP CC : 3
+NP : PRP$ VBN NN NN : 3
+NP : PRP$ NNS POS : 3
+NP : PRP$ NNS NN : 3
+NP : PRP$ JJ NNP : 3
+NP : PRP$ JJ NN NNS : 3
+NP : PRP NNS : 3
+NP : PRN NNP NNP : 3
+NP : PP : 3
+NP : PDT PRP$ NN : 3
+NP : PDT DT JJ JJ NNS : 3
+NP : NP X SBAR : 3
+NP : NP VP SBAR : 3
+NP : NP VP . '' : 3
+NP : NP S PRN : 3
+NP : NP PRN NP '' : 3
+NP : NP PRN ADJP : 3
+NP : NP PRN : 3
+NP : NP PP POS : 3
+NP : NP PP NP -RRB- : 3
+NP : NP PP ADJP : 3
+NP : NP PP : 3
+NP : NP PP . NP , : 3
+NP : NP PP '' NP '' : 3
+NP : NP NP PP . : 3
+NP : NP NP NNP : 3
+NP : NP NN CC NN NNS : 3
+NP : NP CC PRN NP : 3
+NP : NP CC NP NX : 3
+NP : NP ADJP PP : 3
+NP : NP : 3
+NP : NP : 3
+NP : NP : 3
+NP : NP : 3
+NP : NP -RRB- NN : 3
+NP : NP -LRB- PP : 3
+NP : NP -LRB- NP PRN : 3
+NP : NP -LRB- NP '' : 3
+NP : NP , VP , SBAR : 3
+NP : NP , SBAR . : 3
+NP : NP , RB RB NP : 3
+NP : NP , NP , CC `` NP '' : 3
+NP : NP , CC NP -RRB- : 3
+NP : NP , ADVP NP '' : 3
+NP : NP , '' NP : 3
+NP : NNS CD CC CD : 3
+NP : NNS , NNS CC NNS : 3
+NP : NNP NNS , : 3
+NP : NNP NNPS NNP : 3
+NP : NNP NNP NNP POS : 3
+NP : NNP NNP NNP NNS : 3
+NP : NNP NNP NNP NNP NN : 3
+NP : NNP NNP NNP NN : 3
+NP : NNP NNP NNP CD : 3
+NP : NNP NNP NNP . NNP : 3
+NP : NNP NNP : 3
+NP : NNP NNP -RRB- NNP NNP : 3
+NP : NNP NNP , NNP , NNP , : 3
+NP : NNP DT : 3
+NP : NNP CD NN : 3
+NP : NNP CC NNP NNP : 3
+NP : NNP . NNP NNP NNP -RRB- : 3
+NP : NNP . -RRB- NNP : 3
+NP : NNP -LRB- NNP -RRB- : 3
+NP : NNP , NNP , NNP , NNP , NNP : 3
+NP : NNP , JJ NNP NNP : 3
+NP : NN `` NNP '' : 3
+NP : NN VBG NNS : 3
+NP : NN NNS NNS : 3
+NP : NN NNP CC NNP : 3
+NP : NN NNP : 3
+NP : NN NN NNP NNP NNP : 3
+NP : NN NN CC NN NNS : 3
+NP : NN NN -RRB- NNS : 3
+NP : NN NN '' NNP NNP NNP '' : 3
+NP : NN CC NN NN NNS : 3
+NP : NN , NN CC NN NNS : 3
+NP : NAC NNP NNP : 3
+NP : JJR NX : 3
+NP : JJR CC JJ NNS : 3
+NP : JJ `` JJ : 3
+NP : JJ NNS CC NN NNS : 3
+NP : JJ NNS CC NN : 3
+NP : JJ NNP NN NNS -RRB- : 3
+NP : JJ NN `` NN '' : 3
+NP : JJ NN NNP NNP NNP : 3
+NP : JJ NN NN NN NN NN NNS : 3
+NP : JJ NN CD : 3
+NP : JJ NN . '' : 3
+NP : JJ NN '' : 3
+NP : JJ JJ NNS JJ : 3
+NP : JJ JJ NNS -RRB- : 3
+NP : JJ JJ NN NNP NNP : 3
+NP : JJ JJ NN NNP : 3
+NP : JJ JJ '' NN NN NNS '' : 3
+NP : JJ , RB NN : 3
+NP : IN RB : 3
+NP : IN NN NN : 3
+NP : IN CD : 3
+NP : DT `` NNS '' : 3
+NP : DT `` NNP '' : 3
+NP : DT `` NN : 3
+NP : DT VBN VBN NN : 3
+NP : DT VBN NN POS : 3
+NP : DT VBN CD : 3
+NP : DT VBG NN POS : 3
+NP : DT S NN : 3
+NP : DT RRC : 3
+NP : DT RBS JJ : 3
+NP : DT NP NN NN : 3
+NP : DT NNPS NNP -RRB- NN : 3
+NP : DT NNP NNP NNP NNP . NNP : 3
+NP : DT NNP NNP NNP NNP . : 3
+NP : DT NNP NNP NN NN NN : 3
+NP : DT NNP JJ JJ NN NN : 3
+NP : DT NNP CD : 3
+NP : DT NN NN S : 3
+NP : DT NN NN RB : 3
+NP : DT NN NN , : 3
+NP : DT NN JJR : 3
+NP : DT NN , NN NN : 3
+NP : DT NN , NN , CC NN : 3
+NP : DT JJS NNS : 3
+NP : DT JJR NN S : 3
+NP : DT JJR NN NN : 3
+NP : DT JJ VBG : 3
+NP : DT JJ POS : 3
+NP : DT JJ NNS IN : 3
+NP : DT JJ NNP NNP NNP NNP NN : 3
+NP : DT JJ NNP NNP . NN : 3
+NP : DT JJ NN NNS NN : 3
+NP : DT JJ NN NN NN S : 3
+NP : DT JJ NN NN CC NN : 3
+NP : DT JJ NN NN . : 3
+NP : DT JJ NN IN : 3
+NP : DT JJ NN '' NN : 3
+NP : DT JJ JJ NNP NN : 3
+NP : DT JJ JJ ADJP NN RB : 3
+NP : DT JJ CC JJ : 3
+NP : DT JJ $ CD : 3
+NP : DT DT NNS : 3
+NP : DT CD NNP NN : 3
+NP : DT ADJP PRN NN : 3
+NP : DT ADJP NNP NN : 3
+NP : DT -LRB- NN : 3
+NP : CD NNS JJ : 3
+NP : CD NNP NNP NNP NNS : 3
+NP : CD NNP CD NN : 3
+NP : CD NN NN NNS : 3
+NP : CD JJ CD JJ NNS : 3
+NP : CD CD CD NNS : 3
+NP : ADVP NP ADJP : 3
+NP : ADVP NNP : 3
+NP : ADVP CD : 3
+NP : ADVP : 3
+NP : ADJP PRN NN NNS : 3
+NP : -LRB- NP : 3
+NP : -LRB- NNP NNP NNP NNP : 3
+NP : -LRB- NNP NNP NNP -RRB- : 3
+NP : -LRB- NNP IN NNP : 3
+NP : -LRB- NNP . NNP NNP : 3
+NP : -LRB- NN NNP NNP NNP : 3
+NP : -LRB- JJ NN -RRB- : 3
+NP : `` VBN '' NNS : 2
+NP : `` NP : 2
+NP : `` NP , '' `` NP '' : 2
+NP : `` NNP NNP NN NNS : 2
+NP : `` NN : 2
+NP : `` JJ NNS -RRB- : 2
+NP : `` JJ NN -RRB- : 2
+NP : `` JJ CD -LRB- NNP '' NN : 2
+NP : `` JJ -LRB- JJ NNS '' : 2
+NP : `` FW '' NNS : 2
+NP : `` FW '' NN NNS : 2
+NP : `` DT JJ NN : 2
+NP : WDT NNS : 2
+NP : VBP ADJP : 2
+NP : VBN NNP NN : 2
+NP : VBN NN RB : 2
+NP : VBN JJ NN NN : 2
+NP : UCP NN NNS : 2
+NP : UCP JJ NNS : 2
+NP : SBAR , CC SBAR : 2
+NP : RB WDT : 2
+NP : RB RB NN : 2
+NP : RB RB JJ NN NN : 2
+NP : RB RB DT : 2
+NP : RB PRP$ JJ NN NNS : 2
+NP : RB PDT DT NNS : 2
+NP : RB PDT DT JJ NNS : 2
+NP : RB NP , CC NP : 2
+NP : RB NN CC NNS : 2
+NP : RB JJ NN CC NN : 2
+NP : RB JJ -RRB- NNS : 2
+NP : RB DT PRP : 2
+NP : RB DT NNP NNP : 2
+NP : RB DT JJS NN NN : 2
+NP : RB DT JJ NN NNS : 2
+NP : RB DT JJ JJ NN NN : 2
+NP : RB CD JJ NN : 2
+NP : QP QP : 2
+NP : QP NNPS : 2
+NP : QP NNP NN NNS : 2
+NP : QP NN NN NNS : 2
+NP : QP JJ NNP NNP NNP NNP NNP NNP NNPS ADJP NNS : 2
+NP : QP JJ NNP NNP NNP NN NNS : 2
+NP : QP JJ NNP NNP NN NN NNS : 2
+NP : QP JJ NN NNS : 2
+NP : PRP$ NNP NN NN : 2
+NP : PRP$ NNP CC NNP NNS : 2
+NP : PRP$ NNP : 2
+NP : PRP$ NN RB : 2
+NP : PRP$ NN NN NN : 2
+NP : PRP$ NN CC NNS : 2
+NP : PRP$ NN CC NN NNS : 2
+NP : PRP$ JJS NN : 2
+NP : PRP$ JJ NN NN NN : 2
+NP : PRP$ JJ JJ CC JJ NN : 2
+NP : PRP$ CD NN NNS : 2
+NP : PRP$ CD NN : 2
+NP : PRP$ ADJP NN NNP : 2
+NP : PRP POS NN NN : 2
+NP : PRP POS JJ NN : 2
+NP : PRP CC PRP : 2
+NP : PRP : 2
+NP : PRP '' : 2
+NP : PP NP : 2
+NP : PDT JJ ADJP NN NNS : 2
+NP : PDT DT VBN NNS : 2
+NP : PDT DT VBG NNS : 2
+NP : PDT DT NNS SBAR : 2
+NP : PDT DT NNP NNS : 2
+NP : PDT DT NNP CC NNP NNS : 2
+NP : PDT DT NNP CC NNP : 2
+NP : NP `` S '' : 2
+NP : NP `` NP ADVP : 2
+NP : NP `` NP : 2
+NP : NP `` NP -RRB- : 2
+NP : NP `` NP '' PP : 2
+NP : NP VBN NN : 2
+NP : NP SBAR , VP : 2
+NP : NP RB SBAR : 2
+NP : NP QP : 2
+NP : NP PP PRN NP : 2
+NP : NP PP PRN , ADVP : 2
+NP : NP PP PP PP . : 2
+NP : NP PP PP , : 2
+NP : NP PP NP : 2
+NP : NP PP , X : 2
+NP : NP PP , SBAR , : 2
+NP : NP PP , PRN : 2
+NP : NP PP , NP . : 2
+NP : NP PP , CC NP : 2
+NP : NP NP PP : 2
+NP : NP NP , : 2
+NP : NP NNS S : 2
+NP : NP NNP NN NN : 2
+NP : NP NN POS : 2
+NP : NP NN NN NN NNS : 2
+NP : NP NN CC NN S : 2
+NP : NP JJ `` NNP '' : 2
+NP : NP JJ `` NN '' NN : 2
+NP : NP JJ NNS NN : 2
+NP : NP JJ JJ NN : 2
+NP : NP CC NP ADVP : 2
+NP : NP CC NP , PP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP : 2
+NP : NP -LRB- SBAR -RRB- : 2
+NP : NP -LRB- NP , FW : 2
+NP : NP -LRB- CC NP -RRB- : 2
+NP : NP , VP . : 2
+NP : NP , S , PP . : 2
+NP : NP , S '' : 2
+NP : NP , RB NP , : 2
+NP : NP , NP PRN : 2
+NP : NP , NP : 2
+NP : NP , NP , NP CC NP -RRB- : 2
+NP : NP , NP , NP . : 2
+NP : NP , CC RB NP : 2
+NP : NP , CC NP : 2
+NP : NP , CC NP . : 2
+NP : NP , CC ADVP : 2
+NP : NP , ADVP NP : 2
+NP : NP , '' SBAR : 2
+NP : NP '' PRN NP '' : 2
+NP : NP '' PRN -RRB- : 2
+NP : NP '' CC PRN ADJP : 2
+NP : NP '' : 2
+NP : NNS JJ NN : 2
+NP : NNS JJ : 2
+NP : NNS IN NN : 2
+NP : NNS CONJP NNS : 2
+NP : NNS CD CD . : 2
+NP : NNS CC NN NN : 2
+NP : NNS , NNS , NNS CC NNS : 2
+NP : NNP `` NNP '' : 2
+NP : NNP VBG : 2
+NP : NNP RB NNPS : 2

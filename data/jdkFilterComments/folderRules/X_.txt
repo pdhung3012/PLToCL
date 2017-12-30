@@ -1,0 +1,22 @@
+X : SYM : 963
+X : X NP : 635
+X : ADVP NP . : 461
+X : NNP . : 183
+X : NP SBAR : 136
+X : NP NP . : 85
+X : DT : 84
+X : TO : 67
+X : X PP : 59
+X : IN : 55
+X : ADVP NP : 55
+X : X S : 52
+X : NP : 41
+X : DT ADJP : 39
+X : X ADJP : 37
+X : CC S : 31
+X : NP : 28
+X : NP : 26
+X : RB : 23
+X : SBAR , X NP : 21
+X : IN NP : 18
+X : NNP NNP . : 17

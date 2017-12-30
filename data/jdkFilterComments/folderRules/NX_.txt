@@ -1,0 +1,12 @@
+NX : NX CC : 65
+NX : NNP POS : 54
+NX : NN : 29
+NX : NNS : 23
+NX : NP PP : 14
+NX : NX PRN : 12
+NX : NNP : 8
+NX : NX PP : 7
+NX : NNP NNP : 6
+NX : JJ NN : 6
+NX : NX CC NX : 4
+NX : DT NN : 4
