@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -24,6 +25,8 @@ public class GrammarHeuristic {
 
 	private LinkedHashSet<String> setNonTerminal;
 
+	
+	
 	public void getAllRules(Tree node, ArrayList<GrammarRule> lstRules) {
 		if (node != null) {
 			// get the tag element of the node
@@ -66,11 +69,65 @@ public class GrammarHeuristic {
 		Tree tree = lp.apply(rawWords2);
 		return tree;
 	}
+	
+	public void getGrammarFromSetSentence(String fileTrainingGrammar,String fpInput,String folderOutput){
+		//check each line, extract grammar of each line
+		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
+		LexicalizedParser lp = LexicalizedParser.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
+		String[] arrSentences = FileIO.readStringFromFile(fpInput).trim().split("\n");
+		
+		File fOut=new File(folderOutput);
+		if(!fOut.isDirectory()){
+			fOut.mkdir();
+		}
+		
+		String[] arrContentTrainGrammar = FileIO
+				.readStringFromFile(fileTrainingGrammar).trim().split("\n");
+		
+		GrammarHeuristic gh = new GrammarHeuristic();
+		
+
+		HashSet<String> setTrainedGrammar = new HashSet<String>();
+		for (int i = 0; i < arrContentTrainGrammar.length; i++) {
+			String[] arrItem = arrContentTrainGrammar[i].split(":");
+			int numCount=Integer.parseInt(arrItem[2].trim());
+			if(numCount<=50){
+				continue;
+			}
+			String strItem = arrItem[0].trim() + " : " + arrItem[1].trim();
+			//System.out.println("Item: "+strItem);
+			setTrainedGrammar.add(strItem);
+
+		}
+		
+		System.out.println("set grammar: "+setTrainedGrammar.size());
+
+		
+		for (int i = 0; i < arrSentences.length; i++) {
+			StringBuilder sbRule=new StringBuilder();
+			String strContent = arrSentences[i].trim();
+			Tree tree = getTreeFromSentence(strContent, lp, tokenizerFactory);
+			ArrayList<GrammarRule> lstRules = new ArrayList<GrammarRule>();
+			sbRule.append(tree.pennString()+"\n");
+			getAllRules(tree, lstRules);
+			for (int j = 0; j < lstRules.size(); j++) {
+				String strRuleContent = lstRules.get(j).print();
+				sbRule.append(strRuleContent+"\t");
+				if(setTrainedGrammar.contains(strRuleContent)){
+					sbRule.append("true\n");
+				} else{
+					sbRule.append("false\n");
+				}
+			}			
+			FileIO.writeStringToFile(sbRule.toString(), folderOutput+File.separator+(i+1)+".txt");
+		}
+		
+		
+	}
 
 	public LinkedHashMap<String, ArrayList<GrammarRule>> getGrammarsFromSentences(String fpInput) {
 
 		TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
-
 		LexicalizedParser lp = LexicalizedParser.loadModel(PathConstanct.PATH_DEFAULTPARSEMODEL);
 		String[] arrSentences = FileIO.readStringFromFile(fpInput).trim().split("\n");
 

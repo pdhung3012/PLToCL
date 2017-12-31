@@ -51,12 +51,12 @@ public class RunGrammarHeuristic {
 
 	public static void main(String[] args) {
 		GrammarHeuristic gh=new GrammarHeuristic();
-		String folderOut=PathConstanct.PATH_OUTPUTFOLDER+"apacheComments"+File.separator;
+		String folderOut=PathConstanct.PATH_OUTPUTFOLDER+"jdkFilterComments"+File.separator;
 		String fpInput=folderOut+"comment.txt";
 		double threshold=0.5;
 		LinkedHashMap<String, ArrayList<GrammarRule>> lstMapRules=gh.getGrammarsFromSentences(fpInput);
 		gh.saveRuleToFiles(lstMapRules,threshold, folderOut+"setRules.txt", folderOut+"folderRules"+File.separator,folderOut+ "nonTerminals.txt");
-
+		
 
 
 	}
