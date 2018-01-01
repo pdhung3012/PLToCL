@@ -26,6 +26,7 @@ import org.eclipse.jdt.core.dom.TextElement;
 import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 import util.FileIO;
+import util.JavaASTUtil;
 
 public class CodeCommentExtractorVisitor extends ASTVisitor {
 
@@ -35,7 +36,8 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 	private StringBuilder doc = new StringBuilder();
 	private String currentFilePath;
 	HashMap<String, CompilationUnit> cus;
-	private StringBuilder sbCommentContent, sbCommentFile,sbCommentLine;
+	private int lineOfStartClassComment;
+	private StringBuilder sbCommentContent, sbCommentFile, sbCommentLine;
 
 	public CodeCommentExtractorVisitor(String[] arrSource, String jdkPath) {
 		this.arrSource = arrSource;
@@ -78,13 +80,14 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 
 		sbCommentContent = new StringBuilder();
 		sbCommentFile = new StringBuilder();
-		sbCommentLine=new StringBuilder();
+		sbCommentLine = new StringBuilder();
 
 		for (String sourceFilePath : cus.keySet()) {
 			CompilationUnit ast = cus.get(sourceFilePath);
 			source = FileIO.readStringFromFile(sourceFilePath);
 			currentFilePath = sourceFilePath;
-			// ast.accept(this);
+			lineOfStartClassComment = -1;
+			ast.accept(this);
 			for (Comment comment : (List<Comment>) ast.getCommentList()) {
 				comment.accept(this);
 			}
@@ -92,15 +95,24 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 	}
 
 	@Override
-	public boolean visit(MethodDeclaration node) {
+	public boolean visit(TypeDeclaration node) {
 		// System.out.println("Method declaration: "+node.toString());
+		CompilationUnit ast = cus.get(currentFilePath);
+		lineOfStartClassComment = ast.getLineNumber(node.getStartPosition()) - 1;
+	//	System.out.println(lineOfStartClassComment);
+//		Scanner sc=new Scanner(System.in);
+//		sc.next();
+		return false;
+	}
 
+	@Override
+	public boolean visit(MethodDeclaration node) {
+		
 		return false;
 	}
 
 	@Override
 	public boolean visit(MethodInvocation node) {
-		// System.out.println("Method: "+node.toString());
 		return false;
 	}
 
@@ -135,16 +147,19 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 		CompilationUnit ast = cus.get(currentFilePath);
 		int lineNumber = ast.getLineNumber(start) - 1;
 		String comment = source.substring(start, end);
-		//System.out.println(comment + "\t" + lineNumber);
+		String shortComment=comment.replaceFirst("//","").trim();
+		ASTNode astCode=JavaASTUtil.parseSource(shortComment, ASTParser.K_STATEMENTS);
+		boolean isCheckComment =astCode!=null&& astCode.toString().trim().equals("{\n}");
+		if(lineNumber>lineOfStartClassComment && isCheckComment ){
+			
+			// add line to file
+			sbCommentContent.append(comment + "\n");
+			sbCommentFile.append(currentFilePath + "\n");
+			sbCommentLine.append(lineNumber + "\n");
+		}
 		
-		//add line to file
-		sbCommentContent.append(comment+"\n");
-		sbCommentFile.append(currentFilePath+"\n");
-		sbCommentLine.append(lineNumber+"\n");
-		
-		
-//		Scanner sc=new Scanner(System.in);
-//		sc.next();
+		// Scanner sc=new Scanner(System.in);
+		// sc.next();
 		return true;
 	}
 
@@ -154,12 +169,13 @@ public class CodeCommentExtractorVisitor extends ASTVisitor {
 		CompilationUnit ast = cus.get(currentFilePath);
 		int lineNumber = ast.getLineNumber(start) - 1;
 		String comment = source.substring(start, end);
-		//System.out.println(comment + "\t" + lineNumber);
-		
+		// System.out.println(comment + "\t" + lineNumber);
+
 		return true;
 	}
-	
-	public void saveResultToFile(String pathComment,String pathFile,String pathLine){
+
+	public void saveResultToFile(String pathComment, String pathFile,
+			String pathLine) {
 		FileIO.writeStringToFile(sbCommentContent.toString(), pathComment);
 		FileIO.writeStringToFile(sbCommentFile.toString(), pathFile);
 		FileIO.writeStringToFile(sbCommentLine.toString(), pathLine);
