@@ -10,12 +10,13 @@ public class RunCommentExtractorVisitor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		String folderOutput=PathConstanct.PATH_OUTPUTFOLDER+"cliffer_grammars"+File.separator;
 		String[] arrSource = findAllJavaFiles(PathConstanct.PATH_SOURCECODECOMMENT);
 		System.out.println(arrSource.length);
 		CodeCommentExtractorVisitor ccev = new CodeCommentExtractorVisitor(
 				arrSource, PathConstanct.PATH_JDKSOURCE);
 		ccev.loadSourceFiles();
-		ccev.saveResultToFile(PathConstanct.PATH_OUTPUTFOLDER+"comment.txt", PathConstanct.PATH_OUTPUTFOLDER+"file.txt", PathConstanct.PATH_OUTPUTFOLDER+"line.txt");
+		ccev.saveResultToFile(folderOutput+"comment.txt", folderOutput+"file.txt", folderOutput+"line.txt");
 
 	}
 
