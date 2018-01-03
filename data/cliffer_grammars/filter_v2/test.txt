@@ -1,0 +1,4172 @@
+int version
+int version version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values of array array array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a a a a a a a a random element
+for each i swap A[i-1] with a random element
+for each i i i swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random Random Random class object
+Graph class ADT
+Graph class ADT ADT ADT ADT ADT ADT
+Create a graph from file
+Create a graph from file file
+Read in edges
+Read in in in edges
+No weight given -- set at 1
+No weight weight weight given -- set at 1
+Put in edge in other direction
+Put in edge in in in in in in in other direction
+Equivalence array
+Equivalence Equivalence Equivalence Equivalence Equivalence Equivalence Equivalence Equivalence array
+Minheap array
+Minheap Minheap Minheap Minheap Minheap Minheap array
+Count of edges
+Count of of of of edges
+Put edges in the array
+Put edges in the array array array array array array array
+Initially n classes
+Initially Initially n classes
+Combine equiv classes
+Combine Combine Combine Combine Combine equiv classes
+Next cheapest
+Next Next Next cheapest
+If in different classes
+If in different classes classes classes classes classes classes classes classes
+Combine equiv classes
+Combine equiv equiv equiv equiv equiv classes
+Add this edge to MST
+Add this edge to to to to MST
+One less MST
+One One less MST
+Graph class ADT
+Graph class class class ADT
+int version
+int int int int version
+Randomly permute the values of array "A"
+Randomly permute the values values values values values values values of array "A"
+for each i swap A[i-1] with a random element
+for for for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random class object object object object
+Graph class ADT
+Graph class ADT ADT ADT
+Found k
+Found Found k
+k not found
+k k k k k k k k not found
+Quicksort
+Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort
+Pick a pivot
+Pick a pivot pivot pivot pivot pivot pivot
+Stick pivot at end
+Stick pivot at at at at at at at at end
+k will be the first position in the right subarray
+k will be be be be be the first position in the right subarray
+Put pivot in place
+Put pivot pivot pivot in place
+Sort left partition
+Sort left partition partition partition partition partition partition partition partition
+Sort right partition
+Sort Sort Sort Sort Sort Sort right partition
+Move bounds inward until they meet
+Move bounds inward until they meet meet
+Swap out-of-place values
+Swap out-of-place out-of-place out-of-place values
+Stop when they cross
+Stop when they they they they cross
+Reverse last, wasted swap
+Reverse Reverse Reverse Reverse Reverse Reverse Reverse Reverse last, wasted swap
+Return first position in right partition
+Return first first first first first first first first position in right partition
+Reverse sorted
+Reverse Reverse Reverse sorted
+Random
+Random Random Random Random Random Random
+Sorted
+Sorted Sorted
+Create a graph from file
+Create Create a graph from file
+Read in edges
+Read in in in in in in in edges
+No weight given -- set at 1
+No weight given given given -- set at 1
+Put in edge in other direction
+Put in edge in in in in in in other direction
+Take appropriate action
+Take appropriate action action
+Take appropriate action
+Take appropriate appropriate appropriate appropriate appropriate appropriate appropriate appropriate action
+Do nothing
+Do Do Do nothing
+New node's level
+New New New New New New node's level
+If new node is deeper adjust the header
+If new node node node node node node is deeper adjust the header
+Track end of level
+Track end end of level
+Start at header node
+Start at header header header header header header header header node
+Find insert position
+Find Find Find Find insert position
+Track end at level i
+Track Track end at level i
+Splice into list
+Splice Splice Splice Splice Splice into list
+Who x points to
+Who x points points points points points to
+Who y points to
+Who Who Who Who Who Who Who Who y points to
+Increment dictionary size
+Increment dictionary dictionary dictionary dictionary dictionary size
+Dummy header node
+Dummy Dummy header node
+For each level...
+For each level... level... level...
+go forward
+go go go go forward
+Go one last step
+Go Go Go Go Go Go one last step
+Move to actual record, if it exists
+Move to actual record, record, record, record, record, if it exists
+Got it
+Got Got it
+Its not there
+Its Its not there
+Pointer to front queue node
+Pointer to front queue node node node
+Pointer to rear queuenode
+Pointer to rear queuenode queuenode
+Number of elements in queue
+Number of elements elements in queue
+Ignore size
+Ignore Ignore Ignore size
+Store dequeued value
+Store Store Store dequeued value
+Advance front
+Advance Advance Advance Advance Advance Advance front
+Last Object
+Last Object Object
+Return Object
+Return Object Object Object Object Object Object
+Extra stuff not printed in the book.
+Extra stuff not printed printed printed printed printed printed printed in the book.
+Number of records in a block
+Number of records in a block block block
+Size of working memory (in blocks)
+Size of working memory (in (in (in (in (in (in blocks)
+Indices for I/O files.
+Indices for I/O I/O I/O I/O I/O I/O files.
+Use two input files and two output files.
+Use two input input input input input files and two output files.
+////Code for Quicksort ////////////////////////////////////
+////Code for Quicksort //////////////////////////////////// //////////////////////////////////// //////////////////////////////////// ////////////////////////////////////
+Move the bounds inward until they meet
+Move the bounds bounds bounds bounds bounds bounds inward until they meet
+Move left bound right
+Move left bound bound bound bound bound right
+Move right bound
+Move right right right right right right bound
+Swap out-of-place values
+Swap Swap Swap Swap Swap Swap out-of-place values
+Stop when they cross
+Stop when when when when when when when they cross
+Reverse last, wasted swap
+Reverse last, wasted swap swap swap
+Return first position in right partition
+Return first position position position position position position in right partition
+Quicksort
+Quicksort Quicksort Quicksort Quicksort Quicksort
+Stick pivot at end
+Stick pivot at end end end
+k will be the first position in the right subarray
+k will be the the the the the the the the first position in the right subarray
+Put pivot in place
+Put pivot in place place place place
+Sort left partition
+Sort Sort Sort Sort Sort left partition
+Sort right partition
+Sort right right right right partition
+////End code for Quicksort ////////////////////////////////
+////End code for Quicksort //////////////////////////////// //////////////////////////////// //////////////////////////////// //////////////////////////////// //////////////////////////////// //////////////////////////////// //////////////////////////////// ////////////////////////////////
+Use quicksort to generate initial runs, placing half of the runs
+Use Use Use Use Use quicksort to generate initial runs, placing half of the runs
+into each output file.
+into into into into into into each output file.
+Working memory
+Working memory memory
+Do a single 2-way merge pass
+Do a single single single single single single single 2-way merge pass
+In this case, numruns is the number of runs in each file,
+In this this this case, numruns is the number of runs in each file,
+while runlen is the number of records in a run.
+while runlen is the number of records records records in a run.
+Flush second run
+Flush second second second second second second second run
+Flush first run
+Flush Flush first run
+Do an external sort
+Do an external sort sort sort sort
+For first pass, need the original input file.  Won't use again
+For first pass, need the original input file. Won't use use use use again
+Divide the original input into two
+Divide the original input input input input input into two
+Now, do a series of 2-way merge passes
+Now, do a series of 2-way 2-way 2-way 2-way 2-way 2-way merge passes
+Finally, merge the last two runs into the output file
+Finally, merge the last two runs runs runs into the output file
+Main routine for external sort
+Main routine routine routine for external sort
+Now test that this worked correctly
+Now test that this worked correctly correctly correctly
+Priming read
+Priming read read read read read
+Create a graph from file
+Create a graph from from from file
+Read in edges
+Read in in in edges
+No weight given -- set at 1
+No weight given -- set at 1 1
+Put in edge in other direction
+Put in edge edge edge edge edge in other direction
+The edge matrix
+The edge matrix matrix matrix matrix matrix matrix
+Number of edges
+Number of edges edges edges edges
+The mark array
+The mark mark mark mark mark mark mark array
+Constructors
+Constructors Constructors Constructors
+# of vertices
+# of vertices vertices vertices vertices
+# of edges
+# of of of of of edges
+No edge for this vertex
+No edge for this vertex vertex vertex vertex vertex vertex
+No next edge;
+No No No No next edge;
+Delete edge (i, j)
+Delete edge (i, j) j) j) j)
+Create a graph from file
+Create Create Create Create Create Create Create a graph from file
+Read in edges
+Read in edges edges
+No weight given -- set at 1
+No weight given -- -- -- -- -- -- -- set at 1
+Put in edge in other direction
+Put in edge edge edge edge in other direction
+Initialize D with weights
+Initialize D D D D D with weights
+Compute all k paths
+Compute Compute all k paths
+Override Object.toString
+Override Object.toString Object.toString
+Value for this node
+Value for this node node node
+Pointer to next node in list
+Pointer to next node node node node node node node in list
+Pointer to previous node
+Pointer to to to previous node
+Found k
+Found Found Found k
+k not found
+k not found found found
+Value for this node
+Value for this this this this node
+Pointer to next node in list
+Pointer to next next next next node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return Return next field
+Set next field
+Set Set Set Set Set Set Set next field
+Return element field
+Return element element element element element field
+Set element field
+Set element field field field field field
+int version
+int version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values values values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+Hold the Random class object
+Hold the Random class class class class class class class object
+The hash table
+The The The The The The The hash table
+# of records now in table
+# of records now in table table
+Maximum size of dictionary
+Maximum size of of of dictionary
+int version
+int version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values values values values values values values values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with a random element
+for each i swap A[i-1] with a random element
+for each i swap swap swap swap swap swap swap swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random Random class object
+int version
+int version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values of array "A" "A" "A" "A"
+for each i swap A[i-1] with a random element
+for each each each each each each each each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with with with with with a random element
+Hold the Random class object
+Hold Hold Hold the Random class object
+An access handle for the
+An access handle handle handle for the
+memory manager
+memory memory memory memory memory memory memory memory manager
+Position of data in memory
+Position of data in memory memory memory memory memory
+Key for this node
+Key for this node node node node node
+Element for this node
+Element for this this this this this this node
+Pointer to left child
+Pointer to to to left child
+Pointer to right child
+Pointer to to to to to right child
+The edge matrix
+The edge matrix matrix matrix
+Number of edges
+Number of edges edges edges edges edges edges
+The mark array
+The The The The mark array
+Constructors
+Constructors Constructors Constructors
+# of vertices
+# of vertices vertices vertices
+# of edges
+# of of edges
+No edge for this vertex
+No No No No edge for this vertex
+No next edge;
+No No No No next edge;
+Delete edge (i, j)
+Delete edge edge edge edge edge (i, j)
+Allow the generic array allocation
+Allow the generic array allocation allocation allocation allocation
+Allow the generic array allocation
+Allow the generic array allocation allocation allocation
+Remove test
+Remove test test test test
+Allow the generic array allocation
+Allow the generic array array array allocation
+Value for this node
+Value for for for for this node
+Pointer to next node in list
+Pointer Pointer Pointer to next node in list
+Constructors
+Constructors Constructors Constructors
+Return next field
+Return next next field
+Set next field
+Set Set next field
+Return element field
+Return element field field field field field field field field
+Set element field
+Set element element element element element element element field
+Graph class ADT
+Graph Graph class ADT
+Generic array allocation
+Generic array allocation allocation allocation allocation allocation allocation
+Insert i'th record
+Insert Insert Insert Insert Insert Insert Insert i'th record
+Select the midpoint
+Select Select Select Select Select Select Select the midpoint
+List has one element
+List has has has has one element
+Do the merge operation.  First, copy 2 halves to temp.
+Do the merge operation. First, copy 2 halves to temp. temp.
+Merge sublists back to array
+Merge Merge Merge Merge Merge Merge Merge Merge sublists back to array
+Value for this node
+Value for this node node node node node
+Pointer to next node in list
+Pointer to next node node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return next field field field field field field field
+Set next field
+Set next field field field
+Return element field
+Return element element element element field
+Set element field
+Set element field field field field field
+int version
+int int int int int int int int version
+Randomly permute the values of array "A"
+Randomly permute permute permute permute permute permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a a a a a a a random element
+Hold the Random class object
+Hold the Random class object object object object object
+Generic array allocation
+Generic Generic Generic Generic Generic Generic array allocation
+Count[i] stores number of records in bin[i]
+Count[i] stores number of records records records records records records records records in bin[i]
+For k digits
+For k digits digits digits digits digits digits digits digits
+Initialize count
+Initialize Initialize Initialize Initialize Initialize Initialize count
+Count the number of records for each bin on this pass
+Count the the the the the the the number of records for each bin on this pass
+count[j] will be index in B for last slot of bin j.
+count[j] will be index in B for for for for last slot of bin j.
+Put records into bins, working from bottom of bin
+Put records into bins, working working working working from bottom of bin
+Since bins fill from bottom, j counts downwards
+Since bins fill from bottom, j counts counts counts counts counts counts downwards
+Copy B back
+Copy B back back back back back back back
+int version
+int int int int int int version
+Randomly permute the values of array "A"
+Randomly permute permute permute permute permute permute permute the values of array "A"
+for each i swap A[i-1] with a random element
+for for for for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap swap swap swap swap swap swap swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random Random Random Random Random Random Random Random class object
+Create a graph from file
+Create a graph from file file
+Read in edges
+Read in in in edges
+No weight given -- set at 1
+No weight given given given given given given -- set at 1
+Put in edge in other direction
+Put in edge in in in in in in in in other direction
+The current vertex
+The current current current current vertex
+Heap for edges
+Heap Heap Heap Heap Heap Heap Heap Heap for edges
+Initial vertex
+Initial vertex vertex vertex
+Initialize distance
+Initialize distance distance distance distance distance
+For each vertex
+For each vertex vertex vertex vertex vertex vertex
+Get position
+Get position position position position position position position position
+Unreachable
+Unreachable Unreachable Unreachable Unreachable Unreachable Unreachable
+Update D
+Update Update Update Update Update Update Update Update D
+Key for this node
+Key for this node node node node node node node node
+Element for this node
+Element Element Element Element for this node
+Pointer to left child
+Pointer to left child child child child child child child
+Pointer to right child
+Pointer to right right right right right right child
+Write out random numbers
+Write out random random random numbers
+Write out numbers ascending
+Write out numbers numbers numbers ascending
+Write out numbers descending
+Write out numbers numbers numbers numbers numbers numbers descending
+int version
+int int int version
+Randomly permute the values of array "A"
+Randomly permute the values of of of array "A"
+for each i swap A[i-1] with a random element
+for each i i i i i swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with with with a random element
+Hold the Random class object
+Hold the Random class object object
+Value for this node
+Value for this node node node node node node
+Pointer to next node in list
+Pointer to to next node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return Return Return Return next field
+Set next field
+Set Set next field
+Return element field
+Return element field field
+Set element field
+Set element element element element element element element element field
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor Constructor Constructor
+Pointer to the heap array
+Pointer Pointer to the heap array
+Maximum size of the heap
+Maximum size size size size size size of the heap
+Number of things in heap
+Number of things things things in heap
+Start at end of heap
+Start at end of heap heap heap heap heap heap heap
+Now sift up until curr's parent's key > curr's key
+Now sift up up up up up up up up until curr's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with with with with greater value
+Move down
+Move Move down
+Remove minimum value
+Remove minimum value value value value value value value value
+Swap minimum with last value
+Swap minimum with with with last value
+Not on last element
+Not on last last last last last element
+Put new heap root val in correct place
+Put Put Put Put new heap root val in correct place
+Last element, no work to be done
+Last element, no work to be done done done done
+Swap with last value
+Swap with with with with with last value
+If we just swapped in a small value, push it up
+If If If If If If If If we just swapped in a small value, push it up
+If it is big, push down
+If it is big, big, big, big, big, push down
+The heap constructor invokes the buildheap method
+The heap constructor invokes invokes invokes invokes invokes invokes invokes invokes the buildheap method
+Now sort
+Now sort sort sort sort sort
+Removemax places max at end of heap
+Removemax places max at end of heap heap heap
+Reverse sorted
+Reverse Reverse Reverse Reverse Reverse Reverse Reverse Reverse sorted
+Random
+Random Random Random
+Sorted
+Sorted Sorted Sorted Sorted
+int version
+int version version version version version
+Randomly permute the values of array "A"
+Randomly permute the the the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random random random random random random element
+Hold the Random class object
+Hold the Random Random Random class object
+Constructor
+Constructor Constructor Constructor
+Found k
+Found k k k k k k k
+k not found
+k k k k k k k k not found
+Value for this node
+Value for this this this this this this this this node
+Pointer to next node in list
+Pointer Pointer Pointer to next node in list
+Constructors
+Constructors Constructors
+Return next field
+Return Return Return Return Return Return next field
+Set next field
+Set Set Set Set Set next field
+Return element field
+Return element field field field field field field field
+Set element field
+Set element field field field field field field field
+Suck it in
+Suck Suck Suck Suck Suck Suck Suck it in
+Now, write it out
+Now, write it out out out out out
+int version
+int version version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values of array array "A"
+for each i swap A[i-1] with a random element
+for each i i i i i i swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for for for for each i swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random class class class class class class class object
+The vertex list
+The vertex vertex list
+Number of edges
+Number Number Number Number Number Number of edges
+The mark array
+The The The mark array
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor Constructor Constructor
+# of vertices
+# of vertices vertices vertices
+# of edges
+# # # # # # # of edges
+No neighbor
+No neighbor neighbor neighbor
+No neighbor
+No neighbor neighbor neighbor neighbor neighbor neighbor neighbor
+Edge already exists in graph
+Edge already exists exists exists exists exists exists exists exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by vertex vertex vertex vertex vertex index
+Check if j is the current neighbor in the list
+Check if j j j j is the current neighbor in the list
+Check whole list
+Check whole whole list
+The edge matrix
+The edge edge edge edge edge edge edge matrix
+Number of edges
+Number of edges edges edges edges edges
+The mark array
+The The The The The The mark array
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+# of vertices
+# # # # of vertices
+# of edges
+# # # # # of edges
+No edge for this vertex
+No No No edge for this vertex
+No next edge;
+No next next next next edge;
+Delete edge (i, j)
+Delete edge (i, j) j) j) j) j) j) j) j)
+Insert i'th record
+Insert i'th record record record
+Stack for array bounds
+Stack for for array bounds
+Initialize stack
+Initialize Initialize Initialize stack
+While there are unprocessed subarrays
+While there are unprocessed unprocessed unprocessed unprocessed unprocessed unprocessed subarrays
+Pop Stack
+Pop Pop Pop Stack
+Findpivot
+Findpivot Findpivot Findpivot Findpivot Findpivot
+Stick pivot at end
+Stick pivot at end end end end end end end
+Partition
+Partition Partition Partition
+Undo final swap
+Undo Undo Undo Undo final swap
+Put pivot value in place
+Put pivot value in place place place
+Put new subarrays onto Stack if they are small
+Put new subarrays onto Stack Stack if they are small
+Left partition
+Left partition partition partition partition partition partition partition
+Right partition
+Right partition partition partition partition partition partition partition partition
+Final Insertion Sort
+Final Insertion Insertion Sort
+Default array size
+Default Default Default array size
+Maximum size of list
+Maximum size of of of of of of of list
+Actual number of elements in list
+Actual number number number of elements in list
+Position of current element
+Position of current element element element element element element
+Array holding list elements
+Array Array Array Array Array Array Array holding list elements
+Constructor: use default size
+Constructor: Constructor: Constructor: Constructor: use default size
+Constructor: user-specified size
+Constructor: user-specified size size size size
+Allow the generic array allocation
+Allow the the the the generic array allocation
+Do actual initialization work
+Do actual actual actual actual actual actual initialization work
+Create listArray
+Create listArray listArray
+Reinitialize the list
+Reinitialize the list list list list list list list
+Simply reinitialize values
+Simply reinitialize reinitialize reinitialize reinitialize values
+Shift elements up to make room
+Shift elements elements elements elements elements elements up to make room
+Increment list size
+Increment list list list size
+Remove and return the current element
+Remove and return the current current current current current element
+Return null if there is no such element to remove.
+Return null if there there there there there there there there is no such element to remove.
+Copy the element
+Copy the element element element element
+Shift them down
+Shift them down down down down down down down down
+Decrement size
+Decrement size size
+Reset current
+Reset Reset Reset current
+Reset current
+Reset Reset Reset Reset Reset Reset current
+Back up
+Back Back Back Back Back Back Back up
+Next
+Next Next Next Next Next
+Return list size
+Return Return Return Return Return Return Return list size
+Reset list position to "pos"
+Reset list position position position position position to "pos"
+Return current position
+Return current position position position position position
+Return current element
+Return current element element element element element element element
+Return current element
+Return current current current current current current current current element
+Extra stuff not printed in the book.
+Extra stuff stuff stuff stuff stuff stuff stuff not printed in the book.
+Save the current position of the list
+Save Save Save the current position of the list
+Reset the fence to its original position
+Reset the fence to its original position position position position position
+Pointer to the heap array
+Pointer to the heap heap heap array
+Maximum size of the heap
+Maximum size of the the the the the the heap
+Number of things in heap
+Number of things things things things things things in heap
+Start at end of heap
+Start at end of heap heap heap heap
+Now sift up until curr's parent's key > curr's key
+Now sift up until curr's parent's key > curr's key key
+j is now index of child with greater value
+j is now index of child with with with with with with greater value
+Move down
+Move Move Move Move Move Move Move down
+Remove minimum value
+Remove Remove Remove Remove Remove minimum value
+Swap minimum with last value
+Swap minimum with last last last last last last last last value
+Not on last element
+Not on last last last last element
+Put new heap root val in correct place
+Put new new new new heap root val in correct place
+Last element, no work to be done
+Last Last Last Last Last Last element, no work to be done
+Swap with last value
+Swap with with with last value
+If we just swapped in a small value, push it up
+If we just swapped in a small small small small value, push it up
+If it is big, push down
+If If If If If If it is big, push down
+Constructor
+Constructor Constructor Constructor Constructor Constructor
+Maximum size of queue
+Maximum size of of of queue
+Index of front element
+Index of front element element element element element element element
+Index of rear element
+Index Index Index Index Index Index Index Index of rear element
+Array holding queue elements
+Array holding queue elements elements elements elements elements elements elements
+For generic array
+For For For For For For For For generic array
+One extra space is allocated
+One One One One One extra space is allocated
+Create listArray
+Create listArray listArray listArray listArray listArray listArray listArray listArray
+Circular increment
+Circular Circular Circular increment
+Circular increment
+Circular Circular Circular Circular Circular Circular Circular increment
+Extra stuff not printed in the book.
+Extra stuff not printed in the the the book.
+Maximum size of stack
+Maximum size of stack stack stack stack
+Index for top Object
+Index Index Index Index for top Object
+Array holding stack
+Array holding holding holding holding holding stack
+Generic array allocation
+Generic Generic Generic Generic Generic Generic Generic Generic array allocation
+Create listArray
+Create Create Create Create Create listArray
+Extra stuff not printed in the book.
+Extra Extra Extra stuff not printed in the book.
+int version
+int version version version version version
+Randomly permute the values of array "A"
+Randomly Randomly Randomly Randomly Randomly Randomly Randomly Randomly permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random random random element
+Hold the Random class object
+Hold Hold Hold Hold Hold Hold Hold Hold the Random class object
+Value for this node
+Value Value Value Value Value Value Value Value for this node
+Pointer to next node in list
+Pointer to next node in in in list
+Constructors
+Constructors Constructors
+Return next field
+Return next field field field field field
+Set next field
+Set next next next next next next field
+Return element field
+Return element field field field field field field
+Set element field
+Set Set Set Set element field
+Create a graph from file
+Create Create Create Create Create Create a graph from file
+Read in edges
+Read Read Read Read Read in edges
+No weight given -- set at 1
+No weight given -- -- -- -- set at 1
+Put in edge in other direction
+Put in in in edge in other direction
+Process each vertex on Q
+Process each vertex on Q Q
+Take appropriate action
+Take appropriate appropriate appropriate appropriate appropriate appropriate appropriate appropriate action
+Put neighbors on Q
+Put neighbors on on on Q
+Take appropriate action
+Take appropriate action action action action action action action action
+Create a graph from file
+Create a graph from from from from from from file
+Read in edges
+Read in in edges
+No weight given -- set at 1
+No weight given -- set at at at at at at at 1
+Put in edge in other direction
+Put in in edge in other direction
+Topological sort: Queue
+Topological Topological sort: Queue
+Initialize
+Initialize Initialize Initialize Initialize
+Process every edge
+Process every every every every every edge
+Add to v2's prereq count
+Add to v2's v2's v2's v2's v2's prereq count
+Initialize Queue
+Initialize Initialize Initialize Queue
+V has no prerequisites
+V has has has has has no prerequisites
+Process the vertices
+Process Process the vertices
+PreVisit for Vertex V
+PreVisit for Vertex Vertex Vertex Vertex Vertex Vertex V
+One less prerequisite
+One less prerequisite prerequisite prerequisite prerequisite prerequisite prerequisite prerequisite
+This vertex is now free
+This vertex is is is is is is is is now free
+Graph class ADT
+Graph class class ADT
+Generic array allocation
+Generic array array array array array array array array allocation
+Home position for r
+Home position for for for for for for for for r
+Initial position
+Initial position position position position position position
+Next pobe slot
+Next Next Next Next pobe slot
+Insert R
+Insert Insert Insert Insert Insert Insert Insert Insert R
+Home position for k
+Home position for k k k k k k k
+Initial position
+Initial Initial Initial Initial position
+Next probe position
+Next probe position position position position position position position position
+Key not in hash table
+Key not not not not not in hash table
+Found it
+Found it it it
+Constructor
+Constructor Constructor
+The edge matrix
+The The edge matrix
+Number of edges
+Number of edges edges edges edges
+The mark array
+The mark array array array array array array array
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+# of vertices
+# of of of vertices
+# of edges
+# # # # # # # # of edges
+No edge for this vertex
+No edge for for for for this vertex
+No next edge;
+No No next edge;
+Delete edge (i, j)
+Delete Delete Delete Delete edge (i, j)
+Maximum size of queue
+Maximum size of of queue
+Index of front element
+Index of front element element element element element
+Index of rear element
+Index of rear element element element element element element element
+Array holding queue elements
+Array holding queue queue queue elements
+For generic array
+For For For For For For For For generic array
+One extra space is allocated
+One extra space space space is allocated
+Create listArray
+Create Create Create Create Create listArray
+Circular increment
+Circular increment increment increment increment increment increment
+Circular increment
+Circular increment increment increment increment increment
+Extra stuff not printed in the book.
+Extra stuff not printed in the the the the the the the the book.
+Create a graph from file
+Create a graph graph graph graph graph graph from file
+Read in edges
+Read in edges edges
+No weight given -- set at 1
+No weight weight weight weight given -- set at 1
+Put in edge in other direction
+Put in edge in other direction direction direction direction direction
+Equivalence array
+Equivalence array array array array array array array array
+Minheap array
+Minheap Minheap Minheap Minheap Minheap Minheap Minheap array
+Count of edges
+Count of of edges
+Put edges in the array
+Put edges in the the the the the array
+Initially n classes
+Initially n classes classes classes
+Combine equiv classes
+Combine Combine Combine Combine equiv classes
+Next cheapest
+Next cheapest cheapest cheapest cheapest cheapest cheapest
+If in different classes
+If in different different different different different different classes
+Combine equiv classes
+Combine equiv classes classes classes classes classes classes classes classes
+Add this edge to MST
+Add this edge edge edge edge edge edge to MST
+One less MST
+One less less less less less less less MST
+Create a graph from file
+Create a graph from file file file
+Read in edges
+Read Read Read Read Read in edges
+No weight given -- set at 1
+No weight given -- set set set set set set set set at 1
+Put in edge in other direction
+Put Put Put Put Put in edge in other direction
+The current vertex
+The The The The The The current vertex
+Heap for edges
+Heap Heap Heap Heap Heap for edges
+Initial vertex
+Initial vertex vertex vertex
+Initialize distances
+Initialize Initialize Initialize Initialize Initialize Initialize Initialize Initialize distances
+Now, get distances
+Now, Now, get distances
+Get position
+Get Get Get Get Get Get position
+Add edge to MST
+Add edge to MST MST MST MST MST MST MST MST
+Unreachable
+Unreachable Unreachable Unreachable Unreachable Unreachable Unreachable
+Update D
+Update Update Update Update Update D
+Where it came from
+Where it it it came from
+V[i] stores closest vertex to i
+V[i] stores closest vertex vertex vertex to i
+Now b contains original value of a
+Now b contains original value value value value of a
+Now a contains original value of b
+Now a contains contains contains original value of b
+The edge matrix
+The edge edge edge edge edge edge edge matrix
+Number of edges
+Number of edges edges edges edges
+The mark array
+The The mark array
+Constructors
+Constructors Constructors Constructors Constructors Constructors
+# of vertices
+# of of of of of of of of vertices
+# of edges
+# of edges edges edges edges edges edges
+No edge for this vertex
+No edge for this vertex vertex vertex vertex vertex vertex
+No next edge;
+No next edge; edge; edge; edge; edge; edge;
+Delete edge (i, j)
+Delete edge (i, (i, (i, (i, (i, (i, j)
+int version
+int int int int version
+Randomly permute the values of array "A"
+Randomly permute the the the the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with a random element
+for each i swap A[i-1] with a random element
+for each i i i i i i i swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random class object object object object object object
+Maximum size of queue
+Maximum size of queue queue queue queue queue queue queue queue
+Index of front element
+Index of front element element element element element
+Index of rear element
+Index Index Index of rear element
+Array holding queue elements
+Array holding holding holding holding holding queue elements
+For generic array
+For For For generic array
+One extra space is allocated
+One extra space is allocated allocated allocated
+Create listArray
+Create listArray listArray
+Circular increment
+Circular increment increment increment increment increment
+Circular increment
+Circular Circular Circular Circular Circular Circular Circular Circular increment
+Extra stuff not printed in the book.
+Extra stuff stuff not printed in the book.
+Default size
+Default size size size size size size size size
+Maximum size of list
+Maximum size of list list list list list list list
+Current # of list items
+Current # of list items items items items
+Position of current element
+Position Position Position Position Position Position Position of current element
+Array holding list elements
+Array holding list list list list list elements
+Generic array allocation
+Generic array allocation allocation allocation allocation allocation allocation
+Create listArray
+Create Create Create Create listArray
+Reinitialize the list
+Reinitialize the list list list list list list list
+Simply reinitialize values
+Simply reinitialize reinitialize reinitialize reinitialize reinitialize values
+Shift elements up to make room
+Shift elements up up to make room
+Increment list size
+Increment list list list size
+No current element
+No No No No current element
+Copy the element
+Copy Copy Copy Copy Copy the element
+Shift them down
+Shift them down down down down down
+Decrement size
+Decrement size size
+Set to front
+Set to to to to to to to to front
+Set at end
+Set Set Set Set at end
+Back up
+Back Back Back Back Back up
+Extra stuff not printed in the book.
+Extra Extra stuff not printed in the book.
+Save the current position of the list
+Save Save Save Save Save Save Save Save the current position of the list
+Reset the fence to its original position
+Reset Reset Reset Reset the fence to its original position
+Tell the size of a buffer
+Tell the size of of a buffer
+This is not the book's code.  That is repeated below.
+This is not the book's code. That is repeated below. below. below. below. below. below.
+The book's code does not have a print statement.
+The The The book's code does not have a print statement.
+/collatz.x
+/collatz.x /collatz.x /collatz.x /collatz.x /collatz.x /collatz.x
+Pointer to list header
+Pointer Pointer Pointer Pointer Pointer Pointer to list header
+Pointer to last element
+Pointer to last last last element
+Access to current element
+Access to current element element
+Size of list
+Size Size Size Size of list
+Constructor -- Ignore size
+Constructor Constructor Constructor Constructor Constructor Constructor -- Ignore size
+Create header
+Create Create Create Create header
+Drop access to links
+Drop access to links links links links links
+Create header
+Create header header header header header header header
+New tail
+New New New tail
+Nothing to remove
+Nothing to remove remove remove remove
+Remember value
+Remember value value value value value
+Removed last
+Removed last last last last last last last last
+Remove from list
+Remove from from from from from from list
+Decrement count
+Decrement Decrement Decrement Decrement count
+Return value
+Return Return value
+No previous element
+No previous element element element element element element element element
+March down list until we find the previous element
+March down down down list until we find the previous element
+Extra stuff not printed in the book.
+Extra stuff not not not not not not not printed in the book.
+Save the current position of the list
+Save the the current position of the list
+Reset the fence to its original position
+Reset the fence to its original original position
+Create a graph from file
+Create a graph graph from file
+Read in edges
+Read in edges edges edges
+No weight given -- set at 1
+No weight given -- -- set at 1
+Put in edge in other direction
+Put in edge edge edge edge edge edge in other direction
+Initialize Mark array
+Initialize Initialize Initialize Initialize Initialize Initialize Initialize Initialize Mark array
+Process all vertices
+Process all vertices vertices vertices vertices vertices vertices vertices vertices
+Recursive helper function
+Recursive helper helper function
+PostVisit for Vertex v
+PostVisit for Vertex v v v
+Leaf node
+Leaf Leaf Leaf node
+Doubly linked list implementation
+Doubly Doubly Doubly Doubly Doubly Doubly linked list implementation
+Pointer to list header
+Pointer Pointer Pointer Pointer Pointer to list header
+Pointer to last element in list
+Pointer to last element in list list
+Pointer ahead of current element
+Pointer ahead of current current current current current element
+Size of list
+Size Size Size Size Size Size of list
+//Constructors
+//Constructors //Constructors //Constructors //Constructors //Constructors
+Ignore size
+Ignore size size size size size size size size
+Create header node
+Create header header header node
+Remove all elements from list
+Remove all elements from list list list list list list
+Drop access to rest of links
+Drop access to to to to rest of links
+Create header node
+Create header header node
+Set curr at list start
+Set curr curr curr curr at list start
+Set curr at list end
+Set curr at at at at at at list end
+Nothing to remove
+Nothing to to to to remove
+Remember value
+Remember Remember value
+Remove from list
+Remove from list list list list list list list
+Decrement the count
+Decrement Decrement Decrement Decrement Decrement Decrement Decrement Decrement the count
+Return value removed
+Return value value removed
+Can't back up from list head
+Can't back back back back back back back up from list head
+Move curr one step right; no change if at end
+Move curr one step right; right; right; no change if at end
+Return the position of the current element
+Return the position of the the the the the current element
+Move down list to "pos" position
+Move down list to "pos" "pos" "pos" position
+Return current element
+Return Return Return Return Return Return Return current element
+Extra stuff not printed in the book.
+Extra stuff not not not not not printed in the book.
+Save the current position of the list
+Save the current position of the the the the list
+Reset the fence to its original position
+Reset the fence to to to to to its original position
+Example in book
+Example in book book book book
+Pointer to the heap array
+Pointer to to to to to to the heap array
+Maximum size of the heap
+Maximum size size size of the heap
+Number of things in heap
+Number of of of of of things in heap
+Start at end of heap
+Start at end of of of of of of of of heap
+Now sift up until curr's parent's key > curr's key
+Now sift up up up up up up until curr's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with greater greater greater greater greater value
+Move down
+Move down down down down down down
+Remove minimum value
+Remove Remove Remove Remove Remove Remove minimum value
+Swap minimum with last value
+Swap Swap Swap Swap Swap Swap minimum with last value
+Not on last element
+Not on last last last last last last element
+Put new heap root val in correct place
+Put new heap root root root root val in correct place
+Last element, no work to be done
+Last element, no work work work work work to be done
+Swap with last value
+Swap with last last last last last last value
+If we just swapped in a small value, push it up
+If we just just just swapped in a small value, push it up
+If it is big, push down
+If it it it it it is big, push down
+Create a graph from file
+Create a a a a a a graph from file
+Read in edges
+Read in in in in in in edges
+No weight given -- set at 1
+No weight given -- set at at at at 1
+Put in edge in other direction
+Put in edge in in in in in in in in other direction
+Initialize v to any unvisited vertex;
+Initialize v to any unvisited vertex; vertex; vertex; vertex; vertex; vertex; vertex; vertex;
+Now find smallest value
+Now find find find find find find find smallest value
+Compute shortest path distances from s, store them in D
+Compute shortest path distances from s, store them them them them them in D
+Initialize
+Initialize Initialize Initialize Initialize Initialize Initialize Initialize
+Process the vertices
+Process the the the the the vertices
+Find next-closest vertex
+Find Find Find Find Find Find next-closest vertex
+Unreachable
+Unreachable Unreachable Unreachable
+int version
+int version version version version version
+Randomly permute the values of array "A"
+Randomly permute permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random random random random random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random random random random random random element
+Hold the Random class object
+Hold the Random Random Random Random Random Random Random class object
+Default array size
+Default array array size
+Maximum size of list
+Maximum size of list list list
+Actual number of elements in list
+Actual Actual Actual number of elements in list
+Position of current element
+Position of current current current current current element
+Array holding list elements
+Array Array holding list elements
+Constructor: use default size
+Constructor: Constructor: Constructor: Constructor: use default size
+Constructor: user-specified size
+Constructor: user-specified user-specified user-specified size
+Allow the generic array allocation
+Allow the generic array array array array allocation
+Do actual initialization work
+Do actual actual actual actual actual actual initialization work
+Create listArray
+Create Create Create Create Create Create Create listArray
+Reinitialize the list
+Reinitialize Reinitialize Reinitialize Reinitialize Reinitialize Reinitialize Reinitialize the list
+Simply reinitialize values
+Simply Simply Simply Simply Simply Simply Simply Simply reinitialize values
+Shift elements up to make room
+Shift Shift Shift elements up to make room
+Increment list size
+Increment list list list list list size
+Remove and return the current element
+Remove and and and and return the current element
+Return null if there is no such element to remove.
+Return null if there is no such element element element element element element element element to remove.
+Copy the element
+Copy the the the the element
+Shift them down
+Shift them down down down down down down down down
+Decrement size
+Decrement Decrement Decrement Decrement size
+Reset current
+Reset current current current current
+Reset current
+Reset Reset Reset Reset current
+Back up
+Back Back Back Back Back up
+Next
+Next Next Next Next Next Next
+Return list size
+Return Return Return Return Return Return Return Return list size
+Reset list position to "pos"
+Reset list position to to to to to to to to "pos"
+Return current position
+Return current current current current current current current position
+Return current element
+Return current current current current current element
+Return current element
+Return current current current current element
+Extra stuff not printed in the book.
+Extra stuff not not not not printed in the book.
+Save the current position of the list
+Save the the current position of the list
+Reset the fence to its original position
+Reset the fence to to to its original position
+Tell the size of a buffer
+Tell Tell Tell Tell Tell Tell the size of a buffer
+Pointer to list header
+Pointer to list list list header
+Pointer to last element
+Pointer to last element element element element
+Access to current element
+Access to current current current element
+Size of list
+Size of list list list list list
+Constructor -- Ignore size
+Constructor -- -- -- -- Ignore size
+Create header
+Create Create header
+Drop access to links
+Drop access to to to to to to to to links
+Create header
+Create header header header header header header
+New tail
+New tail tail tail tail tail tail tail tail
+Nothing to remove
+Nothing to to remove
+Remember value
+Remember value value
+Removed last
+Removed Removed last
+Remove from list
+Remove from list list list list
+Decrement count
+Decrement Decrement Decrement Decrement Decrement count
+Return value
+Return Return Return Return Return Return Return value
+No previous element
+No previous previous previous previous previous previous previous element
+March down list until we find the previous element
+March down list until until until until until until until we find the previous element
+Extra stuff not printed in the book.
+Extra stuff not printed printed printed in the book.
+Save the current position of the list
+Save the the current position of the list
+Reset the fence to its original position
+Reset the fence to its original position position position position position position position position
+Constructor
+Constructor Constructor
+Graph class ADT
+Graph class ADT ADT ADT
+Graph class ADT
+Graph Graph Graph class ADT
+Only supporting 2D points
+Only supporting supporting supporting supporting supporting supporting supporting 2D points
+Number of nodes in the KD tree
+Number of nodes in the the the the the the the KD tree
+First find it
+First First First find it
+Now remove it
+Now Now Now Now Now Now remove it
+Now, temp1 has the smaller value
+Now, temp1 has has has the smaller value
+Found it
+Found Found Found Found Found Found Found it
+Just drop element
+Just drop element element element element element element element
+Switch subtree to right
+Switch Switch Switch Switch Switch Switch Switch subtree to right
+The vertex list
+The The The vertex list
+Number of edges
+Number of of of of of of of of edges
+The mark array
+The mark mark mark mark mark mark array
+Constructor
+Constructor Constructor Constructor Constructor Constructor
+# of vertices
+# of vertices vertices
+# of edges
+# of of of of of of of of edges
+No neighbor
+No No No No No No No neighbor
+No neighbor
+No neighbor neighbor neighbor
+Edge already exists in graph
+Edge Edge Edge Edge Edge Edge Edge already exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted sorted sorted by vertex index
+Check if j is the current neighbor in the list
+Check if j is is is is is the current neighbor in the list
+Check whole list
+Check whole whole whole whole whole list
+Quicksort
+Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort
+Pick a pivot
+Pick a pivot pivot pivot
+Stick pivot at end
+Stick Stick pivot at end
+k will be the first position in the right subarray
+k will be the first position in the right subarray subarray subarray subarray subarray
+Put pivot in place
+Put pivot in in in in in place
+Sort left partition
+Sort left left partition
+Sort right partition
+Sort right partition partition partition partition partition partition partition partition
+Move bounds inward until they meet
+Move bounds inward until they they meet
+Swap out-of-place values
+Swap out-of-place out-of-place out-of-place out-of-place out-of-place out-of-place out-of-place values
+Stop when they cross
+Stop Stop Stop Stop Stop Stop Stop when they cross
+Reverse last, wasted swap
+Reverse Reverse Reverse last, wasted swap
+Return first position in right partition
+Return first position in right right partition
+int version
+int version version
+Randomly permute the values of array "A"
+Randomly permute the values of array array array array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with a random element
+Hold the Random class object
+Hold the the the the the the Random class object
+The vertex list
+The vertex list list list list list list list list
+Number of edges
+Number of edges edges edges edges edges edges
+The mark array
+The The The The mark array
+Constructor
+Constructor Constructor Constructor
+# of vertices
+# of of vertices
+# of edges
+# of of of of of edges
+No neighbor
+No No neighbor
+No neighbor
+No No No No neighbor
+Edge already exists in graph
+Edge already exists exists exists exists exists exists exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted sorted sorted sorted by vertex index
+Check if j is the current neighbor in the list
+Check if j is the current current current current current current current current neighbor in the list
+Check whole list
+Check Check Check Check Check Check whole list
+The vertex list
+The vertex list list list list list list
+Number of edges
+Number Number Number Number Number Number Number Number of edges
+The mark array
+The The The The The The The mark array
+Constructor
+Constructor Constructor Constructor Constructor Constructor
+# of vertices
+# of of of of of of of vertices
+# of edges
+# of edges edges edges edges edges edges edges edges
+No neighbor
+No neighbor neighbor neighbor neighbor
+No neighbor
+No neighbor neighbor neighbor neighbor neighbor neighbor neighbor neighbor
+Edge already exists in graph
+Edge Edge Edge already exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted sorted sorted sorted sorted sorted sorted by vertex index
+Check if j is the current neighbor in the list
+Check if j is the current neighbor in in in in in in in the list
+Check whole list
+Check Check Check Check whole list
+main
+main main main main main main main
+class MemMain
+class class class MemMain
+Graph class ADT
+Graph class class class class ADT
+The edge matrix
+The edge matrix matrix
+Number of edges
+Number Number Number Number Number Number Number of edges
+The mark array
+The The The The mark array
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+# of vertices
+# of of vertices
+# of edges
+# of edges edges edges
+No edge for this vertex
+No edge for this this this this this this this this vertex
+No next edge;
+No No No No No No No next edge;
+Delete edge (i, j)
+Delete edge (i, (i, (i, j)
+int version
+int version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values of array array array array "A"
+for each i swap A[i-1] with a random element
+for each i i swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random random random random random element
+Hold the Random class object
+Hold the Random class object object
+The edge matrix
+The edge matrix matrix matrix matrix matrix matrix matrix
+Number of edges
+Number Number Number of edges
+The mark array
+The mark array array array array array array array array
+Constructors
+Constructors Constructors Constructors
+# of vertices
+# of vertices vertices
+# of edges
+# # # of edges
+No edge for this vertex
+No edge for this this this this this this this this vertex
+No next edge;
+No next next next edge;
+Delete edge (i, j)
+Delete edge (i, j) j) j) j) j) j) j) j)
+Nothing to visit
+Nothing to to to to to to to to visit
+Process leaf node
+Process leaf node node node node node node
+Process internal node
+Process internal internal internal internal internal internal internal node
+The vertex list
+The vertex vertex vertex vertex vertex vertex vertex vertex list
+Number of edges
+Number Number Number of edges
+The mark array
+The The The The The The The The mark array
+Constructor
+Constructor Constructor Constructor Constructor
+# of vertices
+# of vertices vertices
+# of edges
+# of of of of edges
+No neighbor
+No No No No No No neighbor
+No neighbor
+No No No No No No No No neighbor
+Edge already exists in graph
+Edge already exists in graph graph graph graph graph graph graph graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by vertex index index index index index index index
+Check if j is the current neighbor in the list
+Check if j j j j j is the current neighbor in the list
+Check whole list
+Check Check Check Check Check Check whole list
+To fit n! in a long variable, require n < 21
+To To To To fit n! in a long variable, require n < 21
+Make a stack just big enough
+Make Make Make Make Make Make Make Make a stack just big enough
+We really need to figure out a way to do this that doesn't
+We really need to figure figure figure figure out a way to do this that doesn't
+include a control variable
+include a control control control control control control control control variable
+do nothing
+do nothing nothing
+We really need to figure out a way to do this that doesn't
+We really need to figure out a way way way way way way to do this that doesn't
+include a control variable
+include a a a a a a control variable
+do nothing
+do nothing nothing
+int version
+int int int int int version
+Randomly permute the values of array "A"
+Randomly permute the values of of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with a random element
+for each i swap A[i-1] with a random element
+for for for for for for for each i swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random class class class class object
+Value for this node
+Value Value Value Value Value Value Value Value for this node
+Pointer to next node in list
+Pointer to next node node in list
+Constructors
+Constructors Constructors Constructors
+Return next field
+Return Return next field
+Set next field
+Set Set Set Set Set Set Set next field
+Return element field
+Return Return Return element field
+Set element field
+Set element field field field field field
+Create a graph from file
+Create a graph from from from from file
+Read in edges
+Read Read Read Read in edges
+No weight given -- set at 1
+No No No No No No No No weight given -- set at 1
+Put in edge in other direction
+Put Put Put Put Put Put Put Put in edge in other direction
+For n vertices in graph
+For n vertices in graph graph graph graph graph
+Vertex i in no component
+Vertex Vertex Vertex Vertex Vertex Vertex i in no component
+Current component
+Current component component component component component
+Start a new component
+Start Start Start Start Start a new component
+Operand value
+Operand Operand Operand Operand Operand value
+Maximum size of stack
+Maximum Maximum Maximum Maximum Maximum Maximum Maximum size of stack
+Index for top Object
+Index for for for for for for for top Object
+Array holding stack
+Array holding holding holding holding holding holding stack
+Generic array allocation
+Generic Generic Generic Generic Generic array allocation
+Create listArray
+Create listArray listArray listArray listArray listArray listArray listArray listArray
+Extra stuff not printed in the book.
+Extra stuff not printed printed printed printed printed in the book.
+This is the pseudo hash table, twice the # of records
+This is the pseudo hash table, twice the # # # of records
+Data collecting variables
+Data collecting collecting collecting collecting collecting collecting variables
+Maximum length of any chain, ever
+Maximum Maximum Maximum Maximum Maximum length of any chain, ever
+Average for the maximum (per iteration) chain length
+Average for the maximum (per iteration) chain chain length
+Minimum slots used by any interation
+Minimum slots used by any interation interation interation interation interation interation interation interation
+Average number of slots used per iteration
+Average number of slots used per iteration iteration iteration iteration iteration
+Intialize the table for this iteration
+Intialize the table for this this iteration
+"insert" records into the hash table
+"insert" records into into into into the hash table
+Imagine that we are inserting here, bump the count
+Imagine that we are inserting here, bump the the the count
+Update the statistics
+Update Update Update the statistics
+longest chain ever
+longest chain chain chain chain ever
+longest chain this iteration
+longest chain this iteration iteration iteration iteration iteration iteration
+Something hit this slot
+Something hit hit hit hit hit hit hit hit this slot
+Calculate the final statistics
+Calculate the final statistics statistics statistics statistics statistics statistics
+Create a graph from file
+Create a graph from file file file
+Read in edges
+Read in in in edges
+No weight given -- set at 1
+No weight given -- set at 1 1 1 1 1
+Put in edge in other direction
+Put in edge in in in in in other direction
+Initialize v to any unvisited vertex;
+Initialize v to to to to any unvisited vertex;
+Now find smallest value
+Now find smallest value value value value value
+Compute shortest path distances from s, store them in D
+Compute shortest path distances distances distances distances distances distances distances from s, store them in D
+Initialize
+Initialize Initialize Initialize Initialize
+Process the vertices
+Process the the the the the the the vertices
+Find next-closest vertex
+Find next-closest vertex vertex
+Unreachable
+Unreachable Unreachable
+Default size
+Default size size size
+Maximum size of list
+Maximum Maximum Maximum Maximum Maximum Maximum size of list
+Current # of list items
+Current # # of list items
+Position of current element
+Position of current current current current current current element
+Array holding list elements
+Array Array Array Array holding list elements
+Generic array allocation
+Generic Generic Generic array allocation
+Create listArray
+Create listArray listArray listArray listArray listArray listArray listArray
+Reinitialize the list
+Reinitialize Reinitialize Reinitialize Reinitialize Reinitialize Reinitialize the list
+Simply reinitialize values
+Simply reinitialize values values values values
+Shift elements up to make room
+Shift Shift Shift elements up to make room
+Increment list size
+Increment Increment Increment Increment Increment Increment Increment list size
+No current element
+No No No No No No No current element
+Copy the element
+Copy the the element
+Shift them down
+Shift Shift them down
+Decrement size
+Decrement Decrement Decrement Decrement Decrement Decrement size
+Set to front
+Set to to to to to to front
+Set at end
+Set at at end
+Back up
+Back Back Back Back Back Back Back Back up
+Extra stuff not printed in the book.
+Extra stuff not printed in the book. book.
+Save the current position of the list
+Save the current current current current current current current current position of the list
+Reset the fence to its original position
+Reset the fence to its original original original original original position
+Insert i'th record
+Insert i'th i'th i'th i'th i'th i'th i'th i'th record
+Stack for array bounds
+Stack Stack Stack Stack Stack Stack Stack for array bounds
+Initialize stack
+Initialize stack stack stack stack stack stack stack
+While there are unprocessed subarrays
+While there are are unprocessed subarrays
+Pop Stack
+Pop Pop Pop Pop Pop Pop Pop Pop Stack
+Findpivot
+Findpivot Findpivot Findpivot Findpivot Findpivot Findpivot Findpivot Findpivot
+Stick pivot at end
+Stick Stick Stick Stick pivot at end
+Partition
+Partition Partition
+Undo final swap
+Undo final swap swap swap
+Put pivot value in place
+Put pivot value in place place place place place place
+Put new subarrays onto Stack if they are small
+Put new subarrays onto onto onto onto onto onto Stack if they are small
+Left partition
+Left Left Left Left Left Left Left Left partition
+Right partition
+Right partition partition partition partition partition partition partition partition
+Final Insertion Sort
+Final Final Final Insertion Sort
+Reverse sorted
+Reverse sorted sorted sorted sorted
+Random
+Random Random Random
+Sorted
+Sorted Sorted Sorted
+int version
+int int int int version
+Randomly permute the values of array "A"
+Randomly permute the values of of of of of of of of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with with with with a random element
+Hold the Random class object
+Hold Hold Hold Hold the Random class object
+IDdict organizes Payroll records by ID
+IDdict organizes Payroll records by ID ID ID ID ID ID ID
+namedict organizes Payroll records by name
+namedict organizes organizes organizes organizes organizes organizes organizes organizes Payroll records by name
+IDdict organizes Payroll records by ID
+IDdict organizes Payroll records by by by by ID
+namedict organizes Payroll records by name
+namedict organizes Payroll Payroll records by name
+Root of the tree
+Root Root Root Root Root Root Root of the tree
+Weight of tree is weight of root
+Weight of tree is weight weight weight weight weight weight weight weight of root
+int version
+int version version version version version
+Randomly permute the values of array "A"
+Randomly Randomly permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with with with with with a random element
+for each i swap A[i-1] with a random element
+for each i swap swap swap A[i-1] with a random element
+n=1
+n=1 n=1 n=1 n=1 n=1
+n=2
+n=2 n=2 n=2 n=2 n=2 n=2
+n>2
+n>2 n>2 n>2 n>2 n>2 n>2 n>2
+Hold the Random class object
+Hold Hold Hold Hold the Random class object
+Create a graph from file
+Create a graph from file file file
+Read in edges
+Read Read Read in edges
+No weight given -- set at 1
+No weight given given given given -- set at 1
+Put in edge in other direction
+Put in edge in in in in other direction
+Initialize D with weights
+Initialize D with with with with weights
+Compute all k paths
+Compute all all all all all all all k paths
+Bubble up i'th record
+Bubble up i'th i'th i'th i'th record
+Reverse sorted
+Reverse Reverse Reverse Reverse Reverse sorted
+Random
+Random Random
+Sorted
+Sorted Sorted Sorted Sorted Sorted Sorted Sorted
+Value for this node
+Value Value Value for this node
+Pointer to next node in list
+Pointer to next node in list list list list list list list list
+Constructors
+Constructors Constructors Constructors
+Return next field
+Return Return Return Return Return Return Return Return next field
+Set next field
+Set next next field
+Return element field
+Return element field field field field field field field field
+Set element field
+Set Set Set Set Set Set element field
+Constructor
+Constructor Constructor Constructor Constructor Constructor
+Create a graph from file
+Create a graph graph from file
+Read in edges
+Read Read Read Read Read Read in edges
+No weight given -- set at 1
+No weight given -- set set set set set at 1
+Put in edge in other direction
+Put in edge edge edge edge edge edge in other direction
+The current vertex
+The current vertex vertex vertex vertex vertex vertex vertex vertex
+Heap for edges
+Heap for edges edges edges edges edges edges edges
+Initial vertex
+Initial Initial Initial Initial Initial Initial Initial vertex
+Initialize distances
+Initialize distances distances distances distances
+Now, get distances
+Now, get distances distances distances
+Get position
+Get Get position
+Add edge to MST
+Add edge to to to to to to to MST
+Unreachable
+Unreachable Unreachable Unreachable Unreachable
+Update D
+Update D D D D D
+Where it came from
+Where it came from from
+V[i] stores closest vertex to i
+V[i] stores closest closest closest closest closest closest closest closest vertex to i
+Graph class ADT
+Graph class class ADT
+Pointer to the heap array
+Pointer to to to to to the heap array
+Maximum size of the heap
+Maximum size of of of the heap
+Number of things in heap
+Number Number Number Number Number Number of things in heap
+Start at end of heap
+Start at at at at end of heap
+Now sift up until curr's parent's key > curr's key
+Now sift up until curr's curr's curr's curr's curr's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with greater greater greater greater greater value
+Move down
+Move down down down down down down
+Swap maximum with last value
+Swap maximum with with last value
+Not on last element
+Not on on on on on on on on last element
+Put new heap root val in correct place
+Put new heap heap heap heap heap heap heap root val in correct place
+Last element, no work to be done
+Last element, no work to to to to to to to to be done
+Swap with last value
+Swap with with with with with with with last value
+If we just swapped in a big value, push it up
+If we just swapped in a big value, push it it it it up
+If it is little, push down
+If it is is little, push down
+/binsimp1.x
+/binsimp1.x /binsimp1.x /binsimp1.x /binsimp1.x /binsimp1.x /binsimp1.x
+/End binsimp1.x
+/End /End /End /End /End /End binsimp1.x
+/binsimp2.x
+/binsimp2.x /binsimp2.x /binsimp2.x /binsimp2.x /binsimp2.x
+Swap element A[i] with A[A[i]]
+Swap element A[i] with with with with with with with with A[A[i]]
+/End binsimp2.x
+/End binsimp2.x binsimp2.x binsimp2.x binsimp2.x
+Factor out overhead
+Factor out overhead overhead overhead overhead overhead overhead
+Swap element A[i] with A[A[i]]
+Swap element A[i] with A[A[i]] A[A[i]] A[A[i]] A[A[i]] A[A[i]] A[A[i]] A[A[i]]
+Create a graph from file
+Create Create Create Create Create a graph from file
+Read in edges
+Read in in in in in in in in edges
+No weight given -- set at 1
+No weight given -- set at at at at at at at 1
+Put in edge in other direction
+Put in in in in in in in in edge in other direction
+Process each vertex on Q
+Process each vertex on Q Q Q Q Q Q Q Q
+Take appropriate action
+Take Take appropriate action
+Put neighbors on Q
+Put neighbors neighbors neighbors neighbors neighbors on Q
+Take appropriate action
+Take Take Take Take appropriate action
+int version
+int int int int int int int version
+Randomly permute the values of array "A"
+Randomly permute the values values values values values values values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with with with a random element
+for each i swap A[i-1] with a random element
+for for each i swap A[i-1] with a random element
+Hold the Random class object
+Hold Hold Hold Hold Hold Hold Hold Hold the Random class object
+For each increment
+For each each each each each each each increment
+Sort each sublist
+Sort each sublist sublist sublist sublist sublist sublist
+Could call regular inssort here
+Could call regular inssort here here here here here here here
+Graph class ADT
+Graph Graph Graph Graph Graph Graph Graph Graph class ADT
+Generic array allocation
+Generic array array array array array array allocation
+Count[i] stores number of records in bin[i]
+Count[i] stores number of records in in in in in bin[i]
+For k digits
+For k digits digits digits digits digits digits
+Initialize count
+Initialize Initialize Initialize Initialize Initialize Initialize Initialize Initialize count
+Count the number of records for each bin on this pass
+Count the number of of of of of of records for each bin on this pass
+count[j] will be index in B for last slot of bin j.
+count[j] will be index index in B for last slot of bin j.
+Put records into bins, working from bottom of bin
+Put records into bins, working from bottom of of of bin
+Since bins fill from bottom, j counts downwards
+Since bins fill from from from bottom, j counts downwards
+Copy B back
+Copy Copy Copy Copy Copy Copy Copy B back
+Reverse sorted
+Reverse Reverse sorted
+Random
+Random Random Random Random
+Sorted
+Sorted Sorted Sorted Sorted Sorted Sorted Sorted
+The vertex list
+The vertex list list list list list list list list
+Number of edges
+Number of of of of of of of of edges
+The mark array
+The mark mark mark array
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor
+# of vertices
+# of vertices vertices vertices vertices
+# of edges
+# # # # # # # of edges
+No neighbor
+No No No No No No No neighbor
+No neighbor
+No No neighbor
+Edge already exists in graph
+Edge already already already already already already already already exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by vertex index index index
+Check if j is the current neighbor in the list
+Check if j is the current neighbor neighbor neighbor neighbor neighbor neighbor neighbor neighbor in the list
+Check whole list
+Check whole list list list
+The vertex list
+The vertex list list list list list
+Number of edges
+Number of of of of of of of edges
+The mark array
+The mark mark mark mark mark mark mark mark array
+Constructor
+Constructor Constructor
+# of vertices
+# # # # # # # of vertices
+# of edges
+# of of of of of of of of edges
+No neighbor
+No No No No neighbor
+No neighbor
+No No No No No No No neighbor
+Edge already exists in graph
+Edge Edge Edge Edge already exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by vertex index index index index index
+Check if j is the current neighbor in the list
+Check Check Check if j is the current neighbor in the list
+Check whole list
+Check Check Check Check Check Check Check Check whole list
+Pointer to list header
+Pointer to to to to to list header
+Pointer to last element
+Pointer Pointer Pointer Pointer Pointer to last element
+Access to current element
+Access to to to to to to to current element
+Size of list
+Size Size Size Size Size Size Size Size of list
+Constructor -- Ignore size
+Constructor -- Ignore size size size size size size size size
+Create header
+Create header header
+Drop access to links
+Drop Drop Drop Drop Drop access to links
+Create header
+Create header header header header header
+New tail
+New New New tail
+Nothing to remove
+Nothing Nothing Nothing Nothing Nothing to remove
+Remember value
+Remember Remember Remember Remember Remember Remember value
+Removed last
+Removed Removed last
+Remove from list
+Remove Remove Remove Remove Remove Remove Remove from list
+Decrement count
+Decrement Decrement Decrement Decrement Decrement Decrement count
+Return value
+Return value value value value
+No previous element
+No previous previous previous previous previous previous previous element
+March down list until we find the previous element
+March down list until we find find find the previous element
+Extra stuff not printed in the book.
+Extra Extra Extra Extra stuff not printed in the book.
+Save the current position of the list
+Save the current position of of of of of the list
+Reset the fence to its original position
+Reset the fence to its original original original original position
+Internal node
+Internal Internal Internal Internal Internal node
+Left child
+Left Left Left Left Left Left Left Left child
+Right child
+Right Right Right Right Right child
+Operator value
+Operator value value
+Value for this node
+Value for this this this this this this this node
+Point to next node in list
+Point to next node in in in in in list
+Freelist for the class
+Freelist for for for for for for the class
+Get from "new"
+Get Get Get Get Get from "new"
+Get from freelist
+Get from from from freelist
+Drop reference to the element
+Drop Drop Drop reference to the element
+Pointer to list header
+Pointer to list list list list list list list list header
+Pointer to last element
+Pointer to last last last last last last element
+Access to current element
+Access Access Access Access Access Access Access to current element
+Size of list
+Size of list list list list list list list list
+Constructor -- Ignore size
+Constructor Constructor -- Ignore size
+Create header
+Create Create Create header
+Drop access to links
+Drop access access to links
+Create header
+Create Create header
+New tail
+New New New New New New New New tail
+Nothing to remove
+Nothing Nothing Nothing Nothing to remove
+Remember value
+Remember Remember Remember Remember Remember Remember Remember value
+Removed last
+Removed Removed last
+Remove from list
+Remove from list list list list
+Decrement count
+Decrement count count count count count count count count
+Return value
+Return value value value value value value
+No previous element
+No previous previous previous previous previous element
+March down list until we find the previous element
+March down list until we we we we we we we we find the previous element
+Extra stuff not printed in the book.
+Extra stuff not printed printed printed in the book.
+Save the current position of the list
+Save the current position of of of of of the list
+Reset the fence to its original position
+Reset the fence fence fence fence fence fence fence fence to its original position
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor Constructor
+Insert i'th record
+Insert Insert Insert Insert Insert Insert Insert i'th record
+Reverse sorted
+Reverse sorted sorted
+Random
+Random Random Random Random Random Random Random Random
+Sorted
+Sorted Sorted Sorted Sorted
+Value for this node
+Value Value Value Value Value Value Value for this node
+Pointer to next node in list
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer Pointer to next node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return Return Return Return Return Return Return next field
+Set next field
+Set next field field field field field field field field
+Return element field
+Return element field field field field field field
+Set element field
+Set element element element element element element element element field
+Somebody better change
+Somebody better change change change change change
+Generic array allocation
+Generic array array array array array allocation
+Select midpoint
+Select midpoint midpoint midpoint midpoint midpoint midpoint
+List has one element
+List has has has has one element
+Mergesort first half
+Mergesort Mergesort Mergesort first half
+Mergesort second half
+Mergesort second half half half half half half half
+Copy subarray to temp
+Copy subarray subarray subarray subarray subarray subarray subarray subarray to temp
+Do the merge operation back to A
+Do the the the merge operation back to A
+Left sublist exhausted
+Left sublist sublist sublist sublist sublist sublist sublist exhausted
+Right sublist exhausted
+Right sublist exhausted exhausted
+Get smaller
+Get Get Get Get Get Get Get smaller
+Reverse sorted
+Reverse sorted sorted sorted sorted sorted
+Random
+Random Random Random Random Random Random Random
+Sorted
+Sorted Sorted Sorted Sorted
+Root of the BST
+Root Root Root Root Root Root of the BST
+Number of nodes in the BST
+Number of nodes in the the the the the the the the BST
+First find it
+First find it it it it it it
+Now remove it
+Now remove remove remove remove remove remove remove it
+Found it
+Found it it it it it it it it
+Two children
+Two Two Two children
+Holds largest element position
+Holds largest element element element position
+For each element
+For For For each element
+if A[i] is larger remember its position
+if A[i] is larger remember remember remember remember remember remember its position
+Return largest position
+Return Return Return Return Return Return Return largest position
+Default size
+Default Default Default Default size
+Maximum size of list
+Maximum size of list list list list list list list list
+Current # of list items
+Current # of list list list items
+Position of current element
+Position Position Position Position of current element
+Array holding list elements
+Array Array Array Array Array Array Array holding list elements
+Generic array allocation
+Generic Generic Generic Generic Generic Generic Generic Generic array allocation
+Create listArray
+Create listArray listArray listArray listArray
+Reinitialize the list
+Reinitialize the list list list list list list list list
+Simply reinitialize values
+Simply Simply Simply Simply Simply Simply Simply reinitialize values
+Shift elements up to make room
+Shift elements up to to to to to to to make room
+Increment list size
+Increment Increment Increment Increment Increment Increment Increment list size
+No current element
+No No No No current element
+Copy the element
+Copy the the the the the the the element
+Shift them down
+Shift them them them them them them them down
+Decrement size
+Decrement size size size size
+Set to front
+Set Set to front
+Set at end
+Set at at at at end
+Back up
+Back Back Back Back Back Back up
+Extra stuff not printed in the book.
+Extra Extra Extra Extra stuff not printed in the book.
+Save the current position of the list
+Save Save Save Save Save Save Save Save the current position of the list
+Reset the fence to its original position
+Reset Reset Reset Reset Reset Reset Reset Reset the fence to its original position
+Left child
+Left child child child child child
+Right child
+Right Right child
+Operator value
+Operator value value
+Node array
+Node array array array array array array array array
+Create node array
+Create node array array array array array array
+Find root of node a
+Find Find root of node a
+Find root of node b
+Find root of of of of of of of of node b
+Compare roots
+Compare Compare Compare Compare Compare Compare Compare Compare roots
+Find root of node a
+Find root of of of of of of of of node a
+Find root of node b
+Find root of node b b
+Merge
+Merge Merge Merge Merge Merge
+At root
+At At At At At At At root
+do nothing
+do do do do nothing
+Start tag offset
+Start tag offset offset offset offset offset
+Size field offset
+Size field offset offset offset offset offset offset
+User size offset
+User size size offset
+Left freelist pointer
+Left Left freelist pointer
+Right freelist pointer
+Right freelist freelist pointer
+Start of data
+Start of of of of data
+Tag value
+Tag Tag Tag value
+Tag value
+Tag Tag Tag Tag Tag Tag value
+Size field offset
+Size field field field field field field field offset
+Tag field offset
+Tag Tag Tag Tag Tag field offset
+Tag field offset
+Tag field offset offset offset offset offset offset
+Extra space needed
+Extra space needed needed needed needed needed
+Number free fields
+Number Number Number free fields
+Number of res fields
+Number of res res res res res res fields
+Smallest data request
+Smallest data data data data data data data request
+The data space
+The data space space space space space
+Free memory access
+Free memory access access access access access access access access
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor Constructor
+Allocate space
+Allocate space space
+Start of freelist
+Start of freelist freelist freelist freelist freelist freelist freelist freelist
+Circ doubly-linked list
+Circ Circ Circ Circ doubly-linked list
+Return data for h
+Return Return Return Return Return Return Return data for h
+Sample sequential fit implementation: First fit
+Sample sequential fit implementation: First First First First First First First fit
+No free block
+No free free free free free free block
+No block available
+No block available available available available available available available available
+Minimum necessary for a sustainable block
+Minimum necessary necessary for a sustainable block
+No block is big enough
+No block block block block block is big enough
+Fix up the remaining free space
+Fix up the remaining free free free free free free space
+Now, fix up the new block
+Now, fix fix fix fix fix up the new block
+Give over the whole block, remove from freelist
+Give over the whole whole whole whole whole block, remove from freelist
+First, adjust the freelist
+First, adjust the freelist freelist freelist freelist freelist freelist freelist
+This is the last block
+This is the last block block block block block block block block
+Now, fill in the block
+Now, fill in the the the block
+Implementation is left as an exercise
+Implementation is left as as an exercise
+class MemManager
+class class class class class class class class MemManager
+Pointer to list header
+Pointer to to to list header
+Pointer to last element
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer to last element
+Access to current element
+Access to to to current element
+Size of list
+Size Size Size Size of list
+Constructor -- Ignore size
+Constructor -- Ignore Ignore Ignore Ignore Ignore Ignore Ignore size
+Create header
+Create Create Create Create Create Create header
+Drop access to links
+Drop access access access access to links
+Create header
+Create Create header
+New tail
+New tail tail tail tail tail tail tail
+Nothing to remove
+Nothing to to to to to to remove
+Remember value
+Remember Remember value
+Removed last
+Removed last last last last last last
+Remove from list
+Remove from list list list list list
+Decrement count
+Decrement count count count count count count
+Return value
+Return value value value
+No previous element
+No No No No No previous element
+March down list until we find the previous element
+March down list until we find the previous element element element
+Extra stuff not printed in the book.
+Extra stuff not printed in the the the the the the the book.
+Save the current position of the list
+Save the current position of of of of of of the list
+Reset the fence to its original position
+Reset the fence to its original original position
+Graph class ADT
+Graph class ADT ADT ADT ADT
+int version
+int version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute permute permute permute permute permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a a a a a a a random element
+Hold the Random class object
+Hold the the Random class object
+Root of 2-3 tree
+Root of 2-3 tree tree tree tree tree tree tree
+# of records now in 2-3 tree
+# # # # # # of records now in 2-3 tree
+Empty tree: create a leaf node for root
+Empty tree: create a leaf node for root root root root root root root root
+At leaf node: insert here
+At leaf node: insert here here here
+Add to internal node
+Add to internal internal internal internal internal node
+Insert left
+Insert left left left left left left left
+Insert right
+Insert Insert Insert right
+val not found
+val not not not not not not not found
+Search left
+Search Search left
+Search center
+Search center center center
+Search center
+Search Search Search Search Search Search center
+Search right
+Search Search Search Search Search Search Search right
+Pointer to list header
+Pointer Pointer to list header
+Pointer to last element
+Pointer to last last last last last last last element
+Access to current element
+Access to current element element element element element
+Size of list
+Size of of list
+Constructor -- Ignore size
+Constructor -- -- -- -- Ignore size
+Create header
+Create Create Create Create Create Create Create Create header
+Drop access to links
+Drop Drop Drop Drop Drop Drop access to links
+Create header
+Create Create header
+New tail
+New New New New tail
+Nothing to remove
+Nothing to remove remove remove
+Remember value
+Remember value value value value value value value value
+Removed last
+Removed Removed Removed Removed Removed last
+Remove from list
+Remove from list list list list list
+Decrement count
+Decrement Decrement Decrement Decrement count
+Return value
+Return value value value value
+No previous element
+No No No previous element
+March down list until we find the previous element
+March down list list list until we find the previous element
+Extra stuff not printed in the book.
+Extra stuff stuff stuff not printed in the book.
+Save the current position of the list
+Save Save Save Save Save Save Save the current position of the list
+Reset the fence to its original position
+Reset Reset the fence to its original position
+Node array
+Node array array array array array array array array
+Create node array
+Create node array array
+Find root of node a
+Find root of node a a a a
+Find root of node b
+Find root of node b b b b b
+Compare roots
+Compare roots roots roots roots roots
+Find root of node a
+Find root root root root root of node a
+Find root of node b
+Find root of node b b b b
+Merge
+Merge Merge
+At root
+At At At root
+Create a graph from file
+Create a graph from file file file
+Read in edges
+Read in in edges
+No weight given -- set at 1
+No No No No No No weight given -- set at 1
+Put in edge in other direction
+Put in edge in other other other other other other other other direction
+Initialize v to any unvisited vertex;
+Initialize v to any any any unvisited vertex;
+Now find smallest value
+Now Now find smallest value
+Initialize
+Initialize Initialize
+Process the vertices
+Process the the the the the the vertices
+Unreachable
+Unreachable Unreachable
+V[i] stores closest vertex to i
+V[i] stores closest closest closest closest closest closest vertex to i
+Maximum size of stack
+Maximum Maximum Maximum size of stack
+Index for top Object
+Index for top Object Object Object
+Array holding stack
+Array holding stack stack stack stack
+Generic array allocation
+Generic array array array array array allocation
+Create listArray
+Create listArray listArray listArray listArray listArray listArray listArray listArray
+Extra stuff not printed in the book.
+Extra stuff not printed in the book. book. book. book. book.
+Pointer to the heap array
+Pointer to to to to to to to the heap array
+Maximum size of the heap
+Maximum Maximum Maximum Maximum Maximum size of the heap
+Number of things in heap
+Number of things in heap heap heap heap heap
+Start at end of heap
+Start at at at at at at end of heap
+Now sift up until curr's parent's key > curr's key
+Now sift up until curr's parent's key > > > > > curr's key
+j is now index of child with greater value
+j j j j j j j is now index of child with greater value
+Move down
+Move down down down down down down
+Remove minimum value
+Remove Remove Remove minimum value
+Swap minimum with last value
+Swap minimum with last last last last last last last value
+Not on last element
+Not on last element element element element element element element element
+Put new heap root val in correct place
+Put new heap root root root root val in correct place
+Last element, no work to be done
+Last element, no work work work work work work work to be done
+Swap with last value
+Swap Swap Swap Swap Swap Swap Swap Swap with last value
+If we just swapped in a small value, push it up
+If we just swapped in a small value, push it up up up up up up
+If it is big, push down
+If it is big, push push push push push down
+Number of records in a block
+Number of records in in in a block
+Number of blocks in the buffer (run)
+Number of of of blocks in the buffer (run)
+Move the bounds inward until they meet
+Move Move Move Move Move Move the bounds inward until they meet
+Move left bound right
+Move left bound bound bound bound bound bound right
+Move right bound
+Move right bound bound bound bound bound bound
+Swap out-of-place values
+Swap out-of-place values values values values values values values values
+Stop when they cross
+Stop when they they they they cross
+Reverse last, wasted swap
+Reverse last, last, last, last, last, last, last, wasted swap
+Return first position in right partition
+Return Return Return Return Return first position in right partition
+Quicksort
+Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort Quicksort
+Stick pivot at end
+Stick pivot at end end end end
+k will be the first position in the right subarray
+k k k k k k k will be the first position in the right subarray
+Put pivot in place
+Put pivot pivot pivot pivot pivot pivot pivot in place
+Sort left partition
+Sort left partition partition partition partition
+Sort right partition
+Sort right partition partition partition partition partition
+Use quicksort to generate initial runs, placing the runs
+Use quicksort quicksort quicksort quicksort quicksort quicksort quicksort to generate initial runs, placing the runs
+one after another into the temporary file.
+one after after after after another into the temporary file.
+Suck in the original data
+Suck in in in the original data
+Now, do the multiway merge
+Now, Now, Now, do the multiway merge
+Now, read in a new block if necessary
+Now, read in a a a new block if necessary
+For first pass, need the original input file.  Won't use again
+For first pass, need the original input input input input input input input file. Won't use again
+Now, do a single multi-way merge pass
+Now, do a single single single single multi-way merge pass
+Pointer to the heap array
+Pointer to to to to to to the heap array
+Maximum size of the heap
+Maximum size size size size of the heap
+Number of things in heap
+Number of things things things things things things things in heap
+Start at end of heap
+Start at end end end of heap
+Now sift up until curr's parent's key > curr's key
+Now sift up until curr's parent's parent's parent's parent's parent's parent's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with greater greater greater greater greater greater greater greater value
+Move down
+Move Move Move Move Move down
+Remove minimum value
+Remove minimum value value value value value value value value
+Swap minimum with last value
+Swap Swap Swap minimum with last value
+Not on last element
+Not on last element element element element
+Put new heap root val in correct place
+Put new heap heap heap heap heap root val in correct place
+Last element, no work to be done
+Last element, no work to to be done
+Swap with last value
+Swap with last last last value
+If we just swapped in a small value, push it up
+If we just swapped in a small value, push push push it up
+If it is big, push down
+If it it it it it is big, push down
+fact(20) is the largest value that fits in a long
+fact(20) is the largest value that fits in a a a a a a a long
+Base case: return base solution
+Base Base Base Base Base Base Base Base case: return base solution
+Recursive call for n > 1
+Recursive call call call call call call call call for n > 1
+We really need to figure out a way to do this that doesn't
+We really need to figure figure figure figure figure figure figure out a way to do this that doesn't
+include a control variable
+include a control variable variable variable variable variable variable variable
+do nothing
+do do nothing
+We really need to figure out a way to do this that doesn't
+We really need to figure out a way to do this this this this this that doesn't
+include a control variable
+include a a a a a control variable
+do nothing
+do do do do do do do do nothing
+int version
+int version version version
+Randomly permute the values of array "A"
+Randomly permute the values values values values values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap swap swap swap A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a a random element
+Hold the Random class object
+Hold Hold Hold Hold Hold the Random class object
+Select i'th record
+Select Select Select Select Select Select Select i'th record
+Remember its index
+Remember Remember Remember Remember Remember its index
+Find the least value
+Find the the least value
+Put it in place
+Put it in place place place
+Reverse sorted
+Reverse sorted sorted sorted sorted sorted
+Random
+Random Random Random Random Random Random Random Random
+Sorted
+Sorted Sorted Sorted Sorted Sorted Sorted Sorted
+Base case
+Base Base Base Base Base Base Base Base case
+Recursive call: n-1 rings
+Recursive call: n-1 n-1 n-1 rings
+Move bottom disk to goal
+Move Move Move Move Move Move Move Move bottom disk to goal
+Recursive call: n-1 rings
+Recursive Recursive Recursive Recursive Recursive call: n-1 rings
+Create a graph from file
+Create a graph from file file file file file file file file
+Read in edges
+Read in in in in in in in in edges
+No weight given -- set at 1
+No weight given -- set set set set set set set set at 1
+Put in edge in other direction
+Put Put Put Put Put Put Put in edge in other direction
+Initialize Mark array
+Initialize Initialize Initialize Initialize Initialize Initialize Mark array
+Process all vertices
+Process all all all all all vertices
+Recursive helper function
+Recursive helper helper helper helper helper helper function
+PostVisit for Vertex v
+PostVisit for Vertex v v
+Root of B+ tree
+Root of B+ B+ B+ B+ B+ tree
+# of records now in 2-3 tree
+# of records now in in in in in in in in 2-3 tree
+Collapse root
+Collapse Collapse Collapse Collapse root
+At leaf node: insert here
+At leaf leaf leaf leaf leaf leaf leaf node: insert here
+Add to internal node
+Add to to to to to to to internal node
+Process internal node
+Process Process Process Process Process Process Process Process internal node
+Child will merge if necessary
+Child will merge merge merge merge if necessary
+int version
+int int int int version
+Randomly permute the values of array "A"
+Randomly Randomly Randomly permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with with with with with a random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+Hold the Random class object
+Hold the Random Random Random Random Random Random class object
+All subclasses must implement
+All All All All All subclasses must implement
+The vertex list
+The The The The The The The The vertex list
+Number of edges
+Number of edges edges edges edges edges edges edges
+The mark array
+The mark mark mark mark mark mark mark array
+Constructor
+Constructor Constructor Constructor Constructor
+# of vertices
+# # # # # of vertices
+# of edges
+# of of of of of of of of edges
+No neighbor
+No No No neighbor
+No neighbor
+No neighbor neighbor neighbor neighbor neighbor neighbor neighbor neighbor
+Edge already exists in graph
+Edge already exists in graph graph graph graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by vertex vertex index
+Check if j is the current neighbor in the list
+Check if j is the current current current current current current current neighbor in the list
+Check whole list
+Check whole whole whole whole whole whole list
+Default size
+Default size size size size
+To store dictionary
+To store store store store store store store store dictionary
+"k" does not appear in dictionary
+"k" does not appear appear appear appear appear in dictionary
+Graph class ADT
+Graph class ADT ADT ADT
+Clear the tree
+Clear Clear Clear Clear Clear Clear the tree
+Return the root
+Return the root root root root root root root root
+Make the tree have a new root, give first child and sib
+Make the tree have a new root, give first first first first first first child and sib
+Add left child
+Add Add Add left child
+Constructor
+Constructor Constructor Constructor Constructor
+2D key for this node
+2D 2D 2D 2D key for this node
+Element for this node
+Element for for for for this node
+Pointer to left child
+Pointer to left child child child
+Pointer to right child
+Pointer to right right right right right right right child
+Graph class ADT
+Graph class class class class class class ADT
+Create a graph from file
+Create a graph from from from file
+Read in edges
+Read in in in in in in edges
+No weight given -- set at 1
+No No No No No weight given -- set at 1
+Put in edge in other direction
+Put in edge in other direction direction direction direction
+Initialize v to any unvisited vertex;
+Initialize v v v v v v v v to any unvisited vertex;
+Now find smallest value
+Now find smallest smallest smallest smallest smallest value
+Initialize
+Initialize Initialize Initialize Initialize Initialize Initialize Initialize Initialize
+Process the vertices
+Process the the the vertices
+Unreachable
+Unreachable Unreachable Unreachable Unreachable Unreachable
+V[i] stores closest vertex to i
+V[i] stores stores closest vertex to i
+fibr(91) is the largest value that fits in a long
+fibr(91) is the largest largest largest largest largest largest value that fits in a long
+curr holds current Fib value
+curr holds current current current current current current Fib value
+Compute next value
+Compute next value value value
+past holds fibi(i-2)
+past holds holds fibi(i-2)
+prev holds fibi(i-1)
+prev holds fibi(i-1) fibi(i-1) fibi(i-1) fibi(i-1) fibi(i-1)
+curr now holds fibi(i)
+curr now now holds fibi(i)
+fibr(91) is the largest value that fits in a long
+fibr(91) is the largest value that that that fits in a long
+Base case
+Base Base Base Base Base Base Base case
+Recursive call
+Recursive Recursive Recursive Recursive Recursive Recursive call
+We really need to figure out a way to do this that doesn't
+We really need to figure out a way to do this this this this this this this that doesn't
+include a control variable
+include a control control control control variable
+do nothing
+do nothing nothing nothing nothing nothing
+We really need to figure out a way to do this that doesn't
+We really need to to to to figure out a way to do this that doesn't
+include a control variable
+include a a a a a a a control variable
+do nothing
+do do do do do nothing
+The vertex list
+The The The vertex list
+Number of edges
+Number Number Number Number Number Number of edges
+The mark array
+The mark mark mark mark mark mark mark array
+Constructor
+Constructor Constructor Constructor Constructor Constructor
+# of vertices
+# of of of of of of of vertices
+# of edges
+# of of of of of of edges
+No neighbor
+No No No No No No No No neighbor
+No neighbor
+No No No No No No neighbor
+Edge already exists in graph
+Edge already exists in graph graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by vertex vertex vertex vertex index
+Check if j is the current neighbor in the list
+Check if if if if if j is the current neighbor in the list
+Check whole list
+Check whole list list list list
+Select i'th record
+Select i'th record record
+Remember its index
+Remember its its its index
+Find the least value
+Find Find Find Find Find Find the least value
+Put it in place
+Put it it it it in place
+Return true if "k" matches the key for an element in list "L",
+Return Return true if "k" matches the key for an element in list "L",
+false otherwise
+false otherwise otherwise otherwise otherwise otherwise otherwise otherwise otherwise
+K not found
+K K K K K K not found
+The left record
+The left left left left record
+The node's left key
+The The The The The The The The node's left key
+The right record
+The right record record record record record
+The node's right key
+The The The node's right key
+Pointer to left child
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer Pointer to left child
+Pointer to middle child
+Pointer to to to to middle child
+Pointer to right child
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer to right child
+Left key
+Left key key key key key key key key
+Left value
+Left value value
+Right key
+Right key key key key key
+Right value
+Right Right value
+Only one key, add here
+Only one one one one one one one key, add here
+Add left
+Add Add Add Add left
+Add center
+Add center center center center
+Add right
+Add Add Add right
+Bubble up i'th record
+Bubble up up up up up up up up i'th record
+Pointer to the heap array
+Pointer Pointer to the heap array
+Maximum size of the heap
+Maximum Maximum Maximum Maximum Maximum Maximum Maximum size of the heap
+Number of things in heap
+Number of of of of of things in heap
+Start at end of heap
+Start Start Start Start Start Start Start at end of heap
+Now sift up until curr's parent's key > curr's key
+Now Now Now Now Now Now Now sift up until curr's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with greater greater greater greater greater greater greater value
+Move down
+Move Move Move Move down
+Remove minimum value
+Remove minimum value value value value value value
+Swap minimum with last value
+Swap minimum with last value value value value value
+Not on last element
+Not Not Not Not on last element
+Put new heap root val in correct place
+Put new heap root val in correct correct correct correct correct correct place
+Last element, no work to be done
+Last element, no work to to to be done
+Swap with last value
+Swap with last last last value
+If we just swapped in a small value, push it up
+If we just swapped in a small small small small small small small small value, push it up
+If it is big, push down
+If If it is big, push down
+Graph class ADT
+Graph Graph Graph Graph class ADT
+Graph class ADT
+Graph class class ADT
+Value for this node
+Value for this this this this this this node
+Pointer to next node in list
+Pointer to next node node node node node node node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return Return Return Return next field
+Set next field
+Set next field field
+Return element field
+Return Return Return Return Return element field
+Set element field
+Set element element element element element field
+Make a stack just big enough
+Make a stack just big big big big big big enough
+Get next task
+Get next task task task task
+Do a move
+Do a move move move
+Imitate TOH recursive
+Imitate TOH TOH TOH TOH recursive
+solution (in reverse)
+solution solution solution solution solution solution solution solution (in reverse)
+A move to do
+A move move move move move move to do
+Allow the generic array allocation
+Allow the the the generic array allocation
+Allow the generic array allocation
+Allow the generic array array array array array allocation
+Test the remove function.
+Test the remove remove remove remove remove function.
+Allow the generic array allocation
+Allow the generic generic generic generic array allocation
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor Constructor Constructor
+Graph class ADT
+Graph class class class class ADT
+Generic array allocation
+Generic Generic Generic Generic Generic Generic Generic Generic array allocation
+Insert i'th record
+Insert Insert Insert Insert i'th record
+Select the midpoint
+Select the midpoint midpoint midpoint midpoint midpoint midpoint midpoint
+List has one element
+List has has has has one element
+Do the merge operation.  First, copy 2 halves to temp.
+Do the the the the the the merge operation. First, copy 2 halves to temp.
+Merge sublists back to array
+Merge sublists sublists sublists sublists back to array
+Reverse sorted
+Reverse sorted sorted
+Random
+Random Random Random Random Random Random Random
+Sorted
+Sorted Sorted
+The edge matrix
+The edge matrix matrix matrix matrix matrix matrix
+Number of edges
+Number of edges edges edges edges edges
+The mark array
+The mark array array array
+Constructors
+Constructors Constructors Constructors Constructors
+# of vertices
+# of of of of of of vertices
+# of edges
+# # # of edges
+No edge for this vertex
+No edge edge edge for this vertex
+No next edge;
+No No No No next edge;
+Delete edge (i, j)
+Delete edge (i, j) j)
+Graph class ADT
+Graph Graph Graph Graph class ADT
+Linked list implementation -- Freelist
+Linked list implementation -- -- -- Freelist
+Pointer to list header
+Pointer Pointer Pointer Pointer to list header
+Pointer to last element in list
+Pointer to to last element in list
+Pointer one ahead of current element
+Pointer one ahead of current current current current current current current current element
+Size of list
+Size Size Size of list
+//Constructors
+//Constructors //Constructors
+Constructor -- Ignore size
+Constructor -- -- -- -- -- Ignore size
+Create header
+Create header header header header
+Remove all elements
+Remove all all all all all all all all elements
+Drop access to links
+Drop access access to links
+Create header
+Create header header
+Set curr at list start
+Set Set Set Set Set Set Set curr at list start
+Set curr at list end
+Set curr at at at at at at at at list end
+Get link
+Get link link link link link
+New tail
+New New New New tail
+Nothing to remove
+Nothing to remove remove
+Remember value
+Remember Remember value
+Removed last
+Removed Removed Removed Removed Removed Removed Removed Removed last
+Remember link
+Remember link link link link link link link link
+Remove from list
+Remove from from from from from from list
+Release link
+Release link link link link link
+Decrement count
+Decrement count count count count count count count
+Return removed
+Return removed removed removed removed removed
+Move curr one step left; no change if at front
+Move Move Move Move Move Move Move Move curr one step left; no change if at front
+No previous element
+No previous previous previous previous previous previous previous previous element
+March down list until we find the previous element
+March down list until until until until until until until we find the previous element
+Move curr one step right; no change if at end
+Move curr one step right; no change if if if at end
+Return the position of the current element
+Return the position position position position position position position of the current element
+Move down list to "pos" position
+Move down list to to "pos" position
+Return current element
+Return Return Return Return Return Return Return current element
+Extra stuff not printed in the book.
+Extra stuff not not not not not not printed in the book.
+Save the current position of the list
+Save the current position position position of the list
+Reset the fence to its original position
+Reset Reset Reset Reset Reset Reset Reset the fence to its original position
+Pointer to list header
+Pointer to to to list header
+Pointer to last element
+Pointer to last last last last last last last element
+Access to current element
+Access Access to current element
+Size of list
+Size Size Size of list
+Constructor -- Ignore size
+Constructor -- Ignore size size size size
+Create header
+Create Create Create Create Create Create Create header
+Drop access to links
+Drop Drop Drop Drop Drop Drop Drop Drop access to links
+Create header
+Create Create Create Create Create header
+New tail
+New tail tail tail
+Nothing to remove
+Nothing Nothing to remove
+Remember value
+Remember Remember Remember Remember Remember Remember value
+Removed last
+Removed last last last last last last last last
+Remove from list
+Remove Remove Remove from list
+Decrement count
+Decrement Decrement Decrement Decrement Decrement Decrement Decrement count
+Return value
+Return Return Return Return Return Return Return value
+No previous element
+No previous element element element element element element element element
+March down list until we find the previous element
+March down list until we find find find find find find find the previous element
+Extra stuff not printed in the book.
+Extra stuff not printed printed in the book.
+Save the current position of the list
+Save the current current current current current position of the list
+Reset the fence to its original position
+Reset the fence to to to to to to its original position
+A count of the number of times that we do a read
+A A A A A A count of the number of times that we do a read
+A count of the number of times that we do a write
+A count of of of of of of of of the number of times that we do a write
+Divide the records in the input file between the two
+Divide the records in the input file between the the the the the the the two
+output files, leaving numrecs records in each.
+output files, leaving leaving leaving leaving leaving numrecs records in each.
+Flush second run
+Flush Flush Flush Flush Flush Flush Flush second run
+Flush first run
+Flush first first first first first run
+For first pass, need the original input file.  Won't use again
+For first pass, need the original input input input input input file. Won't use again
+Divide the original input into two
+Divide Divide Divide Divide the original input into two
+Now, do a series of 2-way merge passes
+Now, do a series of of of 2-way merge passes
+Finally, merge the last two runs into the output file
+Finally, merge the last two runs runs runs runs runs runs runs into the output file
+Now test that this worked correctly
+Now test that this worked correctly correctly correctly correctly
+Priming read
+Priming Priming Priming Priming Priming Priming Priming read
+Default size
+Default size size size size size size size size
+Maximum size of list
+Maximum size of list list list list list list
+Current # of list items
+Current # of list items items items
+Position of current element
+Position of current current current current current current element
+Array holding list elements
+Array holding list list elements
+Generic array allocation
+Generic array array array allocation
+Create listArray
+Create Create listArray
+Reinitialize the list
+Reinitialize the list list list list list
+Simply reinitialize values
+Simply reinitialize reinitialize values
+Shift elements up to make room
+Shift elements elements elements up to make room
+Increment list size
+Increment list size size size size size size size
+No current element
+No current element element element element element
+Copy the element
+Copy the element element element
+Shift them down
+Shift them them them them them down
+Decrement size
+Decrement size size size
+Set to front
+Set to front front front front front
+Set at end
+Set at at at at at end
+Back up
+Back up up up up up up up
+Extra stuff not printed in the book.
+Extra stuff not printed in the book. book. book. book. book. book. book.
+Save the current position of the list
+Save the current position of the the list
+Reset the fence to its original position
+Reset the fence to its original original original original original position
+Default size
+Default Default Default Default Default Default Default Default size
+To store dictionary
+To To To To store dictionary
+"k" does not appear in dictionary
+"k" does not appear in dictionary dictionary dictionary dictionary dictionary dictionary dictionary dictionary
+Leaf node
+Leaf Leaf Leaf Leaf Leaf Leaf Leaf Leaf node
+Maximum size of queue
+Maximum size of of of of queue
+Index of front element
+Index of front front front front front front element
+Index of rear element
+Index Index Index Index Index Index Index of rear element
+Array holding queue elements
+Array holding holding holding holding holding holding holding queue elements
+For generic array
+For generic array array array array array array array
+One extra space is allocated
+One extra space is is is is is is allocated
+Create listArray
+Create listArray listArray listArray listArray listArray listArray
+Circular increment
+Circular increment increment increment increment increment
+Circular increment
+Circular Circular Circular Circular increment
+Extra stuff not printed in the book.
+Extra stuff not not printed in the book.
+Node array
+Node Node Node Node Node array
+Create node array
+Create Create Create Create Create Create Create node array
+Find root of node a
+Find root root root root root root of node a
+Find root of node b
+Find root of node node node node node node b
+Compare roots
+Compare roots roots roots roots roots roots roots roots
+Find root of node a
+Find root of node a a
+Find root of node b
+Find root of node node b
+Merge
+Merge Merge
+At root
+At At At At At At root
+Graph class ADT
+Graph Graph Graph Graph Graph Graph class ADT
+Pointer to list header
+Pointer to list header header header
+Pointer to last element
+Pointer to last element element element element element element element
+Access to current element
+Access Access Access Access Access Access Access Access to current element
+Size of list
+Size of of list
+Constructor -- Ignore size
+Constructor -- -- Ignore size
+Create header
+Create header header header
+Drop access to links
+Drop access to to to to to to to to links
+Create header
+Create header header header header header header
+New tail
+New New New New New tail
+Nothing to remove
+Nothing to to to to to to remove
+Remember value
+Remember Remember Remember Remember Remember Remember Remember Remember value
+Removed last
+Removed Removed last
+Remove from list
+Remove from from from from from list
+Decrement count
+Decrement Decrement count
+Return value
+Return value value value value value
+No previous element
+No No previous element
+March down list until we find the previous element
+March down down down list until we find the previous element
+Extra stuff not printed in the book.
+Extra stuff not not not not not not printed in the book.
+Save the current position of the list
+Save the the the the the the the the current position of the list
+Reset the fence to its original position
+Reset the fence to its original original original original original position
+int version
+int version version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute the values of array "A" "A" "A" "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a random random random random element
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+Hold the Random class object
+Hold the Random class object object object
+This gives a compiler warning. But it will work correctly.
+This gives a compiler warning. But it will work work work work work correctly.
+This also gives a compiler warning and will work correctly.
+This also gives a compiler warning and will work work work work work correctly.
+Constructor
+Constructor Constructor Constructor Constructor Constructor Constructor
+int version
+int int int int int int version
+Randomly permute the values of array "A"
+Randomly permute the values values values values values values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] A[i-1] A[i-1] A[i-1] with a random element
+for each i swap A[i-1] with a random element
+for each i i i i swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random class object object object
+Pointer to the heap array
+Pointer to the heap array array array array array array
+Maximum size of the heap
+Maximum Maximum Maximum Maximum Maximum Maximum Maximum size of the heap
+Number of things in heap
+Number of things in in in heap
+Start at end of heap
+Start at end of heap heap heap heap
+Now sift up until curr's parent's key > curr's key
+Now sift up until curr's curr's curr's curr's curr's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with with with with with greater value
+Move down
+Move down down down down down
+Swap maximum with last value
+Swap maximum with last last last last last last last value
+Not on last element
+Not on on on last element
+Put new heap root val in correct place
+Put new heap root val in correct correct correct place
+Last element, no work to be done
+Last element, no work work work work work work work to be done
+Swap with last value
+Swap with last last last last last last last last value
+If we just swapped in a big value, push it up
+If we just swapped in a big value, push it up up up up up up up up
+If it is little, push down
+If it is is is is is is is is little, push down
+Pointer to list header
+Pointer to list header header header header header
+Pointer to last element
+Pointer to to to to last element
+Access to current element
+Access to current current element
+Size of list
+Size of of of of list
+Constructor -- Ignore size
+Constructor -- Ignore Ignore Ignore Ignore size
+Create header
+Create header header header
+Drop access to links
+Drop access access access access access access to links
+Create header
+Create Create Create Create Create Create Create header
+New tail
+New New New New tail
+Nothing to remove
+Nothing Nothing to remove
+Remember value
+Remember value value value
+Removed last
+Removed Removed Removed last
+Remove from list
+Remove from from from from from from from from list
+Decrement count
+Decrement count count count count count count
+Return value
+Return Return Return Return Return Return value
+No previous element
+No previous previous previous element
+March down list until we find the previous element
+March down list until we find the the previous element
+Extra stuff not printed in the book.
+Extra Extra Extra Extra stuff not printed in the book.
+Save the current position of the list
+Save the current position of the the the the the the the list
+Reset the fence to its original position
+Reset the fence to to to to to to to its original position
+Default size
+Default Default Default Default Default size
+To store dictionary
+To To To To To store dictionary
+"k" does not appear in dictionary
+"k" does not not not appear in dictionary
+Node array
+Node Node Node Node Node Node array
+Create node array
+Create node node array
+Find root of node a
+Find root of node node node a
+Find root of node b
+Find Find Find Find Find Find Find root of node b
+Compare roots
+Compare roots roots roots roots roots roots
+Find root of node a
+Find root of node a a a a a a a a
+Find root of node b
+Find root of of of node b
+Merge
+Merge Merge Merge Merge Merge Merge Merge Merge
+At root
+At At At At At At At At root
+The vertex list
+The The vertex list
+Number of edges
+Number of edges edges edges edges
+The mark array
+The The The The The The mark array
+Constructor
+Constructor Constructor
+# of vertices
+# # # # of vertices
+# of edges
+# of edges edges edges edges edges
+No neighbor
+No neighbor neighbor neighbor
+No neighbor
+No No No neighbor
+Edge already exists in graph
+Edge already exists in in in in in in in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted by by by by by vertex index
+Check if j is the current neighbor in the list
+Check if j is the the the current neighbor in the list
+Check whole list
+Check Check Check Check whole list
+Graph class ADT
+Graph Graph Graph Graph Graph class ADT
+Maximum size of queue
+Maximum size of queue queue
+Index of front element
+Index of of of of of front element
+Index of rear element
+Index Index Index of rear element
+Array holding queue elements
+Array holding queue queue queue elements
+For generic array
+For generic generic generic generic generic array
+One extra space is allocated
+One extra space space space space space space is allocated
+Create listArray
+Create Create Create Create Create Create Create Create listArray
+Circular increment
+Circular Circular Circular Circular Circular increment
+Circular increment
+Circular increment increment increment
+Extra stuff not printed in the book.
+Extra Extra Extra Extra Extra Extra Extra stuff not printed in the book.
+Element for this node
+Element for this this node
+Weight for this node
+Weight Weight for this node
+Insert i'th record
+Insert i'th record record
+Pointer to list header
+Pointer to to to to to to list header
+Pointer to last element
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer Pointer to last element
+Access to current element
+Access to current element element element element
+Size of list
+Size of list list list
+Constructor -- Ignore size
+Constructor -- Ignore Ignore Ignore Ignore size
+Create header
+Create header header header header header header header header
+Drop access to links
+Drop access access access access access access to links
+Create header
+Create header header header header header header
+New tail
+New New New tail
+Nothing to remove
+Nothing Nothing Nothing Nothing to remove
+Remember value
+Remember Remember Remember Remember Remember value
+Removed last
+Removed last last last
+Remove from list
+Remove from from from list
+Decrement count
+Decrement count count count count count count
+Return value
+Return Return Return value
+No previous element
+No previous element element
+March down list until we find the previous element
+March down list until we find the the the the the previous element
+Extra stuff not printed in the book.
+Extra Extra Extra Extra Extra Extra stuff not printed in the book.
+Save the current position of the list
+Save the current current current current current position of the list
+Reset the fence to its original position
+Reset the fence to its its its its its its original position
+Generic array allocation
+Generic Generic Generic Generic Generic array allocation
+Select midpoint
+Select Select Select Select midpoint
+List has one element
+List has one element element element element element
+Mergesort first half
+Mergesort Mergesort Mergesort first half
+Mergesort second half
+Mergesort second half half half
+Copy subarray to temp
+Copy subarray subarray subarray to temp
+Do the merge operation back to A
+Do the merge operation back back back back back to A
+Left sublist exhausted
+Left sublist sublist sublist sublist sublist exhausted
+Right sublist exhausted
+Right sublist sublist sublist sublist sublist sublist exhausted
+Get smaller
+Get smaller smaller smaller
+Graph class ADT
+Graph class ADT ADT ADT ADT
+Create a graph from file
+Create Create Create Create Create Create Create Create a graph from file
+Read in edges
+Read in edges edges edges edges edges edges edges
+No weight given -- set at 1
+No weight given given -- set at 1
+Put in edge in other direction
+Put Put Put Put Put Put in edge in other direction
+The current vertex
+The current vertex vertex vertex vertex vertex
+Heap for edges
+Heap for for for for for for edges
+Initial vertex
+Initial Initial Initial vertex
+Initialize distance
+Initialize Initialize Initialize Initialize distance
+For each vertex
+For For For For For For For each vertex
+Get position
+Get Get Get Get Get Get Get position
+Unreachable
+Unreachable Unreachable Unreachable Unreachable Unreachable Unreachable Unreachable
+Update D
+Update D D D D D D D D
+Found k
+Found k k k k
+k not found
+k k k k not found
+int version
+int int int int int int int int version
+Randomly permute the values of array "A"
+Randomly permute the values of array array array array array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a a a a a a a a random element
+for each i swap A[i-1] with a random element
+for for for for each i swap A[i-1] with a random element
+Hold the Random class object
+Hold the Random class object object
+Value for this node
+Value Value Value Value Value for this node
+Pointer to next node in list
+Pointer to to to to to to to next node in list
+Constructors
+Constructors Constructors Constructors
+Return next field
+Return next field field field field
+Set next field
+Set Set Set Set next field
+Return element field
+Return Return element field
+Set element field
+Set Set Set Set Set Set element field
+Pointer to list header
+Pointer to list list header
+Pointer to last element
+Pointer Pointer to last element
+Access to current element
+Access Access Access Access Access Access to current element
+Size of list
+Size Size Size Size Size Size Size of list
+Constructor -- Ignore size
+Constructor -- -- -- -- -- -- -- Ignore size
+Create header
+Create Create Create Create header
+Drop access to links
+Drop access to to to to to to to to links
+Create header
+Create Create header
+New tail
+New tail tail tail tail tail tail tail tail
+Nothing to remove
+Nothing Nothing Nothing Nothing Nothing to remove
+Remember value
+Remember Remember value
+Removed last
+Removed last last
+Remove from list
+Remove from from from from from from list
+Decrement count
+Decrement Decrement Decrement Decrement Decrement Decrement Decrement count
+Return value
+Return Return Return Return value
+No previous element
+No previous previous previous previous previous element
+March down list until we find the previous element
+March down list until we find the the the the the the the the previous element
+Extra stuff not printed in the book.
+Extra stuff not printed in the the the the the the the the book.
+Save the current position of the list
+Save Save Save Save Save Save Save the current position of the list
+Reset the fence to its original position
+Reset the fence to its original original original position
+Value for this node
+Value for this node node node
+Pointer to next node in list
+Pointer to next node node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return next next next field
+Set next field
+Set next next next next next next next field
+Return element field
+Return Return element field
+Set element field
+Set element element field
+Create a graph from file
+Create Create Create Create Create Create Create Create a graph from file
+Read in edges
+Read Read Read Read Read in edges
+No weight given -- set at 1
+No weight given -- set at 1 1 1 1
+Put in edge in other direction
+Put in edge in other other other direction
+Initialize
+Initialize Initialize Initialize Initialize Initialize
+Take appropriate action
+Take appropriate action action
+Take appropriate action
+Take Take appropriate action
+Graph class ADT
+Graph class class class class class ADT
+Graph class ADT
+Graph Graph Graph Graph Graph Graph Graph Graph class ADT
+The edge matrix
+The edge matrix matrix matrix matrix matrix matrix
+Number of edges
+Number Number Number Number Number Number of edges
+The mark array
+The mark mark mark mark array
+Constructors
+Constructors Constructors
+# of vertices
+# of of of of of vertices
+# of edges
+# of of of of of of of of edges
+No edge for this vertex
+No edge for this vertex vertex vertex
+No next edge;
+No next next next next next next edge;
+Delete edge (i, j)
+Delete edge (i, (i, (i, (i, (i, (i, j)
+Stick this in to test the preorder routine
+Stick this in to to to to to to to test the preorder routine
+The first version of preorder
+The first first first first first first first first version of preorder
+is the preferred structure for preorder traversal.
+is the the the the preferred structure for preorder traversal.
+It tests the pointer to the current node before visiting it,
+It tests the pointer to to to to to to to the current node before visiting it,
+but does not test that children are NULL before calling a
+but does not test that children are NULL before calling calling calling calling a
+visit on them. This version does not rely on the caller
+visit visit on them. This version does not rely on the caller
+to test the root for safety.
+to test the the the the root for safety.
+The second version of preorder does "look ahead" to test if
+The The The The second version of preorder does "look ahead" to test if
+a child should be visited before doing the visit.
+a child child child child child child child should be visited before doing the visit.
+This requires an external test of the root to make it safe
+This requires an external external external external external external external test of the root to make it safe
+from calls on an empty tree.
+from calls on an empty tree. tree.
+Empty subtree - do nothing
+Empty subtree - - do nothing
+Process root node
+Process root root root root root node
+Process all nodes in left
+Process all nodes in left left
+Process all nodes in right
+Process all all all all all all all all nodes in right
+Nothing to count
+Nothing to count count
+Empty subtree
+Empty subtree subtree subtree subtree subtree subtree
+Out of range
+Out of of of of of of range
+Left side failed
+Left side side failed
+The following tests for checkBST are a little dicey. The book
+The following tests for checkBST are are are are are are are a little dicey. The book
+code uses a simple BinNode abstract class. Syntactically, this
+code uses a simple BinNode BinNode BinNode BinNode BinNode BinNode abstract class. Syntactically, this
+works fine since the function uses only base class
+works fine since the function uses only only only only only base class
+functionality. But logically, this works only so long as the key
+functionality. But But But logically, this works only so long as the key
+and element of the BSTNode are the same (since BinNode.element()
+and element of the BSTNode are the same (since (since (since (since BinNode.element()
+returns the element, not the key).
+returns the element, not the key). key). key). key). key). key). key).
+c3p1.book
+c3p1.book c3p1.book c3p1.book c3p1.book c3p1.book c3p1.book c3p1.book c3p1.book
+/c3p2.book
+/c3p2.book /c3p2.book /c3p2.book /c3p2.book
+/c3p3.book
+/c3p3.book /c3p3.book /c3p3.book
+c3p4.book
+c3p4.book c3p4.book c3p4.book c3p4.book c3p4.book c3p4.book
+First for loop is a double loop
+First for for for for for for loop is a double loop
+Second for loop
+Second Second Second Second for loop
+c3p5.book
+c3p5.book c3p5.book
+First double loop do n times
+First double loop do n times times times times times times
+Second double loop do i times
+Second double loop do i i i i i i times
+/c3p6.x
+/c3p6.x /c3p6.x /c3p6.x /c3p6.x /c3p6.x
+Do log n times
+Do log log log n times
+Do n times
+Do n n n n n n n times
+Do log n times
+Do log n times times times times times
+Do k times
+Do k times times times
+c3p16.book
+c3p16.book c3p16.book c3p16.book c3p16.book c3p16.book c3p16.book
+Initialize count
+Initialize Initialize Initialize Initialize Initialize Initialize Initialize Initialize count
+Look at all of the pixels
+Look at all of the the the the the the pixels
+Increment a pixel value count
+Increment a pixel value value value value value count
+Sort pixel value counts
+Sort pixel value value value value counts
+/c3p7.x
+/c3p7.x /c3p7.x /c3p7.x /c3p7.x /c3p7.x /c3p7.x /c3p7.x
+/End c3p7.x
+/End c3p7.x c3p7.x c3p7.x c3p7.x c3p7.x c3p7.x c3p7.x c3p7.x
+/c3p8.x
+/c3p8.x /c3p8.x /c3p8.x
+/End c3p8.x
+/End /End /End c3p8.x
+/c3p9.x
+/c3p9.x /c3p9.x /c3p9.x /c3p9.x /c3p9.x
+/End c3p9.x
+/End /End /End c3p9.x
+/c3p10.x
+/c3p10.x /c3p10.x
+/End c3p10.book
+/End c3p10.book c3p10.book c3p10.book
+/c3p11.book
+/c3p11.book /c3p11.book /c3p11.book /c3p11.book /c3p11.book /c3p11.book
+/c3p12.book
+/c3p12.book /c3p12.book
+Initialize count
+Initialize Initialize Initialize count
+Look at all of the pixels
+Look at at all of the pixels
+Increment a pixel value count
+Increment a pixel value value value value count
+Sort pixel value counts
+Sort Sort Sort pixel value counts
+For each increment
+For each increment increment increment
+Sort each sublist
+Sort each sublist sublist sublist sublist
+Could call regular inssort here
+Could call call call call call call regular inssort here
+Reverse sorted
+Reverse sorted sorted sorted sorted sorted sorted sorted sorted
+Random
+Random Random Random
+Sorted
+Sorted Sorted Sorted Sorted Sorted Sorted
+Weight (sum of children)
+Weight (sum of of of of children)
+Pointer to left child
+Pointer to left child child child child child
+Pointer to right child
+Pointer to right right right right child
+The edge matrix
+The edge matrix matrix matrix matrix matrix
+Number of edges
+Number Number of edges
+The mark array
+The mark mark mark mark mark array
+Constructors
+Constructors Constructors Constructors Constructors
+# of vertices
+# of of of of of vertices
+# of edges
+# of of of of edges
+No edge for this vertex
+No No No No No edge for this vertex
+No next edge;
+No next edge; edge; edge; edge; edge;
+Delete edge (i, j)
+Delete edge (i, (i, (i, (i, (i, (i, j)
+Create a graph from file
+Create Create a graph from file
+Read in edges
+Read in in in in in edges
+No weight given -- set at 1
+No weight weight given -- set at 1
+Put in edge in other direction
+Put in edge in in in in in in other direction
+int version
+int version version version version version version version version
+Randomly permute the values of array "A"
+Randomly permute permute permute permute permute permute the values of array "A"
+for each i swap A[i-1] with a random element
+for each i swap A[i-1] with a a a a a a a a random element
+for each i swap A[i-1] with a random element
+for each each each each each i swap A[i-1] with a random element
+Hold the Random class object
+Hold the the the the the Random class object
+Pointer to list header
+Pointer to list header header
+Pointer to last element
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer Pointer to last element
+Access to current element
+Access to current current current element
+Size of list
+Size of of of of of list
+Constructor -- Ignore size
+Constructor -- Ignore Ignore Ignore Ignore Ignore size
+Create header
+Create header header header
+Drop access to links
+Drop Drop Drop access to links
+Create header
+Create header header header header header header
+New tail
+New tail tail tail tail tail tail tail tail
+Nothing to remove
+Nothing to remove remove remove remove remove remove remove
+Remember value
+Remember value value value value
+Removed last
+Removed Removed Removed Removed last
+Remove from list
+Remove Remove Remove from list
+Decrement count
+Decrement count count count count count count count
+Return value
+Return Return value
+No previous element
+No No previous element
+March down list until we find the previous element
+March down list until we find the previous previous previous previous previous previous previous element
+Extra stuff not printed in the book.
+Extra stuff not not not not not not printed in the book.
+Save the current position of the list
+Save the current position position position position position of the list
+Reset the fence to its original position
+Reset the fence to to to to to to its original position
+Override Object.toString
+Override Object.toString Object.toString Object.toString Object.toString
+Default size
+Default Default Default size
+Consturctors
+Consturctors Consturctors Consturctors Consturctors
+Reinitialize
+Reinitialize Reinitialize Reinitialize Reinitialize
+This really should get replaced with binary search
+This really should get get get get get replaced with binary search
+Find "k" using sequential search -- Should use binary search
+Find "k" using sequential search -- -- -- -- -- -- -- Should use binary search
+"k" does not appear in dictionary
+"k" does not not not not appear in dictionary
+Return list size
+Return list list list list size
+Value for this node
+Value for this this this this this this this this node
+Pointer to next node in list
+Pointer to next node node node node node in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return Return Return Return Return next field
+Set next field
+Set next next next next next next next field
+Return element field
+Return element field field field
+Set element field
+Set Set Set Set Set Set element field
+The code lookup table
+The code lookup table table table table table
+Total weight of codes
+Total weight weight weight of codes
+Allow the generic array allocation
+Allow the the the the generic array allocation
+process the entry, creating a new HuffTree
+process the entry, entry, creating a new HuffTree
+While two items left
+While two items items items items items items items items left
+Return new tree to heap
+Return Return new tree to heap
+Return the tree
+Return the tree tree tree
+Find the index in CodeTable for the given codeword
+Find the index in in in in in in CodeTable for the given codeword
+Not found
+Not found found found found found found found found
+Print out the codes; insert these codes into CodeTable
+Print out the codes; insert these these these these codes into CodeTable
+This is a full binary tree so must not be null subtree
+This is a full binary binary binary binary tree so must not be null subtree
+Process Encode and Decode commands
+Process Encode and Decode Decode Decode Decode Decode Decode Decode Decode commands
+Traverse the tree
+Traverse the tree tree tree tree tree tree tree tree
+reset at root
+reset at at at at at at at root
+Assume codes are characters.  Should generalize this.
+Assume Assume Assume codes are characters. Should generalize this.
+while
+while while while while while while while
+Read from standard input
+Read from standard standard input
+Data file entered as parameter
+Data file entered as parameter parameter
+The heap constructor invokes the buildheap method
+The heap heap constructor invokes the buildheap method
+Now sort
+Now sort sort sort sort sort sort
+Removemax places max at end of heap
+Removemax places places places places places max at end of heap
+Pointer to the heap array
+Pointer to the heap heap heap heap heap array
+Maximum size of the heap
+Maximum size of of of of of of of of the heap
+Number of things in heap
+Number Number Number Number Number Number of things in heap
+Start at end of heap
+Start Start at end of heap
+Now sift up until curr's parent's key > curr's key
+Now sift sift sift up until curr's parent's key > curr's key
+j is now index of child with greater value
+j is now index of child with greater value value
+Move down
+Move Move Move Move Move Move Move Move down
+Remove minimum value
+Remove minimum minimum minimum value
+Swap minimum with last value
+Swap Swap Swap Swap Swap Swap Swap minimum with last value
+Not on last element
+Not on last element element element element element element element element
+Put new heap root val in correct place
+Put new new new new heap root val in correct place
+Last element, no work to be done
+Last element, no no no no no no no work to be done
+Swap with last value
+Swap Swap Swap Swap Swap Swap with last value
+If we just swapped in a small value, push it up
+If we just swapped in a small value, push it it it it it up
+If it is big, push down
+If If If If If it is big, push down
+Constructor
+Constructor Constructor Constructor Constructor Constructor
+The edge matrix
+The The edge matrix
+Number of edges
+Number of edges edges
+The mark array
+The mark array array array array array array array
+Constructors
+Constructors Constructors Constructors Constructors Constructors
+# of vertices
+# # # of vertices
+# of edges
+# of of of of of of of edges
+No edge for this vertex
+No edge for for for for this vertex
+No next edge;
+No next next next next next next next edge;
+Delete edge (i, j)
+Delete edge (i, j) j)
+Pointer to first element
+Pointer Pointer Pointer Pointer Pointer Pointer Pointer Pointer to first element
+Number of elements
+Number Number Number Number of elements
+Extra stuff not printed in the book.
+Extra stuff stuff stuff stuff stuff stuff stuff stuff not printed in the book.
+Value for this node
+Value for this this this this this this this node
+Pointer to next node in list
+Pointer to next node in in in in in list
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors
+Return next field
+Return next next next next next next next field
+Set next field
+Set next field field field field field field field
+Return element field
+Return element element element field
+Set element field
+Set element element element field
+Operand value
+Operand Operand Operand Operand Operand value
+The vertex list
+The vertex list list list list list
+Number of edges
+Number of edges edges
+The mark array
+The mark array array array array array array
+Constructor
+Constructor Constructor Constructor Constructor
+# of vertices
+# # of vertices
+# of edges
+# of of of of of of of of edges
+No neighbor
+No neighbor neighbor neighbor neighbor neighbor neighbor
+No neighbor
+No neighbor neighbor neighbor neighbor neighbor neighbor neighbor
+Edge already exists in graph
+Edge already exists exists exists in graph
+Keep neighbors sorted by vertex index
+Keep neighbors sorted sorted sorted sorted sorted sorted by vertex index
+Check if j is the current neighbor in the list
+Check Check Check if j is the current neighbor in the list
+Check whole list
+Check whole list list list
+Pointer to the heap array
+Pointer to the heap heap heap heap heap array
+Maximum size of the heap
+Maximum size of of of of the heap
+Number of things in heap
+Number of of of of of of of things in heap
+Start at end of heap
+Start at end end end of heap
+Now sift up until curr's parent's key > curr's key
+Now sift sift up until curr's parent's key > curr's key
+j is now index of child with greater value
+j is now now now now index of child with greater value
+Move down
+Move Move Move Move Move down
+Remove minimum value
+Remove Remove Remove Remove Remove Remove minimum value
+Swap minimum with last value
+Swap Swap Swap Swap Swap Swap Swap Swap minimum with last value
+Not on last element
+Not on last last element
+Put new heap root val in correct place
+Put Put Put Put new heap root val in correct place
+Last element, no work to be done
+Last element, element, element, no work to be done
+Swap with last value
+Swap Swap with last value
+If we just swapped in a small value, push it up
+If we just swapped in a a a a a a a small value, push it up
+If it is big, push down
+If it is big, push down down
+Value for this node
+Value for for for for for for for for this node
+Pointer to next node in list
+Pointer to next next node in list
+Constructors
+Constructors Constructors Constructors Constructors
+Return next field
+Return next field field field field
+Set next field
+Set next next next next next field
+Return element field
+Return Return Return Return element field
+Set element field
+Set Set Set Set Set Set element field
+Graph class ADT
+Graph class class class class class class class ADT
+The edge matrix
+The The The The edge matrix
+Number of edges
+Number Number Number Number Number of edges
+The mark array
+The The The mark array
+Constructors
+Constructors Constructors Constructors Constructors Constructors Constructors Constructors
+# of vertices
+# # # of vertices
+# of edges
+# # # of edges
+No edge for this vertex
+No edge for for for for for for this vertex
+No next edge;
+No No No No No No No No next edge;
+Delete edge (i, j)
+Delete edge (i, (i, (i, (i, (i, j)
+l and r are beyond array bounds
+l and r are are are beyond array bounds
+Stop when l and r meet
+Stop when l and and r meet
+Check middle of remaining subarray
+Check Check Check Check Check Check middle of remaining subarray
+In left half
+In left left left left left left left half
+Found it
+Found Found Found it
+In right half
+In right right right right right right half
+Search value not in A
+Search value not in in A
+One code stored in a code table
+One code stored in a a a a a a a code table
+Pointer to list header
+Pointer to to to to to list header
+Pointer to last element
+Pointer to last element element element element element element element element
+Access to current element
+Access to to to to current element
+Size of list
+Size Size Size Size Size of list
+Constructor -- Ignore size
+Constructor -- Ignore Ignore Ignore Ignore size
+Create header
+Create header header header header header
+Drop access to links
+Drop access to links links
+Create header
+Create Create Create Create Create Create Create header
+New tail
+New tail tail tail tail tail tail tail tail
+Nothing to remove
+Nothing to remove remove remove remove remove
+Remember value
+Remember value value value value value value
+Removed last
+Removed last last
+Remove from list
+Remove from from from from list
+Decrement count
+Decrement count count count count count count
+Return value
+Return value value value value value value
+No previous element
+No No No previous element
+March down list until we find the previous element
+March down list until we find the previous previous previous previous previous element
+Extra stuff not printed in the book.
+Extra stuff not printed printed printed printed printed printed printed in the book.
+Save the current position of the list
+Save the current position of the list list list list
+Reset the fence to its original position
+Reset the fence to to to to to its original position
+We don't actually care if Key is Comparable, we only do it for consistency
+We don't actually care if Key is Comparable, we only do do do it for consistency
+Tombstone flyweight
+Tombstone flyweight flyweight flyweight flyweight
+Allow the generic array allocation
+Allow Allow Allow Allow the generic array allocation
+Bugged for now -- this skips tombstones
+Bugged for now -- -- -- -- -- -- -- -- this skips tombstones
+Home position for r
+Home position position position for r
+Initial position
+Initial position position position position position position position
+Next probe slot
+Next Next Next Next Next Next Next probe slot
+Insert R
+Insert R R R R
+Home position for k
+Home position for for for for k
+Initial position
+Initial Initial Initial Initial Initial Initial position
+Next probe position
+Next probe probe probe probe probe probe position
+K not in hash table
+K not in hash table table
+Found it
+Found Found Found Found Found it
+Home position for k
+Home position position position position position position for k
+Initial position
+Initial position position position
+Next probe position
+Next probe probe probe position
+K not in hash table
+K not in hash hash hash hash hash hash hash table
+Found it
+Found it it it it it
+Create a graph from file
+Create a a a a a a graph from file
+Read in edges
+Read in in edges
+No weight given -- set at 1
+No No weight given -- set at 1
+Put in edge in other direction
+Put in edge edge edge edge edge edge in other direction
+Topological sort: Queue
+Topological sort: sort: sort: sort: sort: Queue
+Initialize
+Initialize Initialize Initialize Initialize
+Process every edge
+Process Process every edge
+Add to v2's prereq count
+Add to v2's v2's v2's prereq count
+Initialize Queue
+Initialize Queue Queue Queue Queue Queue
+V has no prerequisites
+V has no prerequisites prerequisites prerequisites prerequisites prerequisites prerequisites prerequisites prerequisites
+Process the vertices
+Process the vertices vertices vertices vertices
+PreVisit for Vertex V
+PreVisit for Vertex Vertex Vertex Vertex Vertex Vertex V
+One less prerequisite
+One less prerequisite prerequisite prerequisite prerequisite prerequisite prerequisite
+This vertex is now free
+This vertex is now free free free free

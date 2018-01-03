@@ -1,0 +1,9 @@
+for (int i=0; numMST>1; i++) {
+  KruskalElem temp = H.removemin(); // Next cheapest
+  int v = temp.v1();  int u = temp.v2();
+  if (A.differ(v, u)) {        // If in different classes
+    A.UNION(v, u);             // Combine equiv classes
+    AddEdgetoMST(v, u);  // Add this edge to MST
+    numMST--;                  // One less MST
+  }
+}

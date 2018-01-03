@@ -1,0 +1,3 @@
+for (int i=0; i<G.n(); i++)
+  for (int w = G.first(i); w < G.n(); w = G.next(i, w))
+    E[edgecnt++] = new KruskalElem(G.weight(i, w), i, w);

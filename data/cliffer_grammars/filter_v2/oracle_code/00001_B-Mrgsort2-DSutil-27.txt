@@ -1,0 +1,4 @@
+static void permute(int[] A) {
+  for (int i = A.length; i > 0; i--)
+    swap(A, i-1, DSutil.random(i));  
+}
