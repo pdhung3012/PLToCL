@@ -1,0 +1,9 @@
+DataInputStream outputfile = new DataInputStream(
+        new BufferedInputStream(new FileInputStream(args[1])));
+int Val1, Val2, i;
+Val2 = outputfile.readInt(); 
+for (i=1; i<filesize*NumRec; i++) {
+  Val1 = Val2;
+  Val2 = outputfile.readInt();
+  assert Val1 <= Val2 : "Record " + i + ": Unsorted output file";
+}

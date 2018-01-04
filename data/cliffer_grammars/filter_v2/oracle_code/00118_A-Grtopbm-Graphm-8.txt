@@ -1,12 +1,13 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
 
 /** Graph: Adjacency matrix */
 class Graphm implements Graph {
-  private int[][] matrix;                // The edge matrix
+  // The edge matrix
+  #CODE_O
   private int numEdge;                   // Number of edges
   public int[] Mark;                     // The mark array
 
@@ -55,7 +56,7 @@ class Graphm implements Graph {
   /** Determine if an edge is in the graph */
   public boolean isEdge(int i, int j)
     { return matrix[i][j] != 0; }
-  
+
   /** @return an edge's weight */
   public int weight(int i, int j) {
     return matrix[i][j];

@@ -1,12 +1,13 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
 
 /** Linked queue implementation */
 class LQueue<E> implements Queue<E> {
-  private Link<E> front;    // Pointer to front queue node
+  // Pointer to front queue node
+  #CODE_O
   private Link<E> rear;     // Pointer to rear queuenode
   int size;		    // Number of elements in queue
 
@@ -22,7 +23,7 @@ class LQueue<E> implements Queue<E> {
 
   /** Reinitialize queue */
   public void clear() { init(); }
-  
+
   /** Put element on rear */
   public void enqueue(E it) {
     rear.setNext(new Link<E>(it, null));

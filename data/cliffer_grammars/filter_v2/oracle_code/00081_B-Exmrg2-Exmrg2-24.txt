@@ -1,0 +1,4 @@
+public static int IN1 = 0;
+public static int IN2 = 1;
+public static int OUT1 = 2;
+public static int OUT2 = 3;

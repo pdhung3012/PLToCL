@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -115,11 +115,7 @@ static void dopass(DataInputStream in1, DataInputStream in2,
         if (in2cnt < runlen)
           { val2 = in2.readInt(); in2cnt++; }
         else { // Flush first run
-          out1.writeInt(val1); outcnt++;
-          while (in1cnt < runlen) {
-            val1 = in1.readInt(); in1cnt++;
-            out1.writeInt(val1); outcnt++;
-          }
+          #CODE_I
         }
       }
     }
@@ -147,7 +143,7 @@ static void exmergesort(String infile, String outfile, int recs)
   in.close();
   out1.close();
   out2.close();
-  
+
   // Now, do a series of 2-way merge passes
   int numRuns = recs/(1024*bufblocks);
   System.out.println("Now, merge " + numRuns + " runs down to 2");

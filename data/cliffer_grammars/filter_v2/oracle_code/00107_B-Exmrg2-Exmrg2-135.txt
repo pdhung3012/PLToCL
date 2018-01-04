@@ -1,0 +1,6 @@
+DataInputStream in = new DataInputStream(
+        new BufferedInputStream(new FileInputStream(infile)));
+DataOutputStream out1 = new DataOutputStream(
+        new BufferedOutputStream(new FileOutputStream(FName[IN1])));
+DataOutputStream out2 = new DataOutputStream(
+        new BufferedOutputStream(new FileOutputStream(FName[IN2])));

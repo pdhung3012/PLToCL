@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -22,7 +22,7 @@ class LQueue<E> implements Queue<E> {
 
   /** Reinitialize queue */
   public void clear() { init(); }
-  
+
   /** Put element on rear */
   public void enqueue(E it) {
     rear.setNext(new Link<E>(it, null));
@@ -34,7 +34,8 @@ class LQueue<E> implements Queue<E> {
   public E dequeue() {
     assert size != 0 : "Queue is empty";
     E it = front.next().element();  // Store dequeued value
-    front.setNext(front.next().next());  // Advance front
+    // Advance front
+    #CODE_I
     if (front.next() == null) rear = front; // Last Object
     size--;
     return it;                      // Return Object

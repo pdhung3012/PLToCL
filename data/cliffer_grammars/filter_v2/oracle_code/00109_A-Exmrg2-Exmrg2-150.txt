@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -147,26 +147,9 @@ static void exmergesort(String infile, String outfile, int recs)
   in.close();
   out1.close();
   out2.close();
-  
+
   // Now, do a series of 2-way merge passes
-  int numRuns = recs/(1024*bufblocks);
-  System.out.println("Now, merge " + numRuns + " runs down to 2");
-  for (int i=numRuns; i>2; i/=2) {
-    DataInputStream in1 = new DataInputStream(
-      new BufferedInputStream(new FileInputStream(FName[IN1])));
-    DataInputStream in2 = new DataInputStream(
-      new BufferedInputStream(new FileInputStream(FName[IN2])));
-    out1 = new DataOutputStream(
-      new BufferedOutputStream(new FileOutputStream(FName[OUT1])));
-    out2 = new DataOutputStream(
-      new BufferedOutputStream(new FileOutputStream(FName[OUT2])));
-System.out.println("Do a merge pass");
-    dopass(in1, in2, out1, out2, i/2, recs/i);
-    in1.close(); in2.close();
-    out1.close(); out2.close();
-    temp = IN1;  IN1 = OUT1;  OUT1 = temp;
-    temp = IN2;  IN2 = OUT2;  OUT2 = temp;
-  }
+  #CODE_I
 
   // Finally, merge the last two runs into the output file
   if(numRuns > 1) {

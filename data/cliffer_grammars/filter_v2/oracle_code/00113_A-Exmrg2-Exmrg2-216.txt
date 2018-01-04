@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -147,7 +147,7 @@ static void exmergesort(String infile, String outfile, int recs)
   in.close();
   out1.close();
   out2.close();
-  
+
   // Now, do a series of 2-way merge passes
   int numRuns = recs/(1024*bufblocks);
   System.out.println("Now, merge " + numRuns + " runs down to 2");
@@ -214,7 +214,8 @@ public static void main(String args[]) throws IOException {
   DataInputStream outputfile = new DataInputStream(
           new BufferedInputStream(new FileInputStream(args[1])));
   int Val1, Val2, i;
-  Val2 = outputfile.readInt(); // Priming read
+  // Priming read
+#CODE_I
   for (i=1; i<filesize*NumRec; i++) {
     Val1 = Val2;
     Val2 = outputfile.readInt();

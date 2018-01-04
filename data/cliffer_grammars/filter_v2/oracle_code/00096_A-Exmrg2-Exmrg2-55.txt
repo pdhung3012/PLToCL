@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -53,7 +53,9 @@ static void qsort(int[] array, int i, int j) { // Quicksort
   int k = partition(array, i-1, j, array[j]);
   swap(array, k, j);             // Put pivot in place
   if ((k-i) > 1) qsort(array, i, k-1);  // Sort left partition
-  if ((j-k) > 1) qsort(array, k+1, j);  // Sort right partition
+  if ((j-k) > 1)
+  // Sort right partition
+  #CODE_I
 }
 ////// End code for Quicksort ////////////////////////////////
 
@@ -147,7 +149,7 @@ static void exmergesort(String infile, String outfile, int recs)
   in.close();
   out1.close();
   out2.close();
-  
+
   // Now, do a series of 2-way merge passes
   int numRuns = recs/(1024*bufblocks);
   System.out.println("Now, merge " + numRuns + " runs down to 2");

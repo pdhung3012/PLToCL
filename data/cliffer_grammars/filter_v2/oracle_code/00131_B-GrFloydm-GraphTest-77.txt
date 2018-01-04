@@ -1,0 +1,3 @@
+for (int i=0; i<G.n(); i++)
+  for (int j=0; j<G.n(); j++)
+    if (G.weight(i, j) != 0) D[i][j] = G.weight(i, j);

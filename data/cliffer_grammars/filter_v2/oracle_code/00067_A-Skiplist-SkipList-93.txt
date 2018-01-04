@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -91,7 +91,8 @@ public E find(Key searchKey) {
     while ((x.forward[i] != null) && // go forward
            (searchKey.compareTo(x.forward[i].key()) > 0))
       x = x.forward[i];              // Go one last step
-  x = x.forward[0];  // Move to actual record, if it exists
+  // Move to actual record, if it exists
+  #CODE_I
   if ((x != null) && (searchKey.compareTo(x.key()) == 0))
     return x.element();              // Got it
   else return null;                  // Its not there

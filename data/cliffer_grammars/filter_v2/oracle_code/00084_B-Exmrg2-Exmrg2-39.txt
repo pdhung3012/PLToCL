@@ -1,0 +1,5 @@
+do {
+  while (array[++l] < pivot);
+  while ((r!=0) && (array[--r]>pivot));
+  swap(array, l, r);
+} while (l < r);                   

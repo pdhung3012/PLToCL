@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -41,7 +41,9 @@ static int partition(int[] array, int l, int r, int pivot) {
     while (array[++l] < pivot); // Move left bound right
     while ((r!=0) && (array[--r]>pivot)); // Move right bound
     swap(array, l, r);        // Swap out-of-place values
-  } while (l < r);                   // Stop when they cross
+  }
+  // Stop when they cross
+  #CODE_I
   swap(array, l, r);          // Reverse last, wasted swap
   return l;           // Return first position in right partition
 }
@@ -147,7 +149,7 @@ static void exmergesort(String infile, String outfile, int recs)
   in.close();
   out1.close();
   out2.close();
-  
+
   // Now, do a series of 2-way merge passes
   int numRuns = recs/(1024*bufblocks);
   System.out.println("Now, merge " + numRuns + " runs down to 2");

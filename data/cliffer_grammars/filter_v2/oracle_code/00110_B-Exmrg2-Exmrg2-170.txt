@@ -1,0 +1,12 @@
+if(numRuns > 1) {
+  DataInputStream in1 = new DataInputStream(
+    new BufferedInputStream(new FileInputStream(FName[IN1])));
+ DataInputStream in2 = new DataInputStream(
+    new BufferedInputStream(new FileInputStream(FName[IN2])));
+  out1 = new DataOutputStream(
+    new BufferedOutputStream(new FileOutputStream(outfile)));
+System.out.println("Do last pass to file " + outfile);
+  dopass(in1, in2, out1, null, 1, recs/2);
+  in1.close();  in2.close();
+  out1.close();
+}

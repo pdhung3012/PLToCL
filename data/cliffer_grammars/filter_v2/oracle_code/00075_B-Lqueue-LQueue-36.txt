@@ -1,0 +1,1 @@
+front.setNext(front.next().next());  

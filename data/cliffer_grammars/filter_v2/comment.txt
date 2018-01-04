@@ -75,12 +75,12 @@ Store dequeued value
 Advance front
 Last Object
 Return Object
-Extra stuff not printed in the book.
+Extra stuff not printed in the book. #REMOVE
 Number of records in a block
 Size of working memory (in blocks)
-Indices for I/O files.
+Indices for I/O files. AABBAA
 Use two input files and two output files.
-////Code for Quicksort ////////////////////////////////////
+////Code for Quicksort //////////////////////////////////// #REMOVE
 Move the bounds inward until they meet
 Move left bound right
 Move right bound
@@ -88,43 +88,43 @@ Swap out-of-place values
 Stop when they cross
 Reverse last, wasted swap
 Return first position in right partition
-Quicksort
+Quicksort #REMOVE
 Stick pivot at end
 k will be the first position in the right subarray
 Put pivot in place
 Sort left partition
 Sort right partition
-////End code for Quicksort ////////////////////////////////
-Use quicksort to generate initial runs, placing half of the runs
-into each output file.
+////End code for Quicksort //////////////////////////////// #REMOVE
+Use quicksort to generate initial runs, placing half of the runs AABBAA #REMOVE
+into each output file. #REMOVE
 Working memory
-Do a single 2-way merge pass
-In this case, numruns is the number of runs in each file,
-while runlen is the number of records in a run.
+Do a single 2-way merge pass #REMOVE
+In this case, numruns is the number of runs in each file, #REMOVE
+while runlen is the number of records in a run. #REMOVE
 Flush second run
 Flush first run
-Do an external sort
-For first pass, need the original input file.  Won't use again
+Do an external sort #REMOVE
+For first pass, need the original input file.  Won't use again AABBAA
 Divide the original input into two
 Now, do a series of 2-way merge passes
 Finally, merge the last two runs into the output file
-Main routine for external sort
+Main routine for external sort #REMOVE
 Now test that this worked correctly
 Priming read
-Create a graph from file
+Create a graph from file #REMOVE
 Read in edges
 No weight given -- set at 1
 Put in edge in other direction
 The edge matrix
 Number of edges
 The mark array
-Constructors
-# of vertices
-# of edges
+Constructors #REMOVE
+# of vertices #REMOVE
+# of edges #REMOVE
 No edge for this vertex
 No next edge;
 Delete edge (i, j)
-Create a graph from file
+Create a graph from file #REMOVE
 Read in edges
 No weight given -- set at 1
 Put in edge in other direction

@@ -1,0 +1,1 @@
+int bufrecs = 1024 * bufblocks; 

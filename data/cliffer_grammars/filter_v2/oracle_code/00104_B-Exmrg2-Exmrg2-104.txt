@@ -1,0 +1,5 @@
+out1.writeInt(val2); outcnt++;
+while (in2cnt < runlen) {
+  val2 = in2.readInt(); in2cnt++;
+  out1.writeInt(val2); outcnt++;
+}

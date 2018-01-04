@@ -1,0 +1,3 @@
+while ((x.forward[i] != null) &&
+       (searchKey.compareTo(x.forward[i].key()) > 0))
+  x = x.forward[i];              

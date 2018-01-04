@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -24,10 +24,7 @@ public static String[] FName = new String[4];
 
 // Indices for I/O files.
 // Use two input files and two output files.
-public static int IN1 = 0;
-public static int IN2 = 1;
-public static int OUT1 = 2;
-public static int OUT2 = 3;
+#CODE_O
 
 ////// Code for Quicksort ////////////////////////////////////
 static void swap(int[] array, int p1, int p2) {
@@ -147,7 +144,7 @@ static void exmergesort(String infile, String outfile, int recs)
   in.close();
   out1.close();
   out2.close();
-  
+
   // Now, do a series of 2-way merge passes
   int numRuns = recs/(1024*bufblocks);
   System.out.println("Now, merge " + numRuns + " runs down to 2");
