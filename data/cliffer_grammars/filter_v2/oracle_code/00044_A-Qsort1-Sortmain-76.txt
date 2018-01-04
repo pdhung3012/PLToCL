@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -74,7 +74,8 @@ System.out.println("Args: " + args.length);
       A[i] = new Integer(ARRAYSIZE - i);  // Reverse sorted
   else if (input == 0)
     for (i=0; i<ARRAYSIZE; i++)
-      A[i] = new Integer(DSutil.random(32003));  // Random
+      // Random
+      #CODE_I
   else
     for (i=0; i<ARRAYSIZE; i++)
       A[i] = new Integer(i);              // Sorted

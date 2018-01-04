@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -18,7 +18,7 @@ static final int UNVISITED = 0;
 static final int VISITED = 1;
 
 // Create a graph from file
-static Graph createGraph(BufferedReader file, Graph G) 
+static Graph createGraph(BufferedReader file, Graph G)
 throws IOException {
   String line = null;
   StringTokenizer token;
@@ -53,8 +53,9 @@ throws IOException {
     else // No weight given -- set at 1
       weight = 1;
     G.setEdge(v1, v2, weight);
-    if (undirected) // Put in edge in other direction
-      G.setEdge(v2, v1, weight);
+    if (undirected)
+    // Put in edge in other direction
+      #CODE_I
   }
   return G;
 }

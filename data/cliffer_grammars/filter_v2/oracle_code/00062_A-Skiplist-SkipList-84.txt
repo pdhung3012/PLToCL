@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -82,7 +82,9 @@ public void insert(Key k, E newValue) {
     x.forward[i] = update[i].forward[i]; // Who x points to
     update[i].forward[i] = x;            // Who y points to
   }
-  size++;                       // Increment dictionary size
+  // Increment dictionary size
+  #CODE_I
+
 }
 /** Skiplist Search */
 public E find(Key searchKey) {

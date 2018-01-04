@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -75,7 +75,8 @@ public void insert(Key k, E newValue) {
     while((x.forward[i] != null) &&
           (k.compareTo(x.forward[i].key()) > 0))
       x = x.forward[i];
-    update[i] = x;               // Track end at level i
+       // Track end at level i
+       #CODE_I
   }
   x = new SkipNode<Key,E>(k, newValue, newLevel);
   for (int i=0; i<=newLevel; i++) {      // Splice into list

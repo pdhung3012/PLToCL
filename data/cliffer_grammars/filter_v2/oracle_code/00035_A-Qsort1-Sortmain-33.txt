@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -31,7 +31,8 @@ void qsort(E[] A, int i, int j) {      // Quicksort
   DSutil.swap(A, pivotindex, j);       // Stick pivot at end
   // k will be the first position in the right subarray
   int k = partition(A, i-1, j, A[j]);
-  DSutil.swap(A, k, j);              // Put pivot in place
+   // Put pivot in place
+   #CODE_I
   if ((k-i) > 1) qsort(A, i, k-1);   // Sort left partition
   if ((j-k) > 1) qsort(A, k+1, j);   // Sort right partition
 }

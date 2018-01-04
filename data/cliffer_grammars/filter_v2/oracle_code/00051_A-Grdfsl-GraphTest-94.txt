@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -18,7 +18,7 @@ static final int UNVISITED = 0;
 static final int VISITED = 1;
 
 // Create a graph from file
-static Graph createGraph(BufferedReader file, Graph G) 
+static Graph createGraph(BufferedReader file, Graph G)
 throws IOException {
   String line = null;
   StringTokenizer token;
@@ -92,7 +92,8 @@ static void DFS(Graph G, int v) {
   for (int w = G.first(v); w < G.n() ; w = G.next(v, w))
     if (G.getMark(w) == UNVISITED)
       DFS(G, w);
-  PostVisit(G, v);                // Take appropriate action
+  // Take appropriate action
+  #CODE_I
 }
   /**
    * This method is automatically called once before each test case

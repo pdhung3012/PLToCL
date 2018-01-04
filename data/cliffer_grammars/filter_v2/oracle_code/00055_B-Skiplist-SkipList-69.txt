@@ -1,0 +1,9 @@
+SkipNode<Key,E>[] update =
+       (SkipNode<Key,E>[])new SkipNode[level+1];
+SkipNode<Key,E> x = head;        // Start at header node
+for (int i=level; i>=0; i--) { // Find insert position
+  while((x.forward[i] != null) &&
+        (k.compareTo(x.forward[i].key()) > 0))
+    x = x.forward[i];
+  update[i] = x;               // Track end at level i
+}

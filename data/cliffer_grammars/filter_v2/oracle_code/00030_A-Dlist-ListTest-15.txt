@@ -13,7 +13,8 @@ public class ListTest
 public static boolean find(List<Integer> L, int k) {
   for (L.moveToStart(); L.currPos()<L.length(); L.next())
     if (k == L.getValue()) return true;    // Found k
-  return false;                            // k not found
+// k not found
+#code_I
 }
   /**
    * This method is automatically called once before each test case method,

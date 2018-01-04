@@ -1,0 +1,5 @@
+do {
+  while (A[++l].compareTo(pivot)<0);
+  while ((r!=0) && (A[--r].compareTo(pivot)>0));
+  DSutil.swap(A, l, r); 
+} while (l < r);

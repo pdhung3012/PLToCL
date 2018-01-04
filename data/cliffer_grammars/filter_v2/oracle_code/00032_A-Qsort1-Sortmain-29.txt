@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -27,7 +27,8 @@ static <E extends Comparable<? super E>> void Sort(E[] A) {
 static int MAXSTACKSIZE = 1000;
 static <E extends Comparable<? super E>>
 void qsort(E[] A, int i, int j) {      // Quicksort
-  int pivotindex = findpivot(A, i, j); // Pick a pivot
+  // Pick a pivot
+  #CODE_I
   DSutil.swap(A, pivotindex, j);       // Stick pivot at end
   // k will be the first position in the right subarray
   int k = partition(A, i-1, j, A[j]);

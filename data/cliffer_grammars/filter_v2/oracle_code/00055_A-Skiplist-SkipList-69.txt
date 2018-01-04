@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -68,15 +68,7 @@ public void insert(Key k, E newValue) {
   if (newLevel > level)          // If new node is deeper
     AdjustHead(newLevel);        //   adjust the header
   // Track end of level
-  SkipNode<Key,E>[] update =
-         (SkipNode<Key,E>[])new SkipNode[level+1];
-  SkipNode<Key,E> x = head;        // Start at header node
-  for (int i=level; i>=0; i--) { // Find insert position
-    while((x.forward[i] != null) &&
-          (k.compareTo(x.forward[i].key()) > 0))
-      x = x.forward[i];
-    update[i] = x;               // Track end at level i
-  }
+#CODE_I
   x = new SkipNode<Key,E>(k, newValue, newLevel);
   for (int i=0; i<=newLevel; i++) {      // Splice into list
     x.forward[i] = update[i].forward[i]; // Who x points to

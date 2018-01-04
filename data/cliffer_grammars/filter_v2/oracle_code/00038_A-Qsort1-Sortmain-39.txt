@@ -1,5 +1,5 @@
 /** Source code example for "A Practical Introduction to Data
-    Structures and Algorithm Analysis, 3rd Edition (Java)" 
+    Structures and Algorithm Analysis, 3rd Edition (Java)"
     by Clifford A. Shaffer
     Copyright 2008-2011 by Clifford A. Shaffer
 */
@@ -37,11 +37,9 @@ void qsort(E[] A, int i, int j) {      // Quicksort
 }
 static <E extends Comparable<? super E>>
 int partition(E[] A, int l, int r, E pivot) {
-  do {                 // Move bounds inward until they meet
-    while (A[++l].compareTo(pivot)<0);
-    while ((r!=0) && (A[--r].compareTo(pivot)>0));
-    DSutil.swap(A, l, r);       // Swap out-of-place values
-  } while (l < r);              // Stop when they cross
+// Move bounds inward until they meet
+#CODE_I
+                // Stop when they cross
   DSutil.swap(A, l, r);         // Reverse last, wasted swap
   return l;      // Return first position in right partition
 }

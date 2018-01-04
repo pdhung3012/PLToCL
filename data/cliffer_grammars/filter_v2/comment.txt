@@ -28,7 +28,7 @@ Hold the Random class object
 Graph class ADT #REMOVE
 Found k
 k not found
-Quicksort
+Quicksort #REMOVE
 Pick a pivot
 Stick pivot at end
 k will be the first position in the right subarray
@@ -43,13 +43,13 @@ Return first position in right partition
 Reverse sorted
 Random
 Sorted
-Create a graph from file
+Create a graph from file #REMOVE
 Read in edges
 No weight given -- set at 1
 Put in edge in other direction
 Take appropriate action
 Take appropriate action
-Do nothing
+Do nothing #REMOVE
 New node's level
 If new node is deeper adjust the header
 Track end of level

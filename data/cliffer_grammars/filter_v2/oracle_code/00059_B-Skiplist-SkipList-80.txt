@@ -1,0 +1,4 @@
+for (int i=0; i<=newLevel; i++) {
+  x.forward[i] = update[i].forward[i];
+  update[i].forward[i] = x;
+}
