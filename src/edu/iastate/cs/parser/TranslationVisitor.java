@@ -1,6 +1,6 @@
-package edu.iastate.cs;
+package edu.iastate.cs.parser;
 
-public class NLVisitor {
+public class TranslationVisitor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
