@@ -1,15 +1,21 @@
-package edu.iastate.cs;
+package edu.iastate.cs.visitor;
 
 import org.eclipse.jdt.core.dom.ASTVisitor;
+import org.eclipse.jdt.internal.compiler.ast.CaseStatement;
 
 import edu.iastate.cs.entities.Scope;
 import edu.iastate.cs.entities.nlp.*;
 
-public class NLPVisitor {
+public abstract class NLPVisitor {
 
-	private boolean visitDocTags;
-
+	protected String fileGrammar;
+	protected String fileVarCheckNonTer;
+	
 	public NLPVisitor() {
+		
+	}
+	
+	public NLPVisitor(String fileG, String fileV) {
 		
 	}
 
@@ -223,6 +229,7 @@ public class NLPVisitor {
 
 	public void endVisit(S node, Scope scope) {
 		// do nothing by default
+		
 	}
 
 	public void endVisit(SBAR node, Scope scope) {
@@ -550,6 +557,7 @@ public class NLPVisitor {
 	}
 
 	public boolean visit(S node, Scope scope) {
+		
 		return true;
 	}
 
@@ -671,6 +679,7 @@ public class NLPVisitor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 
 	}
 
