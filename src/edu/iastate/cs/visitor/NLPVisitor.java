@@ -19,6 +19,10 @@ public abstract class NLPVisitor {
 		
 	}
 
+	public void endVisit(ROOT node, Scope scope) {
+		// do nothing by default
+	}
+	
 	public void endVisit(ADJP node, Scope scope) {
 		// do nothing by default
 	}
@@ -346,6 +350,10 @@ public abstract class NLPVisitor {
 
 	public void endVisit(X node, Scope scope) {
 		// do nothing by default
+	}
+	
+	public boolean visit(ROOT node, Scope scope) {
+		return true;
 	}
 
 	public boolean visit(ADJP node, Scope scope) {
